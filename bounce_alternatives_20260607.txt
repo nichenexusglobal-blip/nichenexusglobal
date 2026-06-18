@@ -1,0 +1,18 @@
+# 退信替代邮箱（2026-06-07）
+# 来源：官网/官方资料验证
+# 格式：公司名 | 原邮箱 | 新邮箱 | 状态
+
+PowerMe MX | info@powerme.mx | contacto@powerme.mx | verified
+Voltaris CO | info@voltaris.co | (无替代邮箱，已有WhatsApp) | wa_only
+Naturehike PK | info@naturehike.pk | Naturehikepakistan@gmail.com | verified
+Naturehike PK | info@naturehike.pk | support@naturehike.pk | verified
+ACI Motors BD | info@acimotors-bd.com | info@acimotors-bd.com | verified
+ACI Motors BD | info@acimotors-bd.com | service@acimotors-bd.com | verified
+Megamax GH | sales@megamaxelectronics.com | sales@megamaxelectronics.com | verified
+EcoFlowMarket PE | ventas@ecoflowmarket.com | ecoflow@facogemi.com.pe | verified
+CMS Distribution UK | sean.cox@cmsdistribution.com | customer.services@cmsdistribution.com | verified
+EasyPower MA | contact@easypower.ma | contact@easypower.ma | verified
+EasyPower MA | contact@easypower.ma | support@easypower.ma | verified
+Enertik MX | ventas@enertik.com | privacidad@enertik.mx | verified
+EcoFlow Turkey | toptan@ecoflow.com.tr | info@ecoflow.com.tr | verified
+EcoFlow Turkey | toptan@ecoflow.com.tr | destek@ecoflow.com.tr | verified

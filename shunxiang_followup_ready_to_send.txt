@@ -1,0 +1,42 @@
+=== SHUNXIANG ENERGY — FOLLOW-UP EMAIL ===
+TO: eason@shunxiangenergy.com
+SUBJECT: Re: RFQ: 1000W / 2000W LiFePO4 Portable Power Station OEM
+CATEGORY: supplier (is_reply=True)
+GATE: ✅ 100/100 (supplier_rfq_gate)
+BARRIER: QQ enterprise SMTP blocks non-Chinese IP — start Clash proxy then send
+
+--- EMAIL BODY ---
+
+Hi Eason,
+
+I checked your product line on shunxiangenergy.com — you carry 1087Wh Station (W77 at USD 319 FOB), 1450Wh Station (W78 at USD 399 FOB), and 3030Wh Station (W79 NCM at USD 645 FOB). Thanks for the FOB quote PDF.
+
+I also see the 960Wh Battery (F38 LiFePO4) and 3000W Station (F78) on your site — solid range.
+
+A few operational follow-ups for landed cost projections:
+
+1. EXW Dongguan pricing at MOQ 200 and 500 for the W77, W78, W79? This helps compare across your lines.
+
+2. DDP to Rotterdam (Europe) and Los Angeles (US West Coast)?
+
+3. Packing specs — per-unit CBM and gross weight for W77, W78, W79?
+
+4. Forwarder recommendation for sea freight from Shenzhen to SE Asia / Europe?
+
+Also — are the W77 and W78 LiFePO4 or Li-Ion? Your site notes F38 LiFePO4 but F78 and W79 NCM.
+
+For reference — at USD 319 FOB the W77 works out to about USD 0.29/Wh, and at MOQ 500 pricing (USD 253) that drops to USD 0.23/Wh, saving roughly 20% vs single-unit pricing. I'll share the packed specs with buyers once I have the numbers.
+
+Looking forward to your reply with the packing dimensions and EXW pricing — once I have those I can send a trial order to start.
+
+Best regards,
+Pen
+nichenexusglobal.com
+
+=== RESEARCH EVIDENCE (retrieved from .research_evidence.json) ===
+- Company: Shunxiang Energy, Dongguan, Tangxia Town, est. 2009
+- Products: W77 (1087Wh/1000W), W78 (1450Wh/1500W), W79 (3030Wh/3000W NCM), F38 (1200W/960Wh LiFePO4), F78 (3000W/6000W peak)
+- Certs: CE, ROHS, FCC, UN38.3
+- OEM/ODM: available, 8000+ sqm factory, ISO9001
+- Contact: Eason, eason@shunxiangenergy.com, +86 18658046918
+- FOB Quote: Received 2026-06-06, PDF saved

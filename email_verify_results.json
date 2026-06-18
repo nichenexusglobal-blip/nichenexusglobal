@@ -1,0 +1,262 @@
+{
+  "b2b@hipvan.com": {
+    "status": "catchall_google",
+    "detail": "MX=alt1.aspmx.l.google.com",
+    "ts": 1780450233.0812705
+  },
+  "pen@nichenexusglobal.com": {
+    "status": "valid",
+    "detail": "MX=mxbiz1.qq.com",
+    "ts": 1780450241.8327665
+  },
+  "info@powernsun.com": {
+    "status": "invalid",
+    "detail": "MX=mx.zoho.com",
+    "ts": 1780450281.5115294
+  },
+  "dubai@ecosmart-intl.com": {
+    "status": "catchall_google",
+    "detail": "MX=ALT1.ASPMX.L.GOOGLE.com",
+    "ts": 1780450285.6065488
+  },
+  "inquiries@solarphilippines.ph": {
+    "status": "invalid",
+    "detail": "MX=solarphilippines-ph.mail.protection.outlook.com",
+    "ts": 1780450287.4925828
+  },
+  "sales@luminoussolar.com": {
+    "status": "catchall_google",
+    "detail": "MX=alt1.aspmx.l.google.com",
+    "ts": 1780450290.4966912
+  },
+  "customercare@su-kam.com": {
+    "status": "valid",
+    "detail": "MX=mx9.nexbro.com",
+    "ts": 1780450296.0668533
+  },
+  "info@utl.co.in": {
+    "status": "error:disconnected",
+    "detail": "MX=mail.rediffmailpro.com",
+    "ts": 1780450302.8476532
+  },
+  "candra.hermawan@selis.co.id": {
+    "status": "catchall_google",
+    "detail": "MX=alt1.aspmx.l.google.com",
+    "ts": 1780450306.3945992
+  },
+  "support@invertersupply.com": {
+    "status": "error:disconnected",
+    "detail": "MX=mail.invertersupply.com",
+    "ts": 1780450326.8333368
+  },
+  "info@thesolarstore.com": {
+    "status": "catchall_google",
+    "detail": "MX=smtp.google.com",
+    "ts": 1780450331.126581
+  },
+  "info@solarpanelstore.com": {
+    "status": "catchall_google",
+    "detail": "MX=ALT1.ASPMX.L.GOOGLE.com",
+    "ts": 1780450334.2628129
+  },
+  "partners@dlight.com": {
+    "status": "catchall_google",
+    "detail": "MX=ALT1.ASPMX.L.GOOGLE.com",
+    "ts": 1780451651.4125116
+  },
+  "info@m-kopa.com": {
+    "status": "invalid",
+    "detail": "MX=mkopa-com0c.mail.protection.outlook.com",
+    "ts": 1780451671.8521357
+  },
+  "sales@vikramsolar.com": {
+    "status": "invalid",
+    "detail": "MX=vikramsolar-com.mail.protection.outlook.com",
+    "ts": 1780451863.0953805
+  },
+  "info@jakson.com": {
+    "status": "invalid",
+    "detail": "MX=jakson-com.mail.protection.outlook.com",
+    "ts": 1780451874.613707
+  },
+  "export@sar-group.com": {
+    "status": "invalid",
+    "detail": "MX=sargroup-com0i.mail.protection.outlook.com",
+    "ts": 1780451893.2996502
+  },
+  "exidecare@exide.co.in": {
+    "status": "invalid",
+    "detail": "MX=exide.in.tmes.trendmicro.com",
+    "ts": 1780451911.7172427
+  },
+  "aksaenerjikurumsaliletisim@aksa.com.tr": {
+    "status": "valid",
+    "detail": "MX=mail.aksa.com.tr",
+    "ts": 1780452038.9685261
+  },
+  "zoren@zorlu.com": {
+    "status": "valid",
+    "detail": "MX=mx1.zorlu.com",
+    "ts": 1780452058.4975774
+  },
+  "info@inovat.com.tr": {
+    "status": "catchall_google",
+    "detail": "MX=smtp.google.com",
+    "ts": 1780452071.3962753
+  },
+  "info@rubitecsolar.com": {
+    "status": "catchall_google",
+    "detail": "MX=aspmx.l.google.com",
+    "ts": 1780452155.9637299
+  },
+  "info@specializedsolarsystems.co.za": {
+    "status": "catchall_google",
+    "detail": "MX=ALT1.ASPMX.L.GOOGLE.COM",
+    "ts": 1780452170.6251273
+  },
+  "sales@sollatek.com": {
+    "status": "invalid",
+    "detail": "MX=sollatek-com.mail.protection.outlook.com",
+    "ts": 1780455756.1858687
+  },
+  "info@azuri-technologies.com": {
+    "status": "invalid",
+    "detail": "MX=azuritechnologies-com01c.mail.protection.outlook.com",
+    "ts": 1780455766.4864128
+  },
+  "melbourne@solargain.com.au": {
+    "status": "invalid",
+    "detail": "MX=solargain-com-au.mail.protection.outlook.com",
+    "ts": 1780479060.0805666
+  },
+  "info@gstore.com.au": {
+    "status": "invalid",
+    "detail": "MX=gstore-com-au.mail.protection.outlook.com",
+    "ts": 1780479426.5812602
+  },
+  "business@snowys.com.au": {
+    "status": "invalid",
+    "detail": "MX=snowys-com-au.mail.protection.outlook.com",
+    "ts": 1780479434.6788914
+  },
+  "solar@solarbrasil.com.br": {
+    "status": "error:disconnected",
+    "detail": "MX=mx.uhserver.com",
+    "ts": 1780479629.63156
+  },
+  "contato@portalsolar.com.br": {
+    "status": "valid",
+    "detail": "MX=mx.ibconversations.com",
+    "ts": 1780479640.5135
+  },
+  "contato@greenenergybrasil.com.br": {
+    "status": "valid",
+    "detail": "MX=mx1.hostinger.com",
+    "ts": 1780479659.9931667
+  },
+  "info@solarking.com": {
+    "status": "catchall_google",
+    "detail": "MX=ALT1.ASPMX.L.GOOGLE.com",
+    "ts": 1780479830.7119646
+  },
+  "sales@jointingtech.co.uk": {
+    "status": "invalid",
+    "detail": "MX=jointingtech-co-uk.mail.protection.outlook.com",
+    "ts": 1780479849.8334713
+  },
+  "fptshop@fpt.com": {
+    "status": "invalid",
+    "detail": "MX=fpt-com.mail.protection.outlook.com",
+    "ts": 1780484745.3609402
+  },
+  "bdtnd@tatapower.com": {
+    "status": "invalid",
+    "detail": "MX=tatapower-com.mail.protection.outlook.com",
+    "ts": 1780484969.9319918
+  },
+  "info@feniceenergy.com": {
+    "status": "catchall_google",
+    "detail": "MX=alt1.aspmx.l.google.com",
+    "ts": 1780485088.9545436
+  },
+  "sales@feniceenergy.com": {
+    "status": "catchall_google",
+    "detail": "MX=alt1.aspmx.l.google.com",
+    "ts": 1780485093.562211
+  },
+  "contact@feniceenergy.com": {
+    "status": "invalid",
+    "detail": "MX=alt1.aspmx.l.google.com",
+    "ts": 1780485096.9452574
+  },
+  "enquiry@feniceenergy.com": {
+    "status": "invalid",
+    "detail": "MX=alt1.aspmx.l.google.com",
+    "ts": 1780485099.6921418
+  },
+  "support@feniceenergy.com": {
+    "status": "catchall_google",
+    "detail": "MX=alt1.aspmx.l.google.com",
+    "ts": 1780485102.926155
+  },
+  "info@africansolar.co.ke": {
+    "status": "error:disconnected",
+    "detail": "MX=africansolar.co.ke",
+    "ts": 1780486130.95815
+  },
+  "meridianprojects@gmail.com": {
+    "status": "error:disconnected",
+    "detail": "MX=alt2.gmail-smtp-in.l.google.com",
+    "ts": 1780486150.7254236
+  },
+  "johanv@weport.co.za": {
+    "status": "error:disconnected",
+    "detail": "MX=weport-co-za.mail.protection.outlook.com",
+    "ts": 1780544468.9963794
+  },
+  "sales@weport.co.za": {
+    "status": "error:disconnected",
+    "detail": "MX=weport-co-za.mail.protection.outlook.com",
+    "ts": 1780544469.9244053
+  },
+  "gail@ipsomark.co.za": {
+    "status": "error:disconnected",
+    "detail": "MX=mail.ipsomark.co.za",
+    "ts": 1780544471.2948327
+  },
+  "info@starbrake.co.za": {
+    "status": "error:disconnected",
+    "detail": "MX=starbrake.co.za",
+    "ts": 1780544472.6579545
+  },
+  "info@toughbrakes.co.za": {
+    "status": "error:disconnected",
+    "detail": "MX=mail.toughbrakes.co.za",
+    "ts": 1780544474.038301
+  },
+  "corporate@enable.ph": {
+    "status": "invalid",
+    "detail": "MX=enable-ph.mail.protection.outlook.com",
+    "ts": 1780556030.7935147
+  },
+  "ecommerce@enabled.ph": {
+    "status": "invalid",
+    "detail": "MX=enabled-ph.mail.protection.outlook.com",
+    "ts": 1780556035.8477027
+  },
+  "retail@enable.ph": {
+    "status": "invalid",
+    "detail": "MX=enable-ph.mail.protection.outlook.com",
+    "ts": 1780556037.399827
+  },
+  "altitude.website@enabled.ph": {
+    "status": "invalid",
+    "detail": "MX=enabled-ph.mail.protection.outlook.com",
+    "ts": 1780556038.531398
+  },
+  "distribution@enable.ph": {
+    "status": "invalid",
+    "detail": "MX=enable-ph.mail.protection.outlook.com",
+    "ts": 1780556064.0454314
+  }
+}

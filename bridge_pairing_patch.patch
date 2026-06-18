@@ -1,0 +1,141 @@
+*** Begin Patch
+*** Update File: C:/Users/Administrator/AppData/Local/hermes/hermes-agent/scripts/whatsapp-bridge/bridge.js
+@@ add pairing code endpoint @@
++// -- Pairing code support --
++let pairingCodeRequested = false;
++
++// POST /pair - request a pairing code for a phone number
++app.post('/pair', async (req, res) => {
++    const { phone } = req.body;
++    if (!phone) return res.status(400).json({ error: 'phone number required (e.g. "8619855653280")' });
++    
++    if (sock?.user) {
++        return res.json({ status: 'already_connected', user: sock.user.id });
++    }
++    
++    try {
++        pairingCodeRequested = true;
++        // Remove existing session to force fresh pairing
++        const sessionDir = SESSION_DIR;
++        if (fs.existsSync(sessionDir)) {
++            fs.rmSync(sessionDir, { recursive: true, force: true });
++            fs.mkdirSync(sessionDir, { recursive: true });
++        }
++        
++        // Create new socket with pairing code
++        const { state, saveCreds } = await (await import('@whiskeysockets/baileys')).useMultiFileAuthState(sessionDir);
++        const { version, isLatest } = await (await import('@whiskeysockets/baileys')).fetchLatestBaileysVersion();
++        
++        sock = (await import('@whiskeysockets/baileys')).makeWASocket({
++            version,
++            auth: state,
++            printQRInTerminal: false,
++            browser: ['Hermes Bridge', 'Chrome', '1.0'],
++            logger: (await import('pino')).default({ level: 'warn' }),
++            markOnlineOnConnect: true,
++            syncFullHistory: false,
++            defaultQueryTimeoutMs: 0,
++            emitOwnEvents: false,
++            generateHighQualityLinkPreview: false,
++            keepAliveIntervalMs: 15000,
++            patchMessageBeforeSending: (msg) => msg,
++            getMessage: async () => null,
++            shouldSyncHistoryMessage: () => false,
++            retryRequestDelayMs: 1000,
++            maxRetries: 5,
++            transactionOpts: { maxCommitRetry: 5 },
++            connectTimeoutMs: 120000,
++        });
++        
++        // Wait for connection and request pairing code
++        setTimeout(async () => {
++            try {
++                const code = await sock.requestPairingCode(phone);
++                console.log(`🔐 Pairing code for ${phone}: ${code}`);
++                // Pairing codes are typically 8 digits, format with dashes for readability
++                const formattedCode = code.match(/.{1,4}/g)?.join('-') || code;
++                currentQR = null;
++                res.json({ 
++                    success: true, 
++                    phone,
++                    pairing_code: code,
++                    pairing_code_formatted: formattedCode,
++                    instructions: `Open WhatsApp on phone → Settings → Linked Devices → Link a Device → PAIR WITH PHONE NUMBER → enter: ${formattedCode}`
++                });
++            } catch (e) {
++                res.status(500).json({ error: `Failed to get pairing code: ${e.message}` });
++            }
++        }, 5000);
++        
++    } catch (e) {
++        res.status(500).json({ error: e.message });
++    }
++});
++
++// GET /pair/:phone - simplified pairing code request via URL
++app.get('/pair/:phone', async (req, res) => {
++    req.body = { phone: req.params.phone };
++    // Forward to POST handler - need to handle differently since app.post already defined
++    const { phone } = req.params;
++    if (!phone) return res.status(400).json({ error: 'phone number required' });
++    
++    if (sock?.user) {
++        return res.json({ status: 'already_connected', user: sock.user.id });
++    }
++    
++    try {
++        pairingCodeRequested = true;
++        const sessionDir = SESSION_DIR;
++        if (fs.existsSync(sessionDir)) {
++            fs.rmSync(sessionDir, { recursive: true, force: true });
++            fs.mkdirSync(sessionDir, { recursive: true });
++        }
++        
++        const baileys = await import('@whiskeysockets/baileys');
++        const { state, saveCreds } = await baileys.useMultiFileAuthState(sessionDir);
++        const { version } = await baileys.fetchLatestBaileysVersion();
++        
++        sock = baileys.makeWASocket({
++            version,
++            auth: state,
++            printQRInTerminal: false,
++            browser: ['Hermes Bridge', 'Chrome', '1.0'],
++            logger: (await import('pino')).default({ level: 'warn' }),
++            markOnlineOnConnect: true,
++            syncFullHistory: false,
++            defaultQueryTimeoutMs: 0,
++            emitOwnEvents: false,
++            generateHighQualityLinkPreview: false,
++            keepAliveIntervalMs: 15000,
++            patchMessageBeforeSending: (msg) => msg,
++            getMessage: async () => null,
++            shouldSyncHistoryMessage: () => false,
++            retryRequestDelayMs: 1000,
++            maxRetries: 5,
++            transactionOpts: { maxCommitRetry: 5 },
++            connectTimeoutMs: 120000,
++        });
++        
++        setTimeout(async () => {
++            try {
++                const code = await sock.requestPairingCode(phone);
++                const formattedCode = code.match(/.{1,4}/g)?.join('-') || code;
++                currentQR = null;
++                res.json({ 
++                    success: true, 
++                    phone,
++                    pairing_code: code,
++                    pairing_code_formatted: formattedCode,
++                    instructions: `Open WhatsApp → Settings → Linked Devices → Link a Device → PAIR WITH PHONE NUMBER → enter: ${formattedCode}`
++                });
++            } catch (e) {
++                console.error('Pairing code error:', e);
++                res.status(500).json({ error: `Failed: ${e.message}` });
++            }
++        }, 5000);
++        
++    } catch (e) {
++        res.status(500).json({ error: e.message });
++    }
++});
+*** End Patch

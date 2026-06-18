@@ -1,0 +1,47 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Backups
+backups/
+*.tar.gz
+
+# Logs
+*.log
+send_log.jsonl
+
+# Drafts
+draft_blocked_*.txt
+wa_blocked_*.txt
+
+# Temp/test scripts
+_test_*.sh
+_fix_*.py
+_check_*.py
+_write.py
+
+# WhatsApp data
+whatsapp_chats.json
+whatsapp_messages.jsonl
+whatsapp_nails.json
+
+# Email blacklist
+email_blacklist.json
+
+# Archiver
+.archiver.pid
+archiver.log
+archiver_watchdog.log

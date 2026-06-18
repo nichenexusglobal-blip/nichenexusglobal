@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta http-equiv="refresh" content="8">
+<title>WhatsApp QR</title>
+<style>
+body{background:#0d1117;display:flex;justify-content:center;align-items:center;min-height:100vh;margin:0;font-family:sans-serif}
+.card{background:#161b22;border:1px solid #30363d;border-radius:16px;padding:40px;text-align:center;max-width:520px}
+h2{color:#25D366;margin:0 0 8px 0}
+.sub{color:#8b949e;font-size:14px;margin-bottom:20px}
+#qr img{background:#fff;border-radius:12px;padding:16px;max-width:280px}
+.steps{color:#8b949e;font-size:13px;margin-top:20px;text-align:left;line-height:1.8}
+.steps strong{color:#c9d1d9}
+.footer{color:#484f58;font-size:11px;margin-top:16px}
+.error{color:#f0883e;font-size:13px;margin-top:12px}
+</style>
+</head>
+<body>
+<div class="card">
+  <h2>🔗 WhatsApp Bridge</h2>
+  <p class="sub">Scan this QR code with your phone to link WhatsApp</p>
+  <div id="qr"><p class="error">⏳ Loading QR code...</p></div>
+  <div class="steps">
+    <strong>步骤：</strong><br>
+    1. 打开手机 WhatsApp<br>
+    2. Linked Devices → Link a Device<br>
+    3. 扫上面的二维码<br>
+    4. 等待 ✅ Connected
+  </div>
+  <div class="footer">Auto-refreshes every 8 seconds · QR expires in ~20 seconds</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+<script>
+async function loadQR() {
+  const qr = document.getElementById('qr');
+  try {
+    const resp = await fetch('qr_raw.txt?_t='+Date.now());
+    if(!resp.ok){qr.innerHTML='<p class=\"error\">⏳ QR data not ready yet...</p>';return;}
+    const raw = await resp.text();
+    if(!raw||raw.trim().length<10){qr.innerHTML='<p class=\"error\">⏳ Data too short, retrying...</p>';return;}
+    qr.innerHTML='';
+    new QRCode(qr,{text:raw.trim(),width:280,height:280});
+  } catch(e){
+    qr.innerHTML='<p class=\"error\">⏳ '+e.message+'</p>';
+  }
+}
+loadQR();
+setInterval(loadQR,8000);
+</script>
+</body>
+</html>

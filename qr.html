@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta http-equiv="refresh" content="60">
+<title>QR</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d1117;display:flex;justify-content:center;align-items:center;min-height:100vh;font-family:system-ui,sans-serif}
+.card{background:#161b22;border:1px solid #30363d;border-radius:16px;padding:48px;text-align:center}
+h2{color:#25D366;margin-bottom:8px;font-size:22px}
+p{color:#8b949e;font-size:14px;margin-bottom:24px}
+.qr{background:white;border-radius:12px;padding:16px;display:inline-block}
+.qr img{width:280px;height:280px;display:block}
+ol{color:#8b949e;font-size:13px;margin-top:24px;text-align:left;padding-left:20px;line-height:2}
+.footer{color:#484f58;font-size:11px;margin-top:20px}
+</style></head>
+<body>
+<div class="card">
+<h2>&#128241; WhatsApp</h2>
+<p>Scan with phone to link</p>
+<div class="qr"><img src="data:image/png;base64,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" alt="QR"></div>
+<ol>
+<li>Open WhatsApp on phone</li>
+<li>Linked Devices → Link a Device</li>
+<li>Scan the QR code above</li>
+</ol>
+<p class="footer">Updated 18:27:14 · Auto-refreshes every 60s</p>
+</div></body></html>

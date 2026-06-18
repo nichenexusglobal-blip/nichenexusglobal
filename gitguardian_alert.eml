@@ -1,0 +1,260 @@
+Received: from k8.kb8c70eb.use4.send.mailgun.net (unknown [204.220.184.8])
+	by bizmx52.qq.com (NewMx) with SMTP id 
+	for <pen@nichenexusglobal.com>; Sat, 06 Jun 2026 22:34:29 +0800
+X-QQ-HITDIVERSE: none
+X-BIZMAIL-ID: 3502869837114563669
+X-QQ-mid: bizmx52t1780756469t144668bfd5
+X-QQ-CSender: bounce+6279ba.dcab04-pen=nichenexusglobal.com@getgitguardian.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=getgitguardian.com; q=dns/txt; s=pic; t=1780756469; x=1780763669;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender: Sender: List-Unsubscribe: List-Unsubscribe-Post;
+ bh=2EfTvH3qzkAKJeagmYN4YkfRQaypdQ6SHqV2Mt/ER28=;
+ b=TTL6ZaNL+yeF1msHQrpwOv7JO9/u+3UkmPHBa8fIm1Z8H0aeJn5qp5fp6pwLJ6bbg/Dmns2ZIbVh48ErkPZIohWFBLO/x5e3tESUWClMvnlBNsptRfJS5n7d9ucdlR7FPnbgOLJf0tWxGavkJnwx7f53tPAQUf/WTZx7ukxmPcwLZp/+kP5HBx2DeHaiRt6b6K8rnuAP0s1IRMTDedgFI19NpyBmc4jnloa3VK8Ue+sAtPKYEs2TKy3kudbuB34+jSkBtTPpPkm+K1bKomIk+teEIih1WxiPe6OIvCxkZIYfTM6J/CmqVWaywrUqJI9/Dq7ch+ya4IarrX+Qe7tiHw==
+X-Mailgun-Sid: WyIwNjEzYiIsInBlbkBuaWNoZW5leHVzZ2xvYmFsLmNvbSIsImRjYWIwNCJd
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <mailto:u+mfwgk4tul5uwipjwg4ygcnjygfrtemtcg44weyjxgm4gem3emmzdsmrwhbstiyzzgfqtsnrqgq2tgnzzhaztenldg43daztgg42teylcmyzgcnbzmmztojtbobuwwzlzl5ugsz3inruwo2dumvsf65lsnq6wq5duobzskm2beuzemjjsiztws5diovrc4y3pnustertonfrwqzlomv4hk43hnrxweylmfvrgy2lqeuzem3tjmnugk3tfpb2xgz3mn5rgc3bfgjdgg33nnvuxijjsiy3wemzxga4toytehe2ggnrwgjqwkndbheydknlemrswcodfgu4dqmdfmyywgmbsmustem3enftgmllfgu3wimrummzggmzrg4zwcylgmeztqmdcg42dqylfgnswkylbgazwgnbwmzqwezjygm4teyjugy4diyzymmztcmruhe2danlegvtdgurrg4tgiplemnqwembuezsgk5dfmn2g64s7mruxg4dmmf4v63tbnvst2q3pnvygc3tzfncw2yljnqvvaylton3w64teezsxgy3bobswix3fnvqws3b5obsw4jjsgu2da3tjmnugk3tfpb2xgz3mn5rgc3bomnxw2jtfonrwc4dfmrpwyzlbnnpwqyltna6vaqjukistenjsijkxqtjynfrvczzqg5dvu2cqkj4ditbzjuzxsvcvovvdqzdiknxe2vsbkbzxo6bfgi2teqsdmvidkm3ujb2xkwcugmze4ysyhb2titbgmvzwgylqmvsf64tfobxv63tbnvst23tjmnugk3tfpb2xgz3mn5rgc3bnmjwgs4bfgi2tertonfrwqzlomv4hk43hnrxweylmezsxmzloorpwiylumvpwm33snvqxi5dfmq6uu5lomuvtm5difmzdamrweuzegkzrgqstgqjtgmstgqjrguvvkvcdezud2zjtmfqtozbvgnrtmztfhezwenrxmm4wmzdcg43gkobwmizwgnbzezut2mrqgi3danrqgyytimzugi4c4nrzgaygenjymuztsnrthaztanbfgqygozlum5uxiz3vmfzgi2lbnyxgg33nezzd24dfnystimdonfrwqzlomv4hk43hnrxweylmfzrw63jgojqw4zdpnvpwwzlzhu3domdbgu4dcyzsgjrdoolcme3tgodcgnsggmrzgi3dqzjumm4tcyjzgyydinjtg44tqmzsgvrtonrqmztdonjsmfrgmmtbgq4wgmzxezzgk4dpl5uwipjrgi2dmmzxgeytgojgojsxa327nzqw2zj5nzuwg2dfnzsxq5ltm5wg6ytbnqwwe3djoastertonfrwqzlomv4hk43hnrxweylmez2d2jjsiethizlnobwgc5dfl5xgc3lfhv2gk3lqnrqxizk7obzg2x3wgithmpjs@getgitguardian.com>,
+ <https://email.getgitguardian.com/u/eJyk0stu2zoQBuCnkTZGAorD60ILH-O4RZEUbpoUQTfCkBxJbHSDRCX22xd2gSyaBl10ycH_E-SHwY7mVMVQKs1QmsJz7rR1qME4CJ5brgwJbwu0igkJ2hrg0mvF6lpLjq7mKKwHneMUn-hUtbFpu9i0iUK1zl3ZpjQtGWwzvs_4vompXd21H_uM74foWxrouC5NNzrsrlwXpz_MM773Y9_HlPG9dqCZ1S5Y4ZXiSAItkzIEQkPSGEZ14RmnjEOIdX1FUgcuPPdQaECsEQxzWhgkIEJk4IWq0ZEBy1EoI7zxUHBhBZNB1nBX6DyUwaNjIg-UyKdxrkJcpg5P1YA9lbuxn3A4bf7vMXabAy7LyziHnBaPE4WKzuNyoiHjUrDf_3ameI12hE9Vi0tbHrbiLuOS__dwvDXRf2mY_vC9PdwdxY29hdP9w_rDhPbrcPtte1hejpfojg4S0sd1fbwH_tk9mlXcvF490zT-eu476vKte07PNKQqYKKqHuceU6JQfloH2qjUbjjjKuO7TSEy2AJksC3k5uF-l7clAaIOEryqyYJT2ts6OK3IKAde2DyW5zZTTBUCBDfXyjLmpCGwCgwwkQnWUGpialacQ8ThAjVfHN9RnHEIY1890enfl_nCFUNZcKFAFwXY_K-Cb_1SmfFtnqifurPhpfx6mua-eub5c8l_BgAA__8KHCQ3>
+Received: by 9ce2d5aafb610c951c37626932e9c68c135455219b5b3e379264a707bb8d076d with HTTP
+ id 6a242ff49fe5e3c66a440163; Sat, 06 Jun 2026 14:34:28 GMT
+X-Mailgun-Sending-Ip: 204.220.184.8
+Sender: security@getgitguardian.com
+Date: Sat, 06 Jun 2026 14:34:28 +0000
+Mime-Version: 1.0
+Subject: [nichenexusglobal-blip/nichenexusglobal] Company Email Password exposed on
+ GitHub
+From: GitGuardian <security@getgitguardian.com>
+To: pen@nichenexusglobal.com
+X-Mailgun-Tag: company_email_password
+X-Mailgun-Tag: prod_tested_incident_landing_2
+X-Mailgun-Track-Clicks: false
+X-Mailgun-Track-Opens: true
+X-Mailgun-Drop-Message: false
+X-Mailgun-Variables: {"template_name":"template_prm_v2","random_key":"670a581c22b79ba738b3dc29268e4c91a960453798325c760ff752abf2a49c37","apikey_highlighted_url":"https://github.com/nichenexusglobal-blip/nichenexusglobal/commit/7b37097bd94c662ae4a9055ddea8e5880ef1c02e#diff-e57d24c2c3173aafa380b748ae3eeaa03c46fabe8392a4684c8c31249405d5f3R17","repo_name":"nichenexusglobal-blip/nichenexusglobal","escaped_repo_name":"nichenexusglobal-blip%2Fnichenexusglobal","repo_id":1246371139,"event_date_formatted":"June
+ 6th 2026, 14:33:15
+ UTC","escaped_leak_hash":"PA4R%2BUxM8icQg07GZhPRx4L9M3yTUuj8dhSnMVAPswx%2BCeP53tHuuXT32NbX8u4L","detector_display_name":"Company
+ Email
+ Password","escaped_email":"pen%40nichenexusglobal.com","alert_id":"670a581c22b79ba738b3dc29268e4c91a960453798325c760ff752abf2a49c37"}
+X-Mailgun-Template-Name: template_prm_v2
+X-Mailgun-Template-Version: prod_tested_incident_landing_2
+Message-Id: <20260606143428.6900b58e39638304@getgitguardian.com>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-QQ-XMAILINFO: Mo0gRGA2133NcO0vDmVBRZeEyDiB2fvBLDxBPy/M8V4pXO9x+MR4JyQe
+	8VfMQ1l9szXV4rQTVBIBACdg6EWEdfqBapyD+Zzlu2p/5pCc275hKU/aIwVngHaJkZQbjp7
+	DGXk+pj7J6UMVCdrSLxTvZX19/PMn7MutDDi1hGoDpRzuEnDP+JwtA83GlupcMF80JSho3L
+	/SJ1V6B54+nmSfl+WUo8HE9IoYqure8MvzEDsj4iDdIAZvevdnLu1PsgGny2jEomAd2UFEX
+	nZAv9aStVqDJBTYqdlkOIMIxcVTzkZZ1HbYephQJpvrlYHhAjvFS970GyfCpfRJC5OpWdOp
+	Q3grGeXRejGMw5kvZuN8/LURBKWZnfcrudddJHiGbgU3bzq3mWef6vNmLHOCES34aYkQEud
+	dEuOU+GXPpysgeCMacb0D95Gu9I1p6FLSGydpQS+UsdKlU56tEVN37waDvgrjdbKpcSNdvS
+	hp8iQyDDexH32RSqceXHs974Ra6ditYEbotlDY4nEBEOaRKU/uYLfe4nMO3pHV0S71Jo8cC
+	gEqprxr9mv7VkIBr+Ox4xPiXg9HEfTCqxh8Xaiflx4vTafMfFusXzRfg84ZzzbUa5g+rk//
+	Rf/KHd4IGG7WWljXrX7pfLR+n53MvUDD0Ughzm07HrzmfxWhEVOwLscV2cpjNCvT2c7y3gV
+	gfg3mA3IhNbrE+jES0yo99FeBx4LVlpRva02PT3VXOFrGLlmH52EqhJ4IQ9ts1IKRAGjjWj
+	MDrOCZVDShegTzoM4aOqCaWAJsi/yi+OtVw914htNtkUarVbSbuObkikcgTkEf6IOI9mImV
+	CvRRRqUZa7xBAkmaJ6audFtZ5G+57UHcf8y5zcqwQtHqPNQcbO5ir4qwN4OfEtBE5g+TJvC
+	8Jvs+iz9g1r9Bodp4U/9fBA3+K64k271tEepTUle7LT9D0yQZCTKBcElcYahemVcRQ/vekI
+	1aE1xdUYhe1BEcf8LQeZ2kAdFSHdQg/EZtIJ9IOaFklIcLBHuWosqHmAigQJ69w3+DYaQwa
+	0aqqjEUE2SiWp5DIZZSnvrFm+WboyUdINEd2vxEqguVl8wseR6BOIeMIgXX64zo/LlXB8he
+	KbHegg+o0mTjUQabS7Ikq/KnKmICuVyaTm4+RWmRyIyahoqc8aq9q4AG/YHBqNvBHuX0K09
+	nuBXkBFtOA6Qs8V3PZziG5RndZwVqxsrT+/q2ta4v3bYD29JmR6IPwvKCX808SuJp2ozVeI
+	vEKLyu7KzSl3NtCS4wWzk7KIWtB1aBxLU3R43RjMxzt3jn04sasHkSaCZeSlq0KwVXXz5Mc
+	RHHBYQ3PBjiFcVSy5q7MiZgGUYJQ8Shc0YFbBSAtY07OAuh4mBiGE34cvpfAYq8P97CSpRm
+	JdqKQ==
+X-QQ-XMRINFO: NyFYKkN4Ny6FuXrnB5Ye7Aabb3ujjtK+gg==
+Authentication-Results: mxbiz.qq.com; spf=pass(204.220.184.8) smtp.mailf
+	rom=<bounce+6279ba.dcab04-pen=nichenexusglobal.com@getgitguardian.com>;
+	 dkim=pass(signature was verified) header.d=getgitguardian.com; dmarc=p
+	ass(p=REJECT sp=REJECT pct=100) header.from=getgitguardian.com
+X-QQ-RECHKSPAM: 0
+
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/x=
+html1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" style=3D"font-family: 'Helveti=
+ca Neue', Helvetica, Arial, sans-serif; box-sizing: border-box; margin: 0">
+
+<head>
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+">
+    <title>[nichenexusglobal-blip/nichenexusglobal] Company Email Password =
+exposed on GitHub</title>
+    <style type=3D"text/css">
+        @media only screen and (max-width: 640px) {
+            body {
+                padding: 0 !important;
+            }
+        }
+    </style>
+</head>
+
+<body itemscope itemtype=3D"http://schema.org/EmailMessage"
+    style=3D"height:100%; width:100% !important; line-height:1.6em; font-fa=
+mily: 'Helvetica Neue',Helvetica,Arial,sans-serif; background-color:#f6f6f6=
+; box-sizing: border-box; -webkit-font-smoothing: antialiased; -webkit-text=
+-size-adjust: none; width: 100% !important; margin: 0">
+    <table class=3D"body-wrap" style=3D"font-size:16px; width: 100%; backgr=
+ound-color: #f6f6f6; margin: 0"bgcolor=3D"#f6f6f6">
+        <tr style=3D"margin: 0">
+            <td style=3D"vertical-align: top; margin: 0" valign=3D"top"></t=
+d>
+            <td class=3D"container" width=3D"600"
+                style=3D"vertical-align: top; display: block !important; ma=
+x-width: 600px !important; clear: both !important; margin: 0 auto" valign=
+=3D"top">
+                <div class=3D"content" style=3D"max-width: 600px; display: =
+block; margin: 0 auto; padding: 25px">
+                    <table class=3D"main" width=3D"100%" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-radius: 5px; background-color: #fff; marg=
+in: 0" bgcolor=3D"#ffffff">
+                        <tr style=3D"margin: 0">
+                           =20
+                        </tr>
+                        <tr style=3D"margin: 0">
+                            <td style=3D"vertical-align: top; margin: 0; pa=
+dding: 15px 25px 20px 25px" valign=3D"top">
+                                <table width=3D"100%" cellpadding=3D"0" cel=
+lspacing=3D"0" style=3D"margin: 0">
+                                    <tr style=3D"margin: 0">
+                                        <td style=3D"vertical-align: top; m=
+argin: 0; padding: 0 0 20px" valign=3D"top">
+                                           <strong>GitGuardian has detected=
+ the following Company Email Password exposed within your GitHub account.</=
+strong>
+                                        </td>
+                                    </tr>
+                                    <tr style=3D"margin: 0">
+                                        <td style=3D"vertical-align: top; m=
+argin: 0; padding: 0 0 20px; font-size: 14px" valign=3D"top">
+                                            <p style=3D"margin:0"><strong>D=
+etails</strong></p>
+                                            <p style=3D"margin:0">- Secret =
+type: <a href=3D"https://github.com/nichenexusglobal-blip/nichenexusglobal/=
+commit/7b37097bd94c662ae4a9055ddea8e5880ef1c02e#diff-e57d24c2c3173aafa380b7=
+48ae3eeaa03c46fabe8392a4684c8c31249405d5f3R17">Company Email Password</a></=
+p>
+                                            <p style=3D"margin:0">- Reposit=
+ory: nichenexusglobal-blip/nichenexusglobal</p>
+                                            <p style=3D"margin:0">- Pushed =
+date: June 6th 2026, 14:33:15 UTC</p>
+                                        </td>
+                                    </tr>
+                                    <tr style=3D"margin: 0">
+                                        <td style=3D"vertical-align: top; m=
+argin: 0; padding: 0 0 20px;" valign=3D"top">
+                                        <a href=3D"https://dashboard.gitgua=
+rdian.com/api/v1/core-alerting/landing/?utm_source=3Dalerting&utm_medium=3D=
+email&utm_campaign=3DWhiteKnight&ca_github_repo_id=3D1246371139&ca_leak_has=
+h=3DPA4R%2BUxM8icQg07GZhPRx4L9M3yTUuj8dhSnMVAPswx%2BCeP53tHuuXT32NbX8u4L&ca=
+_github_repo_name=3Dnichenexusglobal-blip%2Fnichenexusglobal&ca_leak_es_doc=
+_id=3D670a581c22b79ba738b3dc29268e4c91a960453798325c760ff752abf2a49c37&ca_e=
+mail=3Dpen%40nichenexusglobal.com"
+                                            class=3D"btn-primary"
+                                            style=3D"font-size: 18px; color=
+: #FFF; text-decoration: none; line-height: 2em; font-weight: bold; cursor:=
+ pointer; display: inline-block; border-radius: 6px; text-transform: capita=
+lize; background-color: #0D6EF5; margin: 0; border-color: #0D6EF5; border-s=
+tyle: solid; border-width: 10px 30px; text-align: center;">Fix this secret =
+leak</a>
+                                        </td>
+                                    </tr>
+                                    <tr style=3D"margin: 0">
+                                        <td style=3D"vertical-align: top; m=
+argin: 0; padding: 0 0 20px" valign=3D"top">
+                                        <a href=3D"https://dashboard.gitgua=
+rdian.com/api/v1/core-alerting/landing/?utm_source=3Dalerting&utm_medium=3D=
+email&utm_campaign=3DFalsePositive&ca_github_repo_id=3D1246371139&ca_leak_h=
+ash=3DPA4R%2BUxM8icQg07GZhPRx4L9M3yTUuj8dhSnMVAPswx%2BCeP53tHuuXT32NbX8u4L&=
+ca_github_repo_name=3Dnichenexusglobal-blip%2Fnichenexusglobal&ca_leak_es_d=
+oc_id=3D670a581c22b79ba738b3dc29268e4c91a960453798325c760ff752abf2a49c37&ca=
+_email=3Dpen%40nichenexusglobal.com"
+                                            class=3D"btn-primary"
+                                            style=3D"font-size: 18px; color=
+: #87888E; text-decoration: none; line-height: 2em; font-weight: bold; curs=
+or: pointer; display: inline-block; border-radius: 6px; text-transform: cap=
+italize; margin: 0; border-color: #87888E; border-style: solid; border-widt=
+h: 1px; text-align: center; padding: 0em 1em">Mark as false positive</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style=3D"width: 100%; color: #87888E; margin: 0;=
+ clear: both; margin: 0; padding: 0px 25px 10px 25px; border-radius: 0 0 5p=
+x 5px; line-height: 1em; background-color:#FFF;" bgcolor=3D"#FFF">
+                        <tr style=3D"margin: 0">
+                            <td style=3D"font-size: 14px">
+                                <p>A false positive can occur when the dete=
+ction engine raises an alert for a secret that is not one and has never bee=
+n one.</p>
+                                <p>You are receiving this email as part of =
+our <a href=3D"https://gitguardian.com/good-samaritan?utm_source=3Dalerting=
+&utm_medium=3Demail&utm_campaign=3Dabv10AB" style=3D"color: #87888E; text-d=
+ecoration: underline;"><b>Good Samaritan program</b></a>, where we proactiv=
+ely alert GitHub users when one of their secret is inadvertently leaked on =
+a public repository, helping secure the coding community.</p>
+                                <p style=3D"margin-top:5px">Need help to re=
+mediate an exposed secret? Read our <a=20
+                                    href=3D"https://blog.gitguardian.com/le=
+aking-secrets-on-github-what-to-do/?utm_source=3Dalerting&utm_medium=3Demai=
+l&utm_campaign=3Dabv10AB"=20
+                                    style=3D"color: #87888E; text-decoratio=
+n: underline; margin: 0 ">guide</a> and never let another secret leave your=
+ local environment with GitGuardian's cli tool <a href=3D"https://www.gitgu=
+ardian.com/ggshield?utm_source=3Dalerting&utm_medium=3Demail&utm_campaign=
+=3Dabv10AB">ggshield</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style=3D"width: 100%; color: #87888E; margin: 0;=
+ clear: both; margin: 0; padding: 10px; border-radius: 0 0 5px 5px; line-he=
+ight: 1em">
+                        <tr style=3D"margin: 0; padding: 20px">
+                            <td style=3D"font-size: 11px; vertical-align: t=
+op; text-align: center; margin: 0; padding:20px" align=3D"center" valign=3D=
+"top">
+                                <a href=3D"https://email.getgitguardian.com=
+/u/eJyk0stu2zoQBuCnkTZGAorD60ILH-O4RZEUbpoUQTfCkBxJbHSDRCX22xd2gSyaBl10ycH_=
+E-SHwY7mVMVQKs1QmsJz7rR1qME4CJ5brgwJbwu0igkJ2hrg0mvF6lpLjq7mKKwHneMUn-hUtbF=
+pu9i0iUK1zl3ZpjQtGWwzvs_4vompXd21H_uM74foWxrouC5NNzrsrlwXpz_MM773Y9_HlPG9dq=
+CZ1S5Y4ZXiSAItkzIEQkPSGEZ14RmnjEOIdX1FUgcuPPdQaECsEQxzWhgkIEJk4IWq0ZEBy1EoI=
+7zxUHBhBZNB1nBX6DyUwaNjIg-UyKdxrkJcpg5P1YA9lbuxn3A4bf7vMXabAy7LyziHnBaPE4WK=
+zuNyoiHjUrDf_3ameI12hE9Vi0tbHrbiLuOS__dwvDXRf2mY_vC9PdwdxY29hdP9w_rDhPbrcPt=
+te1hejpfojg4S0sd1fbwH_tk9mlXcvF490zT-eu476vKte07PNKQqYKKqHuceU6JQfloH2qjUbj=
+jjKuO7TSEy2AJksC3k5uF-l7clAaIOEryqyYJT2ts6OK3IKAde2DyW5zZTTBUCBDfXyjLmpCGwC=
+gwwkQnWUGpialacQ8ThAjVfHN9RnHEIY1890enfl_nCFUNZcKFAFwXY_K-Cb_1SmfFtnqifurPh=
+pfx6mua-eub5c8l_BgAA__8KHCQ3" style=3D"font-size: 11px; color: #87888E; tex=
+t-decoration: underline; margin: 0">Unsubscribe</a> from these alerts.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+<br>
+<p><a href=3D"https://email.getgitguardian.com/u/eJyk0stu2zoQBuCnkTZGAorD60=
+ILH-O4RZEUbpoUQTfCkBxJbHSDRCX22xd2gSyaBl10ycH_E-SHwY7mVMVQKs1QmsJz7rR1qME4C=
+J5brgwJbwu0igkJ2hrg0mvF6lpLjq7mKKwHneMUn-hUtbFpu9i0iUK1zl3ZpjQtGWwzvs_4vomp=
+Xd21H_uM74foWxrouC5NNzrsrlwXpz_MM773Y9_HlPG9dqCZ1S5Y4ZXiSAItkzIEQkPSGEZ14Rm=
+njEOIdX1FUgcuPPdQaECsEQxzWhgkIEJk4IWq0ZEBy1EoI7zxUHBhBZNB1nBX6DyUwaNjIg-UyK=
+dxrkJcpg5P1YA9lbuxn3A4bf7vMXabAy7LyziHnBaPE4WKzuNyoiHjUrDf_3ameI12hE9Vi0tbH=
+rbiLuOS__dwvDXRf2mY_vC9PdwdxY29hdP9w_rDhPbrcPtte1hejpfojg4S0sd1fbwH_tk9mlXc=
+vF490zT-eu476vKte07PNKQqYKKqHuceU6JQfloH2qjUbjjjKuO7TSEy2AJksC3k5uF-l7clAaI=
+OEryqyYJT2ts6OK3IKAde2DyW5zZTTBUCBDfXyjLmpCGwCgwwkQnWUGpialacQ8ThAjVfHN9RnH=
+EIY1890enfl_nCFUNZcKFAFwXY_K-Cb_1SmfFtnqifurPhpfx6mua-eub5c8l_BgAA__8KHCQ3"=
+>unsubscribe</a></p>
+<img width=3D"1" height=3D"1" alt=3D"" src=3D"https://email.getgitguardian.=
+com/o/eJykk8tu2zgUhp9G2hgJqMP7QguPMZ7BIBm4aVIE3QhH5KHERjdIVGK_fWEHzaJp0EWXJ=
+H7evv8jdjSnKvpSaYbSFA6g1rZGzU3NvQMLypBwtkCrmJBcW8NBOq1YCFoC1gFQWMd1jlN8olPV=
+xqbtYtMm8tU6d2Wb0rRkfJvBPoN9E1O71tdu7DPYD9G1NNBxXZpurLG7qrs4_WI-g70b-z6mDPa=
+65ppZXXsrnFKAJNAyKb0nNCSNYRQKx4Ay4D6GcEVSexAOHC80RwzIDau1MEicCJFxJ1TAmgy3gE=
+IZ4YzjBQgrmPQy8LtC5770Dmsmck-JXBrnysdl6vBUDdhTuRv7CYfT5u8eY7c54LK8jLPPqSy0Y=
+VoqoWxOi8OJfEXnTDnRkIEU7OeHnrm8RTvCp6rFpS0PW3GXgYS_Ho63JrpPDdP_fG0Pd0dxY2_5=
+6f5h_WZ8-3m4_bI9LC_HS3RHB8nTv-v6eM_h__rRrOLmbeuZpvH17h9UIN-XkNMzDanymKgK49x=
+jSuTL_9aBNiq1G2CgMthtCpHxLecZ3xZy83C_y9uSsA5KieCEtIx8sABeyuA1YTgLlcfyvJoppg=
+rBBZhrZRmrpSFuFTeciUywhlITU7Pi7CMOF1DzheMHFGcc_NhXT3T6c7MvuKIvCxCK66LgNv8tw=
+ff8UuleRXmVoJp-iJLKaR59lWg5_5k4uOjPpDscfByaCvJE_dSduV8OfBtNc189Q_5cwvcAAAD_=
+_2pkPJk"></body>
+

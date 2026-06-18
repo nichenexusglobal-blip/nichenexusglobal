@@ -1,0 +1,40 @@
+[
+  {
+    "target": "KHM Megatools Corp.",
+    "website": "https://khmtools.com.ph",
+    "date": "2026-06-17",
+    "pages_viewed": [
+      "https://khmtools.com.ph/collections/power-station (首页 - 工具五金零售商，位于马尼拉，11款电站产品)",
+      "https://khmtools.com.ph/ (首页 - 公司信息，地址，联系方式)",
+      "https://khmtools.com.ph/pages/contact-us (联系页 - 邮箱sales@khmtools.com.ph, 电话(02)7955-5489)"
+    ],
+    "findings": [
+      "KHM Megatools Corp. 是马尼拉五金工具零售商",
+      "现有电站产品线：Yamato(200-800W), Greenfield(200-800W), Daiden(300-500W), Wadfow(300/600W)",
+      "所有产品在300W-800W区间，没有1000W+大容量产品",
+      "Yamato YM63-500 500W卖₱13,500 (~USD 235)",
+      "Yamato YM63-800 800W卖₱19,500 (~USD 340)",
+      "Wadfow WPPS150 300W/600W卖₱16,000-24,000 (~USD 280-420)",
+      "Yamato YM63-300 300W卖₱9,500 (~USD 165)",
+      "他们的价格定位是预算型市场，缺乏中高端产品线",
+      "有Price Match Program - 说明对价格敏感",
+      "联系方式：sales@khmtools.com.ph"
+    ],
+    "products_found": [
+      "Yamato YM63-500 (500W)",
+      "Yamato YM63-800 (800W)",
+      "Greenfield GPS800W (800W)",
+      "Wadfow WPPS150 (300W/600W)",
+      "Daiden PS-500 (500W Li-Ion)"
+    ],
+    "retail_prices": {
+      "Yamato YM63-500": "PHP 13,500",
+      "Yamato YM63-800": "PHP 19,500",
+      "Yamato YM63-300": "PHP 9,500",
+      "Yamato YM92-300": "PHP 7,500",
+      "Yamato YM92-200": "PHP 6,000",
+      "Wadfow WPPS150": "PHP 16,000-24,000"
+    },
+    "assessment": "潜在客户。缺1000W+产品线，现有的Yamato/Greenfield/Wadfow品牌是低价位ODM贴牌，说明他们接受中国工厂供货。我们Pecron E600LFP(614Wh $168.5)和F1000LFP(960Wh $202.5)可以补充其中高端产品线。不需要官网WhatsApp验证——发邮件即可。"
+  }
+]

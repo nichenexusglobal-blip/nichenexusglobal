@@ -1,0 +1,27 @@
+{
+  "company": "Power & Sun UAE",
+  "website": "https://powernsun.com",
+  "pages_viewed": [
+    "https://powernsun.com",
+    "https://powernsun.com/product-category/solar-products/energy-storage-system/portable-powerstations/",
+    "https://powernsun.com/product/pylontech-amber-rock-portable-power-station/",
+    "https://powernsun.com/product-category/brands/"
+  ],
+  "business": "Solar components distributor: PV modules, inverters, BESS, UPS, portable power stations",
+  "current_portable_product": {
+    "brand": "PYLONTECH",
+    "model": "Amber Rock AR500",
+    "specs": "473Wh LiFePO4, 240W AC inverter, 6.4kg",
+    "retail_price_aud": "$750-976 AUD (~$500-650 USD)"
+  },
+  "our_alternative": {
+    "Pecron_F1000LFP": {"wh": 960, "w": 1000, "fob": 202.50},
+    "Pecron_E2400LFP": {"wh": 2048, "w": 2400, "fob": 433.50},
+    "IE-Energy_H700": {"wh": 672, "w": 700, "fob": 224},
+    "IE-Energy_H2400": {"wh": 1843, "w": 2400, "fob": 487}
+  },
+  "email": "info@powernsun.com",
+  "locations": ["Dubai (HQ)", "Morocco", "Kenya", "South Africa", "India", "Georgia", "Germany"],
+  "fit": "EXCELLENT - already sells portable powerstations category, has multi-country distribution network",
+  "notes": "Only 1 product in portable powerstations category (PYLONTECH). Huge room for expansion with LFP alternatives at 2-3x the capacity for similar wholesale price."
+}

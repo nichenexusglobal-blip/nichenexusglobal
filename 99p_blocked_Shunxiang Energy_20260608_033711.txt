@@ -1,0 +1,28 @@
+TO: eason@shunxiangenergy.com
+COMPANY: Shunxiang Energy
+SCORE: 68/100
+ISSUE: ⚠️ 仅提到1个型号，建议至少2个
+ISSUE: ❌ 未找到该公司的研究证据 — 必须先调研保存证据
+ISSUE: ❌ 无价格对比或量化价值 — 只说价格不说省多少
+
+Hi Eason,
+
+I looked at your product line on shunxiangenergy.com — you carry a solid range including 1087Wh Portable Power Station (W77 at USD 319 FOB), 1450Wh Portable Power Station (W78 at USD 399 FOB), and 3030Wh Portable Power Station (W79 NCM at USD 645 FOB). Thanks again for the FOB quote PDF.
+
+A few operational follow-ups as I build landed cost projections for buyers across SE Asia, Middle East, and Africa:
+
+1. EXW Dongguan pricing for W77/W78/W79 — do you have EXW prices at MOQ 200 and 500? This helps me compare across your W and SX product lines.
+
+2. DDP estimates — what would DDP pricing look like to Rotterdam (Europe) and Los Angeles (US West Coast)? I want to offer complete landed cost.
+
+3. Packing specs — per-unit carton dimensions (L*W*H) and gross weight for W77, W78, W79? I need CBM and kg for sea freight from Shenzhen.
+
+4. Freight forwarder — do you have one you recommend for sea freight to SE Asia/Europe? I'll reach out to them for rates.
+
+Also — are the W77 and W78 LiFePO4 or Li-Ion? Your site shows both battery types on different models (F38 is LiFePO4, F78 is Li-Ion), and your quote noted W79 is NCM.
+
+Once I have packing specs and EXW pricing I can finalize shipping and send you a trial order to start.
+
+Best regards,
+Pen
+nichenexusglobal.com

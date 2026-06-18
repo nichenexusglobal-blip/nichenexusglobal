@@ -1,0 +1,35 @@
+TO: linda.setiawan@krisbow.com
+COMPANY: PT Krisbow Indonesia (Kawan Lama Group)
+SCORE: 78/100
+ISSUE: ❌ 只打开了0个页面，需要至少3个（首页/产品页/About）
+ISSUE: ⚠️ 研究证据缺少关键数据
+ISSUE: ⚠️ 价格对比不够直接 — 建议把双方价格写在一起对比
+ISSUE: ⚠️ CTA偏弱 — 建议给具体动作：'我发spec sheet给你' 而不是 '你有兴趣吗'
+
+Dear Linda Setiawan,
+
+I previously reached out to Ruparupa and was directed to your procurement team at PT Krisbow Indonesia (Kawan Lama Group).
+
+We are nichenexusglobal, an OEM sourcing partner based in Shenzhen. Krisbow already sells LiFePO4 portable power stations under the XPPS line — XPPS600 (268.8Wh at Rp 3,499,000 or ~$216 retail), XPPS1200 (1152Wh at Rp 7,969,000–10,799,000 or ~$492-667 retail), XPPS2400 at ~$1,198 retail, and XPPS5500 at ~$2,575 retail.
+
+Our verified factory partners produce comparable specifications:
+
+MECO Power (Shenzhen):
+- 1KWH 1004Wh/300W LiFePO4 — FOB Shenzhen USD 145 (MOQ 10)
+- 1KWH Pro 1004Wh/500W LiFePO4 — FOB Shenzhen USD 165 (MOQ 10)
+- 2KWH 2009Wh/1200W LiFePO4 — FOB Shenzhen USD 165 (MOQ 100)
+
+Pecron (Shenzhen):
+- F1000LFP 960Wh/1000W — FOB Shenzhen USD 202.5 (MOQ 100)
+- E2400LFP 2048Wh/2200W — FOB Shenzhen USD 433.5 (MOQ 100)
+
+All units use automotive-grade LiFePO4 cells, 3000+ cycle life, smart BMS, and carry CE/UN38.3 certification. OEM branding and custom packaging are standard.
+
+For your XPPS1200 (1152Wh) category: our MECO 1KWH at USD 145 FOB plus shipping (~$10/unit to Jakarta) delivers a landed cost under $160 — compared to mainstream brand wholesale alternatives. Custom specifications (solar input voltage, output ports, color) can be adjusted to match your product positioning.
+
+I would be happy to send spec sheets and discuss MOQ alignment. Interested?
+
+Best regards,
+Pen
+nichenexusglobal
+pen@nichenexusglobal.com

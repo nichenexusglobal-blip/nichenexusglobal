@@ -1,0 +1,28 @@
+TO: info@nology.co.za
+COMPANY: Nology
+SUBJECT: LiFePO4 alternatives to BLUETTI at factory-direct pricing
+STATUS: SMTP_UNAVAILABLE
+
+Hi Nology team,
+
+I am Pen from nichenexusglobal, a cross-border trade service company based in China.
+
+As a BLUETTI authorized distributor in South Africa, Nology sells models like the EB3A (268Wh/600W, retail ~R4,799) and EB70 (716Wh/1000W, retail ~R8,339). The BLUETTI AC200 (2048Wh) retails at roughly USD 1,699 with an estimated wholesale cost of USD 1,020.
+
+Given ongoing load shedding demand, I wanted to present OEM LiFePO4 power station alternatives at factory-direct pricing. Our costs are typically 70-85% below BLUETTI wholesale levels for equivalent capacity:
+
+- MECO 1KWH (1004Wh LiFePO4): USD 145/unit FOB
+- MECO 2KWH (2009Wh LiFePO4): USD 165/unit FOB
+- Anern 1280Wh (1200W LiFePO4): USD 205/unit FOB
+- Pecron E600LFP (614Wh LiFePO4): USD 168.5/unit FOB
+- PowerLFP LF-B1200PPS (1152Wh LiFePO4): USD 219/unit FOB
+
+For direct comparison: BLUETTI AC200 (2048Wh) wholesale ~USD 1,020 vs our MECO 2KWH (2009Wh) at USD 165 FOB. BLUETTI EB70 (716Wh) wholesale ~USD 456 vs our Pecron E600LFP (614Wh) at USD 168.5 FOB.
+
+All units are CE/FCC certified, LiFePO4 with 6000+ cycles, available with OEM/private label. MOQ from 10 for trial orders.
+
+Would Nology like to review spec sheets and discuss a trial order?
+
+Best regards,
+Pen
+nichenexusglobal.com

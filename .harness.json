@@ -1,0 +1,194 @@
+{
+  "checksums": {
+    "universal_send_gate.py": "5b7d3b570be6d45723d7f72763152f7a573f22ada2c04af80dc62822ce4d0a60",
+    "precision_gate.py": "564e46cdc0bf541e01248f48b4272af4e6a2ff8cf79724d29f0dfa566a48dea9",
+    "precision_bullet_gate.py": "d7a30e1107eaee868d6dacf58937ea2ea4aaf471d3143daba0087059d6dcc088",
+    "supplier_rfq_gate.py": "5102ba6e09a40cd72f7d2802b604b65df44bcf1d9db2aaec43736a80e422aaee",
+    "hammer_db.json": "a02dd84e73ba01dff3696269a1aa553a1f8718715a3cfe9805e1ec6f6c4f9a32",
+    "harness.py": "97e326ec8054edfe77fa545d0c30bd8977d7610192c157011d59a44f578eeea1"
+  },
+  "approved_changes": [
+    {
+      "file": "universal_send_gate.py",
+      "new_hash": "7e0c1b275bfcba9fef3363258d5d2ba79ef77ac190e232d4f84de2a7635366b6",
+      "time": "2026-06-05T22:25:51.679615",
+      "reason": "添加HARNESS研究证据检查（冷启动邮件需要先保存研究证据）"
+    },
+    {
+      "file": "precision_bullet_gate.py",
+      "new_hash": "d7a30e1107eaee868d6dacf58937ea2ea4aaf471d3143daba0087059d6dcc088",
+      "time": "2026-06-06T11:04:40.416135",
+      "reason": "添加FlashFish型号模式: QE02D, J1000Plus, A1001"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "0184d6ccbb79866a686512eddfa736c5b33cf96b3c279fe646aae8c928d2604d",
+      "time": "2026-06-06T11:08:25.600207",
+      "reason": "添加Anern FOB报价 + WorldPower格式修正"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "6a1ea23575db49d8cc6669e590758373b0ebc2cf6fc428d3bec6be5c8283e92d",
+      "time": "2026-06-06T12:17:33.583881",
+      "reason": "当日业务数据更新: 新增Anern/MECO FOB报价"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "new_hash": "f3e8c25cb79999934fedaff629985c8618cf6cd4138eb20d6e515403610383cc",
+      "time": "2026-06-06T12:36:10.236834",
+      "reason": "客户邮件增加验证门禁：precision_bullet_gate.verify() 检查调研深度"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "6a1ea23575db49d8cc6669e590758373b0ebc2cf6fc428d3bec6be5c8283e92d",
+      "time": "2026-06-06T22:10:01.806172",
+      "reason": "每日复盘数据更新: 新增Fujian Huari刹车片供应商+MECO包装尺寸+Lansinestorage回信状态"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "new_hash": "f3e8c25cb79999934fedaff629985c8618cf6cd4138eb20d6e515403610383cc",
+      "time": "2026-06-07T09:12:54.582393",
+      "reason": "密码读取改为pwd_loader模块，支持.env文件回退+base64编码硬编"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "6a1ea23575db49d8cc6669e590758373b0ebc2cf6fc428d3bec6be5c8283e92d",
+      "time": "2026-06-07T22:12:13.362269",
+      "reason": "每日复盘数据更新: 添加Topure Power记录, 更新Pecron/MECO沟通记录, 更新meta日期至2026-06-07"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "new_hash": "00ea42175590b207a5e879cbbc3b9ad9dc85d5833e670ae27fc8bc8b8e5f976b",
+      "time": "2026-06-07T22:12:15.440126",
+      "reason": "每日复盘: 批准上次工作会话中的门禁代码修改"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "6a1ea23575db49d8cc6669e590758373b0ebc2cf6fc428d3bec6be5c8283e92d",
+      "time": "2026-06-07T22:12:20.731519",
+      "reason": "每日复盘数据更新: 修正total_hammers为27 (新增Topure Power)"
+    },
+    {
+      "file": "harness.py",
+      "new_hash": "97e326ec8054edfe77fa545d0c30bd8977d7610192c157011d59a44f578eeea1",
+      "time": "2026-06-07T22:13:03.538382",
+      "reason": "修复WORKDIR路径: ~/nichenexusglobal → D:/nichenexusglobal (跨盘符修复)"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "8af51cc63307a1ae4565e81d42507de62e014a4168ff4ecca066c73662662a5b",
+      "time": "2026-06-09T22:12:47.125093",
+      "reason": "每日复盘数据更新: 记录Lansine/WorldPower/PiForz/Anern回信状态"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "new_hash": "5b7d3b570be6d45723d7f72763152f7a573f22ada2c04af80dc62822ce4d0a60",
+      "time": "2026-06-09T22:12:48.839852",
+      "reason": "每日复盘: 批准pending变更文件"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "06c5717791924ce6a2a17831e7195b85c6c3c2eb73c02f7842a30ac9c07f8baa",
+      "time": "2026-06-09T22:20:10.239785",
+      "reason": "每日复盘: 更新Lansine/WorldPower/PiForz回信状态+2026-06-09数据"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "new_hash": "5b7d3b570be6d45723d7f72763152f7a573f22ada2c04af80dc62822ce4d0a60",
+      "time": "2026-06-09T22:20:11.469488",
+      "reason": "每日复盘: 清零violations"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "a02dd84e73ba01dff3696269a1aa553a1f8718715a3cfe9805e1ec6f6c4f9a32",
+      "time": "2026-06-10T22:21:27.509497",
+      "reason": "每日复盘数据更新: 已验证今日无新发送，锤子库27个供应商数据正常"
+    }
+  ],
+  "violations": [
+    {
+      "file": "universal_send_gate.py",
+      "time": "2026-06-16T19:53:11.537245",
+      "old_hash": "5b7d3b570be6d457",
+      "new_hash": "09f9e09232a75d99",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "time": "2026-06-17T13:33:11.536624",
+      "old_hash": "5b7d3b570be6d457",
+      "new_hash": "09f9e09232a75d99",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "time": "2026-06-17T18:03:41.010663",
+      "old_hash": "5b7d3b570be6d457",
+      "new_hash": "09f9e09232a75d99",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "time": "2026-06-18T00:04:21.407482",
+      "old_hash": "5b7d3b570be6d457",
+      "new_hash": "09f9e09232a75d99",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "precision_bullet_gate.py",
+      "time": "2026-06-18T00:04:21.407482",
+      "old_hash": "d7a30e1107eaee86",
+      "new_hash": "7ea5c7f20f0258f4",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "hammer_db.json",
+      "time": "2026-06-18T00:04:21.408485",
+      "old_hash": "a02dd84e73ba01df",
+      "new_hash": "0d819d152b59bc63",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "time": "2026-06-18T12:06:42.257292",
+      "old_hash": "5b7d3b570be6d457",
+      "new_hash": "09f9e09232a75d99",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "precision_bullet_gate.py",
+      "time": "2026-06-18T12:06:42.258300",
+      "old_hash": "d7a30e1107eaee86",
+      "new_hash": "7ea5c7f20f0258f4",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "hammer_db.json",
+      "time": "2026-06-18T12:06:42.258300",
+      "old_hash": "a02dd84e73ba01df",
+      "new_hash": "53f318a95b0baf62",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "time": "2026-06-18T18:09:52.400544",
+      "old_hash": "5b7d3b570be6d457",
+      "new_hash": "09f9e09232a75d99",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "precision_bullet_gate.py",
+      "time": "2026-06-18T18:09:52.400544",
+      "old_hash": "d7a30e1107eaee86",
+      "new_hash": "7ea5c7f20f0258f4",
+      "status": "unapproved_change"
+    },
+    {
+      "file": "hammer_db.json",
+      "time": "2026-06-18T18:09:52.400544",
+      "old_hash": "a02dd84e73ba01df",
+      "new_hash": "53f318a95b0baf62",
+      "status": "unapproved_change"
+    }
+  ]
+}

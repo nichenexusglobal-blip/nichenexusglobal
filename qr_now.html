@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta http-equiv="refresh" content="60">
+<title>WhatsApp QR</title>
+<style>
+body{background:#0d1117;display:flex;justify-content:center;align-items:center;min-height:100vh;margin:0;font-family:sans-serif}
+.card{background:#161b22;border:1px solid #30363d;border-radius:16px;padding:40px;text-align:center;max-width:520px}
+h2{color:#25D366;margin:0 0 8px 0}
+.sub{color:#8b949e;font-size:14px;margin-bottom:20px}
+#qrcode{display:flex;justify-content:center;margin:0 auto}
+#qrcode img{background:#fff;border-radius:12px;padding:16px;width:280px;height:280px;display:block}
+.steps{color:#8b949e;font-size:13px;margin-top:20px;text-align:left;line-height:1.8}
+.steps strong{color:#c9d1d9}
+.tip{color:#f0883e;font-size:13px;margin-top:12px}
+.footer{color:#484f58;font-size:11px;margin-top:16px}
+</style>
+</head>
+<body>
+<div class="card">
+  <h2>&#128241; WhatsApp Bridge</h2>
+  <p class="sub">Scan this QR code with your phone to link WhatsApp</p>
+  <div id="qrcode"><img src="data:image/png;base64,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" alt="WhatsApp QR"></div>
+  <div class="steps">
+    <strong>&#27493;&#39588;&#65306;</strong><br>
+    1. &#25171;&#24320;&#25163;&#26426; WhatsApp<br>
+    2. Linked Devices &#8594; Link a Device<br>
+    3. &#25195;&#25551;&#19978;&#38754;&#30340;&#20108;&#32500;&#30721;<br>
+    4. &#31561; &#10004; Connected
+  </div>
+  <div class="tip">&#9888;&#65039; QR expires in ~20 seconds. Auto-refreshes every 60 seconds.</div>
+  <div class="footer">Generated at 17:50:11 &middot; Page auto-refreshes</div>
+</div>
+</body>
+</html>

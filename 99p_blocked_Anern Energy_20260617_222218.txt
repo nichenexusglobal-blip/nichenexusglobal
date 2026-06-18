@@ -1,0 +1,26 @@
+TO: export9@anern.com
+COMPANY: Anern Energy
+SCORE: 0/100
+ISSUE: ❌ 公司名未出现在正文中
+ISSUE: ❌ 未提及对方的具体业务
+ISSUE: ❌ 未提及任何品牌名
+ISSUE: ⚠️ 仅提到1个型号，建议至少2个
+ISSUE: ❌ 未找到该公司的研究证据 — 必须先调研保存证据
+ISSUE: ❌ 无价值主张
+ISSUE: ❌ 未包含我们的FOB报价
+ISSUE: ❌ 无价格对比或量化价值 — 只说价格不说省多少
+ISSUE: ⚠️ CTA偏弱 — 建议给具体动作：'我发spec sheet给你' 而不是 '你有兴趣吗'
+ISSUE: ❌ 模板消息 — 没有包含对方独有的信息（品牌/型号/价格），可发给任何人
+
+Hi Luke,
+
+Thanks for the reminder. I did check the quote — the MPSG-E 1280Wh at 05 is in the right direction for a Kenya project I'm working on.
+
+Before I confirm, can you share:
+- What's the per-unit shipping cost to Mombasa?
+- Packing specs (CBM/weight)?
+
+Also, you mentioned you can adjust — what's the best you can do on the 1280Wh if I start with 100 units?
+
+Best,
+Pen

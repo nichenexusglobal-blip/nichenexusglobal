@@ -1,0 +1,924 @@
+{
+  "meta": {
+    "version": 1,
+    "last_updated": "2026-06-07",
+    "total_hammers": 27,
+    "categories": [
+      "portable_power_1000w",
+      "portable_power_2000w",
+      "competitor_brands",
+      "brake_pads"
+    ]
+  },
+  "categories": {
+    "portable_power_1000w": {
+      "name": "1000W LiFePO4 便携电站",
+      "market_price_cny_range": {
+        "min": 338,
+        "max": 2876,
+        "typical": "800-1800"
+      },
+      "usd_rate": 7.2,
+      "benchmark_fob_usd": {
+        "low": 80,
+        "mid": 140,
+        "high": 280
+      },
+      "last_updated": "2026-05-24",
+      "hammers": [
+        {
+          "rank": 1,
+          "name": "Shenzhen Taico Technology",
+          "years": 14,
+          "exw_cny": 541,
+          "moq": 2,
+          "alibaba_rating": 4.6,
+          "alibaba_reviews": 17,
+          "cert_claims": [],
+          "score": 92,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "Best price/age ratio. Needs FOB verification"
+        },
+        {
+          "rank": 2,
+          "name": "Lansine Intelligent (Zhongshan)",
+          "years": 2,
+          "exw_cny": 447,
+          "moq": 10,
+          "alibaba_rating": 4.6,
+          "alibaba_reviews": 5,
+          "cert_claims": [],
+          "score": 83,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "Best absolute price but young company"
+        },
+        {
+          "rank": 3,
+          "name": "Jieyang Hangcheng Technology",
+          "years": 1,
+          "exw_cny": 575,
+          "moq": 1,
+          "alibaba_rating": 5.0,
+          "alibaba_reviews": 1,
+          "cert_claims": [],
+          "score": 75,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "Very new company (1yr). MOQ=1 attractive but risky"
+        },
+        {
+          "rank": 4,
+          "name": "Shenzhen Sinorise Info & Tech",
+          "years": 7,
+          "exw_cny": 338,
+          "moq": 50,
+          "alibaba_rating": 4.8,
+          "alibaba_reviews": 6,
+          "cert_claims": [],
+          "score": 82,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "7yr company, MOQ 50 high for trial"
+        },
+        {
+          "rank": 5,
+          "name": "Dongguan Andefeng Battery",
+          "years": 3,
+          "exw_cny": 880,
+          "moq": 5,
+          "alibaba_rating": 5.0,
+          "alibaba_reviews": 8,
+          "cert_claims": [
+            "CE"
+          ],
+          "score": 80,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "Best mid-range value. CE claimed"
+        },
+        {
+          "rank": 6,
+          "name": "Jiangsu Shuoyi Energy Technology",
+          "years": 1,
+          "exw_cny": 663,
+          "moq": 5,
+          "alibaba_rating": null,
+          "alibaba_reviews": 0,
+          "cert_claims": [],
+          "score": 62,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "New company, no reviews"
+        },
+        {
+          "rank": 7,
+          "name": "Foshan Namkoo New Energy",
+          "years": 8,
+          "exw_cny": 1691,
+          "moq": 2,
+          "alibaba_rating": 5.0,
+          "alibaba_reviews": 26,
+          "cert_claims": [
+            "CE",
+            "FCC"
+          ],
+          "score": 75,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "Best reliability (5.0★/26 reviews) but higher price"
+        },
+        {
+          "rank": 8,
+          "name": "Shenzhen Anern Optoelectronics",
+          "years": 8,
+          "exw_cny": 1240,
+          "moq": 1,
+          "alibaba_rating": 5.0,
+          "alibaba_reviews": 1,
+          "cert_claims": [],
+          "score": 68,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "MOQ=1, single review"
+        },
+        {
+          "rank": 9,
+          "name": "Shenzhen Poweroak (BLUETTI)",
+          "years": 13,
+          "exw_cny": 2273,
+          "moq": 1,
+          "alibaba_rating": null,
+          "alibaba_reviews": 0,
+          "cert_claims": [
+            "UL",
+            "CE",
+            "FCC"
+          ],
+          "score": 70,
+          "source": "alibaba_listing",
+          "status": "unverified_brand",
+          "notes": "BLUETTI parent company. Brand premium pricing"
+        }
+      ]
+    },
+    "portable_power_2000w": {
+      "name": "2000W LiFePO4 便携电站",
+      "market_price_cny_range": {
+        "min": 739,
+        "max": 3369,
+        "typical": "1000-2500"
+      },
+      "usd_rate": 7.2,
+      "benchmark_fob_usd": {
+        "low": 130,
+        "mid": 200,
+        "high": 380
+      },
+      "last_updated": "2026-05-24",
+      "hammers": [
+        {
+          "rank": 1,
+          "name": "Shenzhen Taico Technology",
+          "years": 14,
+          "exw_cny": 739,
+          "moq": 2,
+          "alibaba_rating": 4.6,
+          "alibaba_reviews": 17,
+          "cert_claims": [],
+          "score": 90,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "Best price for 2000W class"
+        },
+        {
+          "rank": 2,
+          "name": "Henan Hairongxun New Energy",
+          "years": 3,
+          "exw_cny": 739,
+          "moq": 2,
+          "alibaba_rating": 4.6,
+          "alibaba_reviews": 26,
+          "cert_claims": [],
+          "score": 85,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "Good price, 26 reviews, 3yr track record"
+        },
+        {
+          "rank": 3,
+          "name": "Dongguan Andefeng Battery",
+          "years": 3,
+          "exw_cny": 880,
+          "moq": 5,
+          "alibaba_rating": 5.0,
+          "alibaba_reviews": 8,
+          "cert_claims": [
+            "CE"
+          ],
+          "score": 82,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "Second best price, CE claimed"
+        },
+        {
+          "rank": 4,
+          "name": "Shenzhen Sinorise Info & Tech",
+          "years": 7,
+          "exw_cny": 1116,
+          "moq": 50,
+          "alibaba_rating": 4.8,
+          "alibaba_reviews": 6,
+          "cert_claims": [],
+          "score": 75,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "MOQ 50 high"
+        },
+        {
+          "rank": 5,
+          "name": "Guangdong Boltpower Energy",
+          "years": 13,
+          "exw_cny": 1758,
+          "moq": 2,
+          "alibaba_rating": null,
+          "alibaba_reviews": 0,
+          "cert_claims": [],
+          "score": 73,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "13yr company, no reviews"
+        },
+        {
+          "rank": 6,
+          "name": "Foshan Namkoo New Energy",
+          "years": 8,
+          "exw_cny": 1691,
+          "moq": 2,
+          "alibaba_rating": 5.0,
+          "alibaba_reviews": 26,
+          "cert_claims": [
+            "CE",
+            "FCC"
+          ],
+          "score": 78,
+          "source": "alibaba_listing",
+          "status": "unverified_quote",
+          "notes": "Best rated but higher priced"
+        }
+      ]
+    }
+  },
+  "verified_suppliers": {
+    "name": "已验证报价的供应商（已回复询盘或有实际FOB报价）",
+    "last_updated": "2026-06-06",
+    "hammers": [
+      {
+        "rank": 1,
+        "name": "PiForz",
+        "website": "piforz.com",
+        "email": "sales@piforz.com",
+        "contact_person": "Tommy Zhang",
+        "contact_email": "tommy@piforz.com",
+        "category": "1500W",
+        "fob_usd": {
+          "PF2000_1536Wh": 600.0
+        },
+        "moq": 200,
+        "certs": [
+          "UL",
+          "CE",
+          "FCC",
+          "RoHS",
+          "UN38.3"
+        ],
+        "source": "official_fob_quote",
+        "status": "verified_fob",
+        "notes": "PF2000 1536Wh LiFePO4, FOB Shenzhen $600/pc at MOQ 200. MOQ too high for small clients. Ask about lower MOQ options. Catalog shows full range PF300-PF2000 models.\n2026-06-06: sent follow-up asking for PF1500/PF500/PF300 FOB pricing and lower MOQ options (tommy@piforz.com).\n2026-06-09: Tommy replied - sent latest price quote for MOQ 200 and 600 units in attachment. Now accepts MOQ 50 minimum. Custom logo services available. Noted rising material costs - suggests confirming soon.",
+      },
+      {
+        "rank": 2,
+        "name": "Pecron",
+        "website": "pecron.cn",
+        "email": "sales06@pecron.com",
+        "category": "500-2400W",
+        "fob_usd": {
+          "E600LFP_614Wh": 168.5,
+          "F1000LFP_960Wh": 202.5,
+          "E2400LFP_2048Wh": 433.5
+        },
+        "moq": null,
+        "certs": [
+          "CE",
+          "FCC",
+          "UKCA"
+        ],
+        "source": "official_fob_quote",
+        "status": "verified_fob",
+        "notes": "Official FOB quote from Excel. E600 $168.5, F1000 $202.5, E2400 $433.5 per unit at MOQ 100. HS 8504402000. MOQ 100 pcs per model.\n2026-06-07: Chris replied — was at factory on Sunday helping customer pack. Will check shipping costs to Kenya/Philippines/Dubai on Monday. Pending packing details and CBM.",
+        "packing": {
+          "E600LFP": {
+            "cbm": 0.0349,
+            "gross_kg": 11.4
+          },
+          "F1000LFP": {
+            "cbm": 0.0326,
+            "gross_kg": 12.25
+          },
+          "E2400LFP": {
+            "cbm": 0.0641,
+            "gross_kg": 21.0
+          }
+        }
+      },
+      {
+        "rank": 3,
+        "name": "ALLPOWERS",
+        "website": "allpowers.com",
+        "email": null,
+        "category": "299Wh",
+        "fob_usd": {
+          "R600_299Wh": 150
+        },
+        "moq": null,
+        "certs": [
+          "CE",
+          "FCC"
+        ],
+        "source": "industry_knowledge",
+        "status": "known_pricing",
+        "notes": "Entry-level pricing known"
+      },
+      {
+        "rank": 4,
+        "name": "OUKITEL Power",
+        "website": "oukitel.com",
+        "email": "support@oukitel.com",
+        "category": "1800W",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [
+          "CE"
+        ],
+        "source": "官网公开",
+        "status": "sent_inquiry",
+        "notes": "已发询盘，等回复"
+      },
+      {
+        "rank": 5,
+        "name": "OneSun Tech",
+        "website": "onesuntech.com",
+        "email": "admin@onesunpv.com",
+        "category": "solar_inverter",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [],
+        "source": "官网公开",
+        "status": "sent_inquiry",
+        "notes": "太阳能逆变器品类"
+      },
+      {
+        "rank": 6,
+        "name": "SOUOP",
+        "website": "souopower.com",
+        "email": "info@spowerstation.com",
+        "category": "500-5000W",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [
+          "CE",
+          "FCC"
+        ],
+        "source": "官网公开",
+        "status": "sent_inquiry",
+        "notes": "品类覆盖最广"
+      },
+      {
+        "rank": 7,
+        "name": "TURSAN",
+        "website": "tursan-energy.com",
+        "email": "tursan@tursan-energy.com",
+        "category": "portable+home_storage",
+        "fob_usd": null,
+        "moq": 200,
+        "certs": [
+          "CE",
+          "FCC",
+          "UL"
+        ],
+        "source": "官网公开",
+        "status": "sent_inquiry",
+        "notes": "认证最全。2026-06-05 Mavis Ivan回信，VP Sales，MOQ 200，交期30-35天，OEM/ODM，发了TURSAN Catalog-2026.pdf（图片PDF，价格不可提取）。已回复追价格清单。",
+        "lead_time": "30-35 days",
+        "contact_person": "Mavis Ivan (VP Sales)",
+        "contact_email": "mavis@tursan-pps.com"
+      },
+      {
+        "rank": 8,
+        "name": "IE-Energy",
+        "website": "ie-energy.com",
+        "contact": "Lisa / 13537343431",
+        "email": "marketing@ie-energy.com",
+        "category": "portable+home_storage",
+        "fob_usd": {
+          "H300_230Wh_300W": 119,
+          "H700_672Wh_700W": 224,
+          "H1200I_1075Wh_1200W": 300,
+          "H7012_1008Wh_1200W": 256,
+          "H2400_1843Wh_2400W": 487,
+          "F3600_3072Wh_3600W": 979
+        },
+        "moq": {
+          "H300": 1000,
+          "H700": 1000,
+          "H1200I": 500,
+          "H7012": 500,
+          "H2400": 300,
+          "F3600": 300
+        },
+        "cost_per_wh": {
+          "H300": 0.517,
+          "H700": 0.333,
+          "H1200I": 0.279,
+          "H7012": 0.254,
+          "H2400": 0.264,
+          "F3600": 0.319
+        },
+        "certs": [
+          "CE",
+          "FCC"
+        ],
+        "source": "报价PDF (2026-05-25, 编号20260525001)",
+        "status": "got_quotation",
+        "notes": "ODM/OEM. 6-8周交货. 付款50%预付,余款发货前. 报价有效期15天(至6/9). 深圳市智赋新能源有限公司(Shenzhen Intelligent Energy). Lisa/13537343431. MOQ对小型号偏高(H300/H700=1000), 中型型号MOQ 500, 大型号MOQ 300可接受."
+      },
+      {
+        "rank": 9,
+        "name": "Must Energy",
+        "website": "mustenergy.com",
+        "email": "gm@mustenergy.com",
+        "category": "solar_inverter+storage",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [
+          "CE"
+        ],
+        "source": "官网公开",
+        "status": "sent_inquiry",
+        "notes": "太阳能逆变器制造商"
+      },
+      {
+        "rank": 10,
+        "name": "MEINDCHINA",
+        "website": "meindchina.com",
+        "email": "info@meindchina.com",
+        "category": "inverter+portable",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [],
+        "source": "官网公开",
+        "status": "sent_inquiry",
+        "notes": ""
+      },
+      {
+        "rank": 11,
+        "name": "Shenzhen Taico Technology",
+        "website": "taicopower.com",
+        "email": "lay@taicopower.com",
+        "category": "300-5000W portable+home storage",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [
+          "CE",
+          "ROHS",
+          "UN38.3",
+          "UL",
+          "IEC"
+        ],
+        "source": "官网提取",
+        "status": "sent_rfq",
+        "notes": "14年厂，92分最优锤子。已发RFQ"
+      },
+      {
+        "rank": 12,
+        "name": "Lansine Intelligent (Zhongshan)",
+        "website": "lanxintelligent.com",
+        "email": "admin@lansinestorage.com",
+        "category": "1000-1500W portable",
+        "fob_usd": null,
+        "moq": {
+          "neutral_packaging": 50,
+          "oem_logo": 300
+        },
+        "certs": [],
+        "source": "官网提取",
+        "status": "in_discussion",
+        "notes": "2026-06-07: Sent model selection email to Aaron (admin@lansinestorage.com). Picked LX-ABS11 1100Wh/1500W, LX-ABS09-600W 537Wh/768Wh, and 2000W ABS model. Asked for FOB pricing at MOQ 5/20/50/100.\n2026-06-09: Aaron replied — can do OEM with MOQ 300 for logo, neutral packaging MOQ 50. Quotation and certificates attached. Need to download attachment to see FOB pricing.",
+        "contact_person": "Aaron",
+        "last_followup": "2026-06-09"
+      },
+      {
+        "rank": 13,
+        "name": "Foshan Namkoo New Energy",
+        "website": "namkoopower.com",
+        "email": "sales@namkoo-power.com",
+        "category": "1000-5000W portable+home storage",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [
+          "CE"
+        ],
+        "source": "官网提取",
+        "status": "sent_rfq",
+        "notes": "8年Alibaba, 5.0★/26reviews, 2005年成立。已发RFQ"
+      },
+      {
+        "rank": 14,
+        "name": "Dongguan Andefeng Battery",
+        "website": "adfbattery.com",
+        "email": "adf-012@adfbattery.com",
+        "category": "lithium battery+portable",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [
+          "CE"
+        ],
+        "source": "官网提取",
+        "status": "sent_rfq",
+        "notes": "2007年成立, 日产50万电芯。已发RFQ"
+      },
+      {
+        "rank": 15,
+        "name": "iForway",
+        "website": "iforway.com",
+        "email": "inquiry@iforway.com",
+        "category": "300-5000W portable",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [],
+        "source": "官网提取",
+        "status": "sent_rfq",
+        "notes": ""
+      },
+      {
+        "rank": 16,
+        "name": "CXJPowers",
+        "website": "cxjpowers.com",
+        "email": "info@cxjpowers.com",
+        "category": "300-5500W portable+home storage",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [],
+        "source": "官网提取",
+        "status": "sent_rfq",
+        "notes": ""
+      },
+      {
+        "rank": 17,
+        "name": "Safecloud Power",
+        "website": "safecloudpower.com",
+        "email": "info@safecloudpower.com",
+        "category": "LiFePO4 battery OEM",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [
+          "CE",
+          "FCC"
+        ],
+        "source": "官网提取",
+        "status": "sent_rfq",
+        "notes": "18年厂"
+      },
+      {
+        "rank": 18,
+        "name": "Houny Battery",
+        "website": "hounypower.com",
+        "email": "market@houny.cn",
+        "category": "portable+LiFePO4 battery",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [],
+        "source": "官网提取",
+        "status": "sent_rfq",
+        "notes": "2005年成立，500员工"
+      },
+      {
+        "rank": 19,
+        "name": "CALIFE",
+        "website": "califepower.com",
+        "email": "sales@califepower.com",
+        "category": "200-2000W portable",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [],
+        "source": "官网提取",
+        "status": "in_discussion",
+        "notes": "2014年，德国Leipzig有欧洲运营中心 | Coco asked about sales channel and OEM requirements. Has CE/ROHS/FCC/UKCA certs. No pricing yet - needs follow-up."
+      },
+      {
+        "rank": 20,
+        "name": "Bicodi",
+        "website": "bicodi.com",
+        "email": "sales@bicodi.com",
+        "category": "portable LiFePO4",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [],
+        "source": "官网提取",
+        "status": "sent_rfq",
+        "notes": ""
+      },
+      {
+        "rank": 21,
+        "name": "WorldPower",
+        "website": "worldpower-battery.com",
+        "email": "info@wpbattery.com",
+        "category": "lithium battery OEM",
+        "fob_usd": {
+          "Pioneer_1500_1024Wh": 425.38
+        },
+        "moq": 200,
+        "certs": [
+          "ISO9001"
+        ],
+        "source": "官网提取",
+        "status": "verified",
+        "notes": "2009年成立。2026-06-05 Cici (欧阳茜 sales13@wpbattery.com) 回复FOB报价：Pioneer 1500 1024Wh LiFePO4，FOB Shenzhen USD 425.38/pc，MOQ 200，交期45天。含产品图片。Dora Shi也跟进确认。WhatsApp: +86 17369244786\n2026-06-09: Cici replied confirming Pioneer 1500 specs (LiFePO4 cylindrical, CE/RoHS/UN38.3, 14.7kg net). Also recommended NR-02 536Wh/500W model at $107.46/pc. OEM supported. 2000-3000Wh line under upgrade. Can get FOB pricing from attachment.",
+        "lead_time": "45 days",
+        "model": "Pioneer 1500 (1024Wh LiFePO4)",
+        "contact": "Cici (sales13@wpbattery.com) / Dora Shi (info@wpbattery.com)",
+        "whatsapp": "+86 17369244786",
+        "specs": "1024Wh LiFePO4, 1500W output"
+      },
+      {
+        "rank": 22,
+        "name": "MECO Power",
+        "website": "mecopower.com",
+        "email": "sales@mecopower.com",
+        "contact_person": "Hoho Liu",
+        "contact_email": "hoho.liu@mecopower.com",
+        "category": "300-5000W portable LiFePO4",
+        "exw_usd": {
+          "Meco_1Kwh_1004Wh_300W": 145,
+          "Meco_1KwhPro_1004Wh_500W": 165,
+          "Meco_2Kwh_2009Wh_1200W": 298,
+          "Meco_3.6Kwh_3584Wh_2200W": 620,
+          "Meco_3.6KwhPro_3584Wh_3000W": 661,
+          "Meco_5.4Kwh_5376Wh_5000W": 918
+        },
+        "moq": {
+          "1KWH_1004Wh": 10,
+          "1KWH_Pro_1004Wh": 10,
+          "2KWH_2009Wh": 100,
+          "3.6KWH_3584Wh": 10,
+          "5.4KWH_5376Wh": 10
+        },
+        "certs": [
+          "CE",
+          "FCC"
+        ],
+        "source": "official_fob_quote_2026-06-06",
+        "status": "verified",
+        "notes": "2026-06-06 Hoho Liu confirmed FOB Shenzhen pricing: 1KWH $145/MOQ10, 1KWH Pro $165/MOQ10, 2KWH $165/MOQ100, 3.6KWH $620/MOQ10, 5.4KWH $918/MOQ10. Packing: 1KWH Pro 100pcs=3.5CBM, 2KWH 100pcs=4.5CBM. 1KWH: 349*537*290.5mm/20.5kg gross. 2KWH: 321*295*416mm/20kg gross. Contact: Hoho Liu, hoho.liu@mecopower.com. Also has tiered pricing at 100pcs/500pcs ($45/$42 for 1KWH, $65/$60 for 2KWH).\n2026-06-07: Hoho confirmed forwarder can do DDP to Durban/Cape Town ~$610/CBM, ~40 days. Asked if should prepare PI. Very positive — ready to do business.\n2026-06-08: Kanban任务t_34e94e50完成。整理了全套供应商档案+4个目标市场到岸价分析。MOQ100定价($45/$65)是当前hammer_db最低价，比Anern便宜65-75%。PI请求草稿已备，待SMTP恢复后发hoho.liu@mecopower.com。之前批次邮件中使用的1KWH $145是MOQ10价，如客户能走MOQ100则可报$45。",
+        "fob_usd": {
+          "1KWH_1004Wh_300W": 145,
+          "1KWH_Pro_1004Wh_500W": 165,
+          "2KWH_2009Wh_1200W": 165,
+          "3.6KWH_3584Wh_2200W": 620,
+          "5.4KWH_5376Wh_5000W": 918
+        },
+        "fob_volume": "MOQ varies by model"
+      },
+      {
+        "rank": 23,
+        "name": "Shunxiang Energy",
+        "website": "shunxiangenergy.com",
+        "email": "eason@shunxiangenergy.com",
+        "contact_person": "Eason",
+        "category": "300-3000W portable",
+        "exw_usd": {
+          "SX_300W_310Wh": 99,
+          "SX_600W_621Wh": 159,
+          "SX_1000W_1087Wh": 249,
+          "SX_1500W_1450Wh": 338,
+          "SX_3000W_3030Wh": 599
+        },
+        "fob_usd": {
+          "W77_1087Wh_1000W": 319,
+          "W78_1450Wh_1500W": 399,
+          "W79_3030Wh_3000W_NCM": 645
+        },
+        "fob_volume": "MOQ 10/200/500",
+        "moq": 10,
+        "certs": [],
+        "source": "official_fob_quote_2026-06-06",
+        "status": "verified",
+        "notes": "EXW Dongguan $249/338/599 at MOQ200. FOB Shenzhen: W77$319/264/253, W78$399/352/335, W79$645/615/589 (MOQ10/200/500). W79 is Li-Ion NCM not LFP. W77/W78 are Li-Ion (not LiFePO4). MECO ~50% cheaper for LFP. Eason Tel: +86 18658046918 | FOB quote PDF saved | Follow-up saved to shunxiang_followup_ready_to_send.txt (SMTP blocked by QQ geo)",
+        "lead_time": "30-35 working days",
+        "specs": "W77 1087Wh 1000W Li-Ion, W78 1450Wh 1500W Li-Ion, W79 3030Wh 3000W NCM",
+        "packing": {
+          "W77_W78": {"carton_mm": "490*285*345", "weight_kg": "15/22", "per_unit_cbm": 0.048},
+          "F78": {"carton_mm": "520*320*400", "weight_kg": "40", "per_unit_cbm": 0.067}
+        }
+      },
+      {
+        "rank": 24,
+        "name": "Anern Energy",
+        "website": "anern.com",
+        "email": "export9@anern.com",
+        "contact_person": "Luke Chan",
+        "category": "300-3000W portable LiFePO4",
+        "status": "verified",
+        "moq": 50,
+        "certs": [
+          "CE",
+          "UN38.3"
+        ],
+        "notes": "FOB Guangzhou pricing. 16 years factory. CE/UN38.3 certified. OEM >100pcs. UK socket (Type G) available. MOQ 50. Lead time 20-27 work days. WhatsApp: +86***3090",
+        "fob_usd": {
+          "MPSG-N_600Wh_500W": 199,
+          "MPSG-E_1280Wh_1200W": 205,
+          "MPSG-E_2560Wh_2000W": 323
+        },
+        "specs": {
+          "MPSG-N_600Wh_500W": {
+            "wh": 600,
+            "w": 500,
+            "series": "MPSG-N",
+            "battery_voltage": "12.8V"
+          },
+          "MPSG-E_1280Wh_1200W": {
+            "wh": 1280,
+            "w": 1200,
+            "series": "MPSG-E",
+            "battery_voltage": "12.8V"
+          },
+          "MPSG-E_2560Wh_2000W": {
+            "wh": 2560,
+            "w": 2000,
+            "series": "MPSG-E",
+            "battery_voltage": "25.6V"
+          }
+        },
+        "cost_per_wh": {
+          "MPSG-N_600Wh_500W": 0.332,
+          "MPSG-E_1280Wh_1200W": 0.16,
+          "MPSG-E_2560Wh_2000W": 0.126
+        },
+        "competitor_comparison_2000Wh_range": {
+          "Anern MPSG-E_2560Wh": {
+            "price": 323,
+            "wh": 2560,
+            "cost_per_wh": 0.126,
+            "moq": 50,
+            "status": "verified"
+          },
+          "MECO 2KWH_2009Wh": {
+            "price": 165,
+            "wh": 2009,
+            "cost_per_wh": 0.082,
+            "moq": 100,
+            "status": "verified_but_suspiciously_low"
+          },
+          "Pecron E2400LFP_2048Wh": {
+            "price": 433.5,
+            "wh": 2048,
+            "cost_per_wh": 0.212,
+            "moq": null,
+            "status": "verified"
+          },
+          "PowerLFP LF-B2000PPS_2016Wh": {
+            "price": 529,
+            "wh": 2016,
+            "cost_per_wh": 0.262,
+            "moq": 100,
+            "status": "verified"
+          },
+          "Shunxiang W78_1450Wh_1500W": {
+            "price": 399,
+            "wh": 1450,
+            "cost_per_wh": 0.275,
+            "moq": 10,
+            "status": "verified_NCM_note"
+          },
+          "PiForz PF2000_1536Wh": {
+            "price": 600,
+            "wh": 1536,
+            "cost_per_wh": 0.391,
+            "moq": 200,
+            "status": "verified_highest"
+          }
+        },
+        "competition_summary": "Anern MPSG-E_2560Wh ($323, $0.126/Wh) is #2 cheapest at 2000Wh range after MECO 2KWH ($165, $0.082/Wh — likely mispriced). Beats Pecron ($433, $0.212/Wh) by 25% and PowerLFP ($529, $0.262/Wh) by 39%. Best value for LFP at 2000W class. MECO is cheaper per Wh but at 2009Wh vs Anern's 2560Wh (+27% more capacity). If MECO's $165 is real, MECO wins on price; Anern wins on capacity.",
+        "lead_time": "20-27 work days",
+        "contact_email": "export9@anern.com",
+        "source": "email_reply_2026-06-05"
+      },
+      {
+        "rank": 25,
+        "name": "PowerLFP (LiFePower)",
+        "website": "powerlfp.com",
+        "email": "jessica@powerlfp.com",
+        "contact_person": "Jessica Gong",
+        "category": "portable LiFePO4 + custom battery",
+        "status": "verified",
+        "notes": "2026-06-06 replied with quotation PDF. MOQ 100. VP of Sales Jessica Gong. Also does custom Li-ion, sodium-ion, residential UPS.",
+        "fob_usd": {
+          "LF-B600PPS_576Wh_600W_LFP": 115,
+          "LF-B1200PPS_1152Wh_1200W_LFP": 219,
+          "LF-B2000PPS_2016Wh_2000W_LFP": 529
+        },
+        "fob_volume": "MOQ 100",
+        "contact_email": "jessica@powerlfp.com",
+        "specs": "LF-Y500PPS 568Wh Li-ion $195, LF-B600PPS 576Wh LFP $115, LF-B1200PPS 1152Wh LFP $219, LF-B2000PPS 2016Wh LFP $529"
+      },
+      {
+        "rank": 26,
+        "name": "Fujian Huari Automotive Parts",
+        "website": "fjhuari.com",
+        "email": "sales2@fjhuari.com",
+        "contact_person": "Choice Lian (连巧燕)",
+        "category": "brake_pads",
+        "status": "replied_no_pricing",
+        "source": "email_reply_2026-06-06",
+        "notes": "Supplier for brake pads & brake shoes ~2000 items. MOQ 300 set/item, lead time 35-45 days. ISO 9001, TS 16949, E-MARK certified. OEM accepted. Asked for OE part numbers before giving pricing. No FOB pricing yet. Phone: +86-18759315798",
+        "moq": 300,
+        "lead_time": "35-45 days",
+        "certs": [
+          "ISO9001",
+          "TS16949",
+          "E-MARK"
+        ],
+        "fob_usd": null
+      },
+      {
+        "rank": 27,
+        "name": "Topure Power",
+        "website": "topurepower.com",
+        "email": "sales@topurepower.com",
+        "category": "3000W portable LiFePO4",
+        "fob_usd": null,
+        "moq": null,
+        "certs": [],
+        "source": "官网公开",
+        "status": "sent_rfq_replied",
+        "notes": "CP3000/CP3600 3000W-class LiFePO4. Client list includes China Mobile and State Grid. 2026-06-05: Sent RFQ for FOB Shenzhen at 5/20 pcs. 2026-06-07: Frankhan replied but body was empty/corrupted — likely needs re-follow-up. No pricing received yet."
+      }
+    ]
+  },
+  "competitor_brands": {
+    "name": "竞争对手品牌价格基准（用于邮件价格对比）",
+    "last_updated": "2026-06-03",
+    "brands": [
+      {
+        "name": "EcoFlow",
+        "model": "DELTA 3 Plus",
+        "capacity_wh": 1024,
+        "retail_usd": 999,
+        "est_wholesale_usd": 600,
+        "margin_pct": 40
+      },
+      {
+        "name": "EcoFlow",
+        "model": "DELTA 3 Max",
+        "capacity_wh": 2048,
+        "retail_usd": 1299,
+        "est_wholesale_usd": 780,
+        "margin_pct": 40
+      },
+      {
+        "name": "EcoFlow",
+        "model": "DELTA Pro",
+        "capacity_wh": 3600,
+        "retail_usd": 3699,
+        "est_wholesale_usd": 2200,
+        "margin_pct": 40
+      },
+      {
+        "name": "Jackery",
+        "model": "Explorer 1000 v2",
+        "capacity_wh": 1070,
+        "retail_usd": 449,
+        "est_wholesale_usd": 270,
+        "margin_pct": 40
+      },
+      {
+        "name": "Bluetti",
+        "model": "AC200",
+        "capacity_wh": 2048,
+        "retail_usd": 1699,
+        "est_wholesale_usd": 1020,
+        "margin_pct": 40
+      },
+      {
+        "name": "Anker",
+        "model": "SOLIX C1000",
+        "capacity_wh": 1024,
+        "retail_usd": 999,
+        "est_wholesale_usd": 600,
+        "margin_pct": 40
+      }
+    ]
+  }
+}

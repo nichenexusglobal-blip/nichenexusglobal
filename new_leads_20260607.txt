@@ -1,0 +1,41 @@
+# 新便携电站经销商线索（2026-06-07）
+# 来源：Web搜索验证
+# 格式：公司名 | 邮箱 | 网站 | 国家 | 品牌代理
+
+# 南非（Load shedding市场）
+iseli energy | sales@iseli-energy.com | iseli-energy.com | South Africa | 
+Nology (Bluetti authorized) | info@nology.co.za | nology.co.za | South Africa | Bluetti
+Flexopower Energies | info@flexopower.com | flexopower.co.za | South Africa | 
+PSS Distributors | sales@pss.co.za | pss.co.za | South Africa | 
+Solar Sonic | info@solarsonic.co.za | solarsonic.co.za | South Africa | 
+
+# 菲律宾
+Bluetti Philippines | hello@bluettiphilippines.com | bluettiphilippines.com | Philippines | Bluetti
+Bluetti PH Official | sale-ph@bluettipower.com | bluettipower.ph | Philippines | Bluetti
+EcoFlow Philippines | distribution@enable.ph | ecoflowpower.ph | Philippines | EcoFlow
+Power Ai Philippines | partnerships@powerai.ph | powerai.ph | Philippines | 
+
+# 阿联酋/中东
+XO Tech Trading | info@xotechtrading.com | xotechtrading.com | UAE | 
+ADEX International | info@adexuae.com | adexuae.com | UAE | 
+Power & Sun Solar | info@powernsun.com | powernsun.com | UAE | 
+MEA Power | info@mea-power.com | mea-power.com | UAE | 
+BLUETTI MENA | mena-sales@bluetti.com | sa.bluettipower.com | Saudi Arabia | Bluetti
+Adventure HQ (EcoFlow) | customercare@adventurehq.ae | adventurehq.ae | UAE | EcoFlow
+
+# 尼日利亚
+BLUETTI Nigeria | sale-nga@bluettipower.com | ng.bluettipower.com | Nigeria | Bluetti
+TD Africa (EcoFlow) | chioma@tdafrica.com | store.tdafrica.com | Nigeria | EcoFlow
+Detopsy Electrical Shop | info@detopsyelectricalshop.com | detopsyelectricalshop.com | Nigeria | 
+
+# 肯尼亚
+BatteriQ (EcoFlow) | hello@batteriq.com | batteriq.com | Kenya | EcoFlow
+Rapidtech Networks | sales@rapidtech.co.ke | rapidtech.co.ke | Kenya | 
+Clykay (EcoFlow) | info@clykay.co.ke | clykay.co.ke | Kenya | EcoFlow
+Firstsun Technologies | info@firstsuntechnologies.co.ke | firstsuntechnologies.co.ke | Kenya | 
+
+# 印尼
+Energix (BLUETTI) | info@energix.id | energix.id | Indonesia | Bluetti
+
+# 印度
+Cavitak (EcoFlow India) | info@cavitak.com | cavitak.com | India | EcoFlow

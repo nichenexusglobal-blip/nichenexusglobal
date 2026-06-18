@@ -1,0 +1,32 @@
+TO: eason@shunxiangenergy.com
+COMPANY: Shunxiang Energy
+SCORE: 56/100
+ISSUE: ⚠️ 仅提到1个型号，建议至少2个
+ISSUE: ❌ 未包含对方的零售价 — 没有从他们网站提取价格数据
+ISSUE: ❌ 只打开了0个页面，需要至少3个（首页/产品页/About）
+ISSUE: ⚠️ 研究证据不完整 — 缺少产品或价格数据
+ISSUE: ❌ 未包含我们的FOB报价
+ISSUE: ❌ 无价格对比或量化价值 — 只说价格不说省多少
+ISSUE: ⚠️ CTA偏弱 — 建议给具体动作：'我发spec sheet给你' 而不是 '你有兴趣吗'
+
+Hi Eason,
+
+Looking at your product line on shunxiangenergy.com — I saw you carry quite a range including the W77 (1087Wh/1000W), W78 (1450Wh/1500W), and W79 (3030Wh/3000W NCM), plus your F-series like the F38 1200W/960Wh. Thanks for the FOB quote PDF on the W series — the pricing looks reasonable for the spec range.
+
+A few operational follow-up questions as I work on landed cost projections for our buyers across SE Asia and Africa:
+
+1. EXW Dongguan pricing for the W77/W78/W79 — do you have EXW prices at different MOQ tiers (e.g., 200 and 500 pcs)? This helps us compare against your SX line.
+
+2. DDP estimates — what would DDP pricing look like to a major European port (e.g., Rotterdam) or to the US West Coast (Los Angeles)? We have buyers in both regions.
+
+3. Packing specs — per-unit carton dimensions (L*W*H in cm) and gross weight for each of the W77, W78, W79 models? Need CBM and kg for freight calculations.
+
+4. Freight forwarder — do you have a forwarder you usually work with for international sea/air shipments? If so, I can reach out to them directly for rates.
+
+Also, for the W77 and W78 — are they LiFePO4 or Li-Ion NCM like the W79? Your site mentions both battery types across different models.
+
+Appreciate your help — once I have these details I can move forward with allocations.
+
+Best regards,
+Pen
+nichenexusglobal.com

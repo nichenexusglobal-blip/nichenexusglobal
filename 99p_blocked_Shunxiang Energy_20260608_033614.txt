@@ -1,0 +1,30 @@
+TO: eason@shunxiangenergy.com
+COMPANY: Shunxiang Energy
+SCORE: 63/100
+ISSUE: ⚠️ 仅提到1个型号，建议至少2个
+ISSUE: ❌ 未包含对方的零售价 — 没有从他们网站提取价格数据
+ISSUE: ⚠️ 研究证据不完整 — 缺少产品或价格数据
+ISSUE: ❌ 未包含我们的FOB报价
+ISSUE: ❌ 无价格对比或量化价值 — 只说价格不说省多少
+
+Hi Eason,
+
+I checked your product line on shunxiangenergy.com — you carry a solid range including the W77 (1087Wh/1000W at $319 FOB), W78 (1450Wh/1500W at $399 FOB), and W79 (3030Wh/3000W NCM at $645 FOB), plus the F38 (1200W/960Wh LiFePO4) and F78 (3000W/6000W peak). Thanks again for the FOB quote PDF on the W series.
+
+A few operational follow-ups as I calculate landed costs for buyers in SE Asia, Middle East, and Africa:
+
+1. EXW Dongguan pricing for W77/W78/W79 — do you have EXW prices at MOQ 200 and 500? That helps me compare across your W and SX lines.
+
+2. DDP estimates — what would DDP pricing look like to Rotterdam (Europe) and Los Angeles (US West Coast)? I want to offer complete landed cost to buyers.
+
+3. Packing specs — per-unit carton dimensions (L*W*H) and gross weight for W77, W78, W79? I need CBM and kg for freight from Shenzhen.
+
+4. Freight forwarder — do you have a forwarder you recommend for sea freight from Shenzhen to SE Asia/Europe? If yes, I'll contact them for rates.
+
+Also — are the W77 and W78 LiFePO4 or Li-Ion? Your site shows both battery types on different products, and your quote noted W79 is NCM.
+
+Once I have the packing specs and EXW pricing I can finalize shipping calculations and send you a trial order.
+
+Best regards,
+Pen
+nichenexusglobal.com

@@ -1,0 +1,31 @@
+TO: eason@shunxiangenergy.com
+COMPANY: Shunxiang Energy
+SCORE: 27/100
+ISSUE: ❌ 公司名未出现在正文中
+ISSUE: ❌ 未提及任何品牌名
+ISSUE: ❌ 未提到对方的具体产品型号 — 没有调研他们卖什么
+ISSUE: ❌ 未包含对方的零售价 — 没有从他们网站提取价格数据
+ISSUE: ❌ 未找到该公司的研究证据 — 必须先调研保存证据
+ISSUE: ❌ 未包含我们的FOB报价
+ISSUE: ❌ 无价格对比或量化价值 — 只说价格不说省多少
+ISSUE: ⚠️ CTA偏弱 — 建议给具体动作：'我发spec sheet给你' 而不是 '你有兴趣吗'
+
+Hi Eason,
+
+Thanks for your FOB quotation on the W77/W78/W79 models — we received the PDF and have reviewed the pricing.
+
+A few follow-up questions as we put together shipping cost analysis for our buyers:
+
+1. EXW pricing for W77/W78/W79 — could you provide EXW Dongguan prices at different MOQ tiers (e.g., 200, 500 pcs)?
+
+2. DDP estimates — what would DDP pricing look like to a major European port (e.g., Rotterdam) or the US West Coast (LA)? This helps us decide the best incoterm for different markets.
+
+3. Packing details — per-unit dimensions (CBM) and gross weight for each model? Need these for freight calculations.
+
+4. Do you have a regular freight forwarder you recommend for international shipments?
+
+Appreciate your help with these — we have buyers lining up and want to present complete landed cost projections.
+
+Best regards,
+Pen
+nichenexusglobal.com

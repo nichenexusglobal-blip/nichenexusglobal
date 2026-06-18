@@ -3,626 +3,208 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>nichenexusglobal — Connect Every Niche, Empower Every Entrepreneur</title>
-  <meta name="description" content="Niche market intelligence. We scan global trade data to help ecommerce brands find better suppliers, spot new opportunities, and optimize cross-border operations.">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>nichenexusglobal</title>
+  <meta name="description" content="We connect you with the right suppliers, partners, and opportunities across Asia, Africa, the Middle East, and Latin America.">
   <style>
-    :root {
-      --purple: #533afd;
-      --purple-hover: #4434d4;
-      --purple-light: #b9b9f9;
-      --navy: #061b31;
-      --dark-navy: #0d253d;
-      --brand-dark: #1c1e54;
-      --body: #64748d;
-      --label: #273951;
-      --border: #e5edf5;
-      --white: #ffffff;
-      --green: #15be53;
-      --ruby: #ea2261;
-      --magenta: #f96bee;
-      --shadow-blue: rgba(50,50,93,0.25);
-      --shadow-black: rgba(0,0,0,0.1);
-      --font: 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-      --mono: 'Source Code Pro', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    }
-
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-    html { scroll-behavior: smooth; }
-    
     body {
-      font-family: var(--font);
-      font-weight: 300;
-      color: var(--body);
-      background: var(--white);
+      font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: #000;
+      color: #fff;
       -webkit-font-smoothing: antialiased;
-      font-feature-settings: "ss01";
     }
-
-    /* ── Navigation ── */
     nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 100;
-      background: rgba(255,255,255,0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: #000; border-bottom: 1px solid #222;
     }
-    nav .nav-inner {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding: 0 24px;
-      height: 64px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    nav .inner {
+      max-width: 1440px; margin: 0 auto;
+      padding: 20px 40px; display: flex; justify-content: space-between; align-items: center;
     }
     .logo {
-      font-size: 20px;
-      font-weight: 500;
-      color: var(--navy);
-      text-decoration: none;
-      letter-spacing: -0.3px;
+      font-size: 13px; font-weight: 900; color: #fff;
+      letter-spacing: -0.3px; text-transform: uppercase; text-decoration: none;
     }
-    .logo span { color: var(--purple); }
-    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .logo em { font-style: normal; color: #555; }
+    .nav-links { display: flex; gap: 36px; }
     .nav-links a {
-      font-size: 14px;
-      font-weight: 400;
-      color: var(--navy);
-      text-decoration: none;
-      transition: color 0.2s;
+      font-size: 9px; font-weight: 400; color: #555;
+      text-decoration: none; text-transform: uppercase; letter-spacing: 2px; transition: color 0.2s;
     }
-    .nav-links a:hover { color: var(--purple); }
-    .nav-cta {
-      display: inline-block;
-      background: var(--purple);
-      color: var(--white) !important;
-      padding: 8px 16px;
-      border-radius: 4px;
-      font-weight: 400;
-      font-size: 14px;
-      transition: background 0.2s;
-    }
-    .nav-cta:hover { background: var(--purple-hover) !important; }
-    .mobile-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
-    .mobile-toggle span { display: block; width: 24px; height: 2px; background: var(--navy); margin: 5px 0; border-radius: 1px; }
+    .nav-links a:hover { color: #fff; }
 
-    /* ── Hero ── */
     .hero {
-      padding: 160px 24px 100px;
-      max-width: 1080px;
-      margin: 0 auto;
-      text-align: center;
+      min-height: 100vh; padding: 200px 40px 80px;
+      max-width: 1440px; margin: 0 auto;
+      display: flex; flex-direction: column; justify-content: center;
     }
     .hero h1 {
-      font-size: 56px;
-      font-weight: 300;
-      line-height: 1.03;
-      letter-spacing: -1.4px;
-      color: var(--navy);
-      max-width: 900px;
-      margin: 0 auto 24px;
+      font-size: clamp(40px, 7vw, 100px); font-weight: 900;
+      line-height: 0.9; letter-spacing: -2.5px; text-transform: uppercase;
     }
-    .hero h1 em {
-      font-style: normal;
-      background: linear-gradient(135deg, var(--purple), var(--ruby));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .hero p {
-      font-size: 18px;
-      font-weight: 300;
-      line-height: 1.4;
-      color: var(--body);
-      max-width: 640px;
-      margin: 0 auto 40px;
-    }
-    .hero-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-    .btn-primary {
-      display: inline-block;
-      background: var(--purple);
-      color: var(--white);
-      padding: 10px 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 400;
-      transition: background 0.2s;
-    }
-    .btn-primary:hover { background: var(--purple-hover); }
-    .btn-ghost {
-      display: inline-block;
-      background: transparent;
-      color: var(--purple);
-      padding: 10px 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 400;
-      border: 1px solid var(--purple-light);
-      transition: background 0.2s;
-    }
-    .btn-ghost:hover { background: rgba(83,58,253,0.05); }
-
-    /* ── Problem Section ── */
-    .problem {
-      padding: 80px 24px;
-      background: var(--white);
-    }
-    .problem-inner {
-      max-width: 1080px;
-      margin: 0 auto;
-      text-align: center;
-    }
-    .problem h2 {
-      font-size: 32px;
-      font-weight: 300;
-      letter-spacing: -0.64px;
-      color: var(--navy);
-      margin-bottom: 16px;
-    }
-    .problem p {
-      font-size: 16px;
-      line-height: 1.5;
-      max-width: 700px;
-      margin: 0 auto 60px;
-    }
-    .pain-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-    .pain-card {
-      padding: 32px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      text-align: left;
-      transition: box-shadow 0.3s;
-    }
-    .pain-card:hover {
-      box-shadow: var(--shadow-blue) 0px 30px 45px -30px, var(--shadow-black) 0px 18px 36px -18px;
-    }
-    .pain-card .icon {
-      font-size: 32px;
-      margin-bottom: 16px;
-    }
-    .pain-card h3 {
-      font-size: 22px;
-      font-weight: 300;
-      letter-spacing: -0.22px;
-      color: var(--navy);
-      margin-bottom: 8px;
-    }
-    .pain-card p {
-      font-size: 14px;
-      color: var(--body);
-      margin: 0;
-      line-height: 1.5;
+    .hero h1 .gray { color: #333; }
+    .hero .sub {
+      font-size: 11px; font-weight: 400; color: #555;
+      letter-spacing: 2px; text-transform: uppercase;
+      margin-top: 48px; max-width: 500px; line-height: 1.8;
     }
 
-    /* ── How It Works ── */
-    .how-it-works {
-      padding: 80px 24px;
-      background: var(--brand-dark);
-      color: var(--white);
-    }
-    .how-inner {
-      max-width: 1080px;
-      margin: 0 auto;
-    }
-    .how-inner h2 {
-      font-size: 32px;
-      font-weight: 300;
-      letter-spacing: -0.64px;
-      color: var(--white);
-      margin-bottom: 16px;
-      text-align: center;
-    }
-    .how-inner > p {
-      font-size: 16px;
-      color: rgba(255,255,255,0.7);
-      text-align: center;
-      max-width: 600px;
-      margin: 0 auto 60px;
-    }
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 32px;
-    }
-    .step {
-      text-align: center;
-    }
-    .step-num {
-      display: inline-flex;
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background: rgba(83,58,253,0.3);
-      color: var(--purple-light);
-      font-size: 18px;
-      font-weight: 500;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 20px;
-    }
-    .step h3 {
-      font-size: 20px;
-      font-weight: 400;
-      color: var(--white);
-      margin-bottom: 12px;
-    }
-    .step p {
-      font-size: 14px;
-      color: rgba(255,255,255,0.7);
-      line-height: 1.5;
+    section { padding: 100px 40px; max-width: 1440px; margin: 0 auto; }
+    .section-label {
+      font-size: 9px; font-weight: 400; color: #333;
+      letter-spacing: 2px; text-transform: uppercase; margin-bottom: 40px;
     }
 
-    /* ── Product/Report Preview ── */
-    .product {
-      padding: 80px 24px;
-      background: var(--white);
+    .how-we-work p {
+      font-size: 11px; color: #555; line-height: 2; max-width: 700px; margin-bottom: 60px;
     }
-    .product-inner {
-      max-width: 1080px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 64px;
-      align-items: center;
+    .how-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px; }
+    .how-card h3 {
+      font-size: 10px; font-weight: 900; color: #fff;
+      letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px;
     }
-    .product-text h2 {
-      font-size: 32px;
-      font-weight: 300;
-      letter-spacing: -0.64px;
-      color: var(--navy);
-      margin-bottom: 16px;
-    }
-    .product-text p {
-      font-size: 16px;
-      line-height: 1.5;
-      margin-bottom: 24px;
-    }
-    .product-text ul {
-      list-style: none;
-      padding: 0;
-    }
-    .product-text ul li {
-      padding: 8px 0;
-      font-size: 14px;
-      color: var(--label);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .product-text ul li::before {
-      content: "";
-      width: 6px;
-      height: 6px;
-      background: var(--purple);
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-    .product-visual {
-      background: linear-gradient(135deg, var(--brand-dark), #2a2770);
-      border-radius: 8px;
-      padding: 40px;
-      color: var(--white);
-      box-shadow: var(--shadow-blue) 0px 30px 45px -30px, var(--shadow-black) 0px 18px 36px -18px;
-    }
-    .product-visual .data-label {
-      font-family: var(--mono);
-      font-size: 11px;
-      color: var(--purple-light);
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 12px;
-    }
-    .product-visual .data-value {
-      font-size: 24px;
-      font-weight: 300;
-      margin-bottom: 16px;
-    }
-    .product-visual .data-row {
-      display: flex;
-      justify-content: space-between;
-      padding: 12px 0;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-      font-size: 14px;
-    }
-    .product-visual .data-row:last-child { border-bottom: none; }
-    .product-visual .highlight {
-      color: var(--green);
-      font-weight: 400;
-    }
+    .how-card p { font-size: 10px; color: #555; line-height: 1.8; }
 
-    /* ── CTA Section ── */
-    .cta-section {
-      padding: 80px 24px;
-      background: var(--white);
-      border-top: 1px solid var(--border);
-      text-align: center;
+    .examples-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: #1a1a1a;
     }
-    .cta-inner {
-      max-width: 640px;
-      margin: 0 auto;
+    .example-card { background: #000; padding: 40px; }
+    .example-card .num { font-size: 36px; font-weight: 900; color: #1a1a1a; line-height: 1; }
+    .example-card h3 {
+      font-size: 10px; font-weight: 900; color: #fff;
+      letter-spacing: 1.5px; text-transform: uppercase; margin: 8px 0 12px;
     }
-    .cta-inner h2 {
-      font-size: 32px;
-      font-weight: 300;
-      letter-spacing: -0.64px;
-      color: var(--navy);
-      margin-bottom: 16px;
-    }
-    .cta-inner p {
-      font-size: 16px;
-      color: var(--body);
-      margin-bottom: 32px;
-    }
-    .cta-form {
-      display: flex;
-      gap: 8px;
-      max-width: 480px;
-      margin: 0 auto;
-    }
-    .cta-form input {
-      flex: 1;
-      padding: 10px 16px;
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      font-family: var(--font);
-      font-size: 14px;
-      color: var(--navy);
-      background: var(--white);
-      outline: none;
-      transition: border-color 0.2s;
-    }
-    .cta-form input:focus {
-      border-color: var(--purple);
-    }
-    .cta-form input::placeholder { color: var(--body); }
-    .cta-form button {
-      padding: 10px 20px;
-      background: var(--purple);
-      color: var(--white);
-      border: none;
-      border-radius: 4px;
-      font-family: var(--font);
-      font-size: 14px;
-      font-weight: 400;
-      cursor: pointer;
-      transition: background 0.2s;
-      white-space: nowrap;
-    }
-    .cta-form button:hover { background: var(--purple-hover); }
+    .example-card .desc { font-size: 10px; color: #555; line-height: 1.8; margin-bottom: 16px; }
+    .example-card .result-label { font-size: 8px; color: #333; letter-spacing: 1px; text-transform: uppercase; }
+    .example-card .result { font-size: 11px; color: #00ff88; font-weight: 900; margin-top: 4px; }
 
-    /* ── Footer ── */
+    .start p {
+      font-size: 11px; color: #555; line-height: 2; max-width: 500px; margin-bottom: 40px;
+    }
+    .start-list { list-style: none; }
+    .start-list li {
+      font-size: 10px; color: #666; padding: 12px 0;
+      border-top: 1px solid #1a1a1a; letter-spacing: 0.5px;
+    }
+    .start-list li:last-child { border-bottom: 1px solid #1a1a1a; }
+    .start-list li em { font-style: normal; color: #fff; font-weight: 900; }
+
     footer {
-      padding: 40px 24px;
-      background: var(--white);
-      border-top: 1px solid var(--border);
+      padding: 40px; border-top: 1px solid #222;
     }
-    footer .footer-inner {
-      max-width: 1080px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 13px;
-      color: var(--body);
+    footer .inner {
+      max-width: 1440px; margin: 0 auto;
+      display: flex; justify-content: space-between;
+      font-size: 9px; color: #444;
     }
-    footer a { color: var(--purple); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
+    footer a { color: #666; text-decoration: underline; text-underline-offset: 2px; }
 
-    /* ── Principles Strip ── */
-    .principles {
-      padding: 60px 24px;
-      background: #f8fafc;
-    }
-    .principles-inner {
-      max-width: 1080px;
-      margin: 0 auto;
-      text-align: center;
-    }
-    .principles h2 {
-      font-size: 22px;
-      font-weight: 300;
-      letter-spacing: -0.22px;
-      color: var(--navy);
-      margin-bottom: 32px;
-    }
-    .principles-chain {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 8px;
-      align-items: center;
-    }
-    .principle-item {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      padding: 10px 16px;
-      font-size: 13px;
-      color: var(--label);
-    }
-    .principle-arrow {
-      color: var(--purple-light);
-      font-size: 18px;
-    }
-
-    /* ── Responsive ── */
-    @media (max-width: 900px) {
-      .hero h1 { font-size: 40px; letter-spacing: -0.8px; }
-      .pain-grid, .steps { grid-template-columns: 1fr 1fr; }
-      .product-inner { grid-template-columns: 1fr; gap: 32px; }
-    }
-    @media (max-width: 640px) {
-      .hero { padding: 120px 16px 60px; }
-      .hero h1 { font-size: 32px; letter-spacing: -0.5px; }
-      .pain-grid, .steps { grid-template-columns: 1fr; }
+    @media (max-width: 768px) {
+      nav .inner { padding: 16px 20px; }
       .nav-links { display: none; }
-      .mobile-toggle { display: block; }
-      .cta-form { flex-direction: column; }
-      .cta-form button { width: 100%; }
-      footer .footer-inner { flex-direction: column; gap: 12px; text-align: center; }
-      .principles-chain { flex-direction: column; }
+      .hero { padding: 140px 20px 60px; }
+      section { padding: 60px 20px; }
+      .how-grid, .examples-grid { grid-template-columns: 1fr; }
+      footer .inner { flex-direction: column; gap: 8px; }
     }
   </style>
 </head>
 <body>
 
-  <!-- ── Navigation ── -->
   <nav>
-    <div class="nav-inner">
-      <a href="/" class="logo">nichenexus<span>global</span></a>
+    <div class="inner">
+      <a href="/" class="logo">NICHENEXUS<em>GLOBAL</em></a>
       <div class="nav-links">
-        <a href="#problem">The Problem</a>
-        <a href="#how">How It Works</a>
-        <a href="#product">Platform</a>
-        <a href="#contact" class="nav-cta">Get Started</a>
+        <a href="#how">HOW</a>
+        <a href="#work">WORK</a>
+        <a href="#start">START</a>
       </div>
-      <button class="mobile-toggle" onclick="document.querySelector('.nav-links').style.display='flex'" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
     </div>
   </nav>
 
-  <!-- ── Hero ── -->
   <section class="hero">
-    <h1>Connect <em>every niche</em>, empower every entrepreneur worldwide</h1>
-    <p>We scan global trade data to identify underserved niche markets and connect ecommerce brands with the right suppliers — turning intelligence into a competitive advantage.</p>
-    <div class="hero-btns">
-      <a href="#contact" class="btn-primary">Get Your Niche Report</a>
-      <a href="#how" class="btn-ghost">See How It Works</a>
+    <h1>
+      NAILS IN EVERY<br>
+      <span class="gray">MARKET</span><br>
+      HAMMERS IN EVERY<br>
+      <span class="gray">NICHE</span><br>
+      <span style="font-size:clamp(16px,2.5vw,32px);font-weight:400;color:#555;letter-spacing:1px;display:block;margin-top:32px;text-transform:none;">
+        WE DIG FOR NEEDS. WE DELIVER SOLUTIONS.<br>
+        WE FIND THE NAIL. WE FIND THE HAMMER.
+      </span>
+    </h1>
+    <div class="sub">
+      Need a supplier in Asia? A distributor in Africa? A partner in the Middle East?<br>
+      We find the right people and make the connection.
     </div>
   </section>
 
-  <!-- ── Problem ── -->
-  <section class="problem" id="problem">
-    <div class="problem-inner">
-      <h2>Cross-border trade is broken for small and mid-size brands</h2>
-      <p>Most ecommerce brands know there's opportunity in Southeast Asia — but finding the right suppliers, understanding local regulations, and spotting market trends before competitors is still done manually, if at all.</p>
-      <div class="pain-grid">
-        <div class="pain-card">
-          <div class="icon">🔍</div>
-          <h3>Blind Sourcing</h3>
-          <p>You don't know what you don't know. Thousands of qualified factories have capacity, but there's no system to match them to your specific needs across borders.</p>
-        </div>
-        <div class="pain-card">
-          <div class="icon">📊</div>
-          <h3>Lagging Intelligence</h3>
-          <p>By the time you hear about a market trend, your competitors have already moved. Trade data is public — but nobody is reading it for you in real-time.</p>
-        </div>
-        <div class="pain-card">
-          <div class="icon">📄</div>
-          <h3>Document Overload</h3>
-          <p>Each cross-border shipment requires 8-15 documents. One HS code mistake can hold your goods at customs for days, costing thousands in delays.</p>
-        </div>
+  <section class="how-we-work" id="how">
+    <div class="section-label">01 — HOW WE WORK</div>
+    <p>You tell us what you need. We figure out who has it and make the introduction. No platform to learn, no dashboard to check.</p>
+    <div class="how-grid">
+      <div class="how-card">
+        <h3>1. Tell Us Your Need</h3>
+        <p>A factory, a partner, market intelligence, compliance help. We start from what you're facing right now.</p>
+      </div>
+      <div class="how-card">
+        <h3>2. We Scan & Verify</h3>
+        <p>Our network and data sources identify candidates. We verify they're real, capable, and credible.</p>
+      </div>
+      <div class="how-card">
+        <h3>3. We Connect You</h3>
+        <p>You get the right contact with the right context. We stay involved to make sure it leads somewhere.</p>
       </div>
     </div>
   </section>
 
-  <!-- ── First Principles ── -->
-  <section class="principles">
-    <div class="principles-inner">
-      <h2>Our first principles</h2>
-      <div class="principles-chain">
-        <span class="principle-item">Create Value</span>
-        <span class="principle-arrow">→</span>
-        <span class="principle-item">Solve Problems</span>
-        <span class="principle-arrow">→</span>
-        <span class="principle-item">Find Real Demand</span>
-        <span class="principle-arrow">→</span>
-        <span class="principle-item">Rapid Iteration</span>
-        <span class="principle-arrow">→</span>
-        <span class="principle-item">Verify Model</span>
-        <span class="principle-arrow">→</span>
-        <span class="principle-item">Systematize</span>
-        <span class="principle-arrow">→</span>
-        <span class="principle-item">Leverage</span>
+  <section class="examples" id="work">
+    <div class="section-label">02 — EXAMPLES</div>
+    <div class="examples-grid">
+      <div class="example-card">
+        <div class="num">01</div>
+        <h3>Supplier Match</h3>
+        <div class="desc">A Singapore fashion brand needed garment factories in Vietnam with Q3 capacity. We found 6.</div>
+        <div class="result-label">SAVINGS</div>
+        <div class="result">12–18%</div>
+      </div>
+      <div class="example-card">
+        <div class="num">02</div>
+        <h3>Market Entry</h3>
+        <div class="desc">A Chinese electronics brand wanted to enter Indonesia. We found distributors and regulatory requirements.</div>
+        <div class="result-label">OUTCOME</div>
+        <div class="result">3 introductions</div>
+      </div>
+      <div class="example-card">
+        <div class="num">03</div>
+        <h3>Competitor Intel</h3>
+        <div class="desc">An SEA home brand needed to understand a competitor's gain. We traced their new supplier relationships.</div>
+        <div class="result-label">RESULT</div>
+        <div class="result">Actionable strategy</div>
+      </div>
+      <div class="example-card">
+        <div class="num">04</div>
+        <h3>Compliance Help</h3>
+        <div class="desc">A cosmetics brand needed halal certification for Indonesia. We found a consultant who could deliver.</div>
+        <div class="result-label">STATUS</div>
+        <div class="result">Certification in progress</div>
       </div>
     </div>
   </section>
 
-  <!-- ── How It Works ── -->
-  <section class="how-it-works" id="how">
-    <div class="how-inner">
-      <h2>How niche intelligence works</h2>
-      <p>Three layers of analysis, delivered as actionable intelligence — not dashboards you have to interpret.</p>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">1</div>
-          <h3>Global Scan</h3>
-          <p>Our system monitors trade flows, regulatory changes, and emerging demand signals across 50+ countries in real-time.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <h3>Niche Detection</h3>
-          <p>We identify underserved product categories, pricing gaps, and supplier opportunities specific to your business and target markets.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <h3>Actionable Report</h3>
-          <p>You receive a clear, prioritized report with supplier matches, market entry strategy, and risk assessment — ready to act on.</p>
-        </div>
-      </div>
-    </div>
+  <section class="start" id="start">
+    <div class="section-label">03 — START</div>
+    <p>Tell us what you need. We'll tell you if we can help — usually within 24 hours. No retainer, no commitment.</p>
+    <ul class="start-list">
+      <li><em>01.</em> Tell us your situation</li>
+      <li><em>02.</em> We respond with a plan and a price</li>
+      <li><em>03.</em> If you say yes, we start</li>
+    </ul>
   </section>
 
-  <!-- ── Product Preview ── -->
-  <section class="product" id="product">
-    <div class="product-inner">
-      <div class="product-text">
-        <h2>Your personal trade intelligence system</h2>
-        <p>We don't sell a platform you have to learn. We deliver intelligence you can use — straight to your inbox or through a simple request.</p>
-        <ul>
-          <li>Supplier recommendations based on your exact specs</li>
-          <li>Real-time competitor supply chain monitoring</li>
-          <li>Customs compliance and documentation automation</li>
-          <li>Market entry analysis for any SEA country</li>
-          <li>Duty and tariff optimization alerts</li>
-        </ul>
-      </div>
-      <div class="product-visual">
-        <div class="data-label">NicheNexus Intelligence Report</div>
-        <div class="data-value">Vietnam Garment Manufacturing</div>
-        <div class="data-row"><span>Suitable factories</span><span class="highlight">6 identified</span></div>
-        <div class="data-row"><span>Avg. cost savings vs. China</span><span class="highlight">12-18%</span></div>
-        <div class="data-row"><span>Available capacity (Q3)</span><span class="highlight">47,000 units/mo</span></div>
-        <div class="data-row"><span>Competitor activity</span><span class="highlight">3 brands onboarding</span></div>
-        <div class="data-row"><span>Regulatory risk</span><span style="color:#f96bee">Low</span><span></span></div>
-        <div style="margin-top: 20px; font-size: 12px; color: rgba(255,255,255,0.5);">
-          Generated May 21, 2026 • Data freshness: real-time
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── CTA ── -->
-  <section class="cta-section" id="contact">
-    <div class="cta-inner">
-      <h2>Get your first niche intelligence report</h2>
-      <p>Tell us your target market and product category. We'll send you a free analysis within 24 hours — no commitment.</p>
-      <form class="cta-form" action="mailto:pen@nichenexusglobal.com" method="post" enctype="text/plain">
-        <input type="email" placeholder="Your email address" required>
-        <button type="submit">Request Report</button>
-      </form>
-      <p style="margin-top: 16px; font-size: 12px; color: var(--body);">Or email us directly at <a href="mailto:pen@nichenexusglobal.com" style="color: var(--purple);">pen@nichenexusglobal.com</a></p>
-    </div>
-  </section>
-
-  <!-- ── Footer ── -->
   <footer>
-    <div class="footer-inner">
-      <span>© 2026 nichenexusglobal — Connect Every Niche, Empower Every Entrepreneur</span>
-      <span><a href="mailto:pen@nichenexusglobal.com">pen@nichenexusglobal.com</a></span>
+    <div class="inner">
+      <span>NICHENEXUSGLOBAL — 2026</span>
     </div>
   </footer>
 
