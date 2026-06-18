@@ -53,3 +53,4 @@ email_blacklist.json
 .archiver.pid
 archiver.log
 archiver_watchdog.log
+wago-api/
