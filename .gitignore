@@ -19,6 +19,14 @@ Thumbs.db
 backups/
 *.tar.gz
 
+# Large binary / generated
+attachments/
+wago-api/
+whatsapp_messages.jsonl
+wago-api/.wa_sync_pos
+wago-api/.wa_msg_count
+*.exe
+
 # Logs
 *.log
 send_log.jsonl
