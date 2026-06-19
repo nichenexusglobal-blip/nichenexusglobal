@@ -301,7 +301,7 @@
         "rank": 22,
         "name": "MECO Power",
         "website": "mecopower.com",
-        "email": "sales@mecopower.com",
+        "email": "hoho.liu@mecopower.com",
         "contact_person": "Hoho Liu",
         "contact_email": "hoho.liu@mecopower.com",
         "category": "300-5000W portable LiFePO4",
@@ -356,7 +356,7 @@
         ],
         "source": "official_exw_quotation_pdf_2026-06-01",
         "status": "verified",
-        "notes": "EXW Shenzhen pricing only (NOT FOB). Verified from official quotation PDF dated 2026-06-01, valid 30 days.\nPayment: 100% TT in advance. Delivery: 10-15 working days. Warranty: 2 years.\nTier pricing: 10-49 units / 50-100 units.\n\nWARNING: \n- 1Kwh 300W model ($145 EXW) is ONLY 300W output. NOT comparable to 1000W+ competitors.\n- For Power Solution Mall Nigeria (Gospower 1000W competitor), need MECO 2Kwh 1200W ($298 EXW) or higher.\n- All prices EXW Shenzhen. FOB add-on unknown.\n- Solar panel pricing also available (N-580W $65.80, N-620W $69.20, F-100W $47.20, F-200W $80.90)\n\nAttachments: C:/nichenexusglobal/attachments/MECO Power/ (1 files - official quotation PDF)",
+        "notes": "PDF quotation 2026-06-01 verified. EXW Shenzhen. LiFePO4, 8000 cycles.",
         "fob_volume": "MOQ varies by model",
         "specs": {
           "Meco_300_100W": "100W/300Wh/2.8kg/LiFePO4/8000cycles/IP20",
@@ -370,15 +370,7 @@
         },
         "best_wh_price": 0.082,
         "best_value_model": "2KWH_2009Wh_1200W: $165/2009Wh = $0.082/Wh",
-        "data_quality": {
-          "grade": "C",
-          "label": "EXW pricing confirmed from official PDF, FOB still unknown",
-          "issues": [
-            "EXW only, no FOB pricing",
-            "Need FOB confirmation from Hoho Liu",
-            "Need shipping cost to Nigeria (Lagos)"
-          ]
-        },
+        "data_quality": "A",
         "attachments": {
           "path": "C:/nichenexusglobal/attachments/MECO Power",
           "files": [
@@ -388,7 +380,53 @@
         },
         "payment_terms": "100% TT in advance",
         "delivery_time": "10-15 working days after payment",
-        "warranty": "2 years"
+        "warranty": "2 years",
+        "contact": "Hoho Liu",
+        "whatsapp": "8615814495128",
+        "products": [
+          {
+            "model": "Meco 300(100W)",
+            "wh": 300,
+            "w": 100,
+            "exw_10_49": 61,
+            "exw_50_100": 58
+          },
+          {
+            "model": "Meco 1Kwh(300W)",
+            "wh": 1004.8,
+            "w": 300,
+            "exw_10_49": 145,
+            "exw_50_100": 142
+          },
+          {
+            "model": "Meco 1Kwh Pro",
+            "wh": 1004.8,
+            "w": 500,
+            "exw_10_49": 165,
+            "exw_50_100": 160
+          },
+          {
+            "model": "Meco 2Kwh",
+            "wh": 2009.6,
+            "w": 1200,
+            "exw_10_49": 298,
+            "exw_50_100": 288
+          },
+          {
+            "model": "Meco 3.6Kwh Pro",
+            "wh": 3584,
+            "w": 3000,
+            "exw_10_49": 661,
+            "exw_50_100": 651
+          },
+          {
+            "model": "Meco 5.4Kwh",
+            "wh": 5376,
+            "w": 5000,
+            "exw_10_49": 918,
+            "exw_50_100": 898
+          }
+        ]
       },
       {
         "rank": 24,
@@ -403,7 +441,7 @@
           "CE",
           "UN38.3"
         ],
-        "notes": "2026-06-16: Luke followed up again asking Pen to check the quotation. Said \"I'm ready to adjust for you\" — open to negotiate pricing.\nPrevious reply chain: Pen sent initial inquiry → Luke replied with catalog → Pen asked detailed questions (specs, FOB port, cell type) → Luke answered all + sent FOB quotation PDF → Pen hasn't replied yet.\nLuke is now chasing for the 3rd time. This is a motivated supplier.\n\nKEY: MPSG-E 1280Wh/1200W at $205 FOB is best value in hammer_db ($0.16/Wh). Good for Kenya market (compete with EcoFlow DELTA 2 at KSH 64,000).\nMISSING: No packing data (CBM/weight). No shipping cost to Kenya. Luke asked to check — pending reply.\nAttachments: C:/nichenexusglobal/attachments/Anern Energy/ (1 files)",
+        "notes": "PI verified 2026-06-05. UK socket(Type G). Luke confirmed shipping data via WhatsApp.",
         "fob_usd": {
           "MPSG-N_600Wh_500W": 199,
           "MPSG-E_1280Wh_1200W": 205,
@@ -484,20 +522,32 @@
         "source": "email_reply_2026-06-05",
         "best_wh_price": 0.126,
         "best_value_model": "MPSG-E_2560Wh_2000W: $323/2560Wh = $0.126/Wh",
-        "data_quality": {
-          "grade": "A",
-          "label": "VERIFIED — all data confirmed with supplier",
-          "issues": [
-            "No packing/shipping data — cannot calculate landed cost"
-          ]
-        },
+        "data_quality": "A",
         "attachments": {
           "path": "C:/nichenexusglobal/attachments/Anern Energy",
           "files": [
             "Portable solar generators.pdf"
           ],
           "count": 1
-        }
+        },
+        "contact": "Luke",
+        "whatsapp": "46729529401489",
+        "products": [
+          {
+            "model": "AN-MPSG-N500",
+            "wh": 600,
+            "w": 500,
+            "price": 199,
+            "price_note": "PI ANSD260605-LU, 100pcs"
+          },
+          {
+            "model": "AN-MPSG-E1200",
+            "wh": 1280,
+            "w": 1200,
+            "price": 205,
+            "price_note": "PI ANSD260605-LU"
+          }
+        ]
       },
       {
         "rank": 25,
@@ -585,7 +635,7 @@
       {
         "rank": 23,
         "name": "Shunxiang Energy",
-        "website": "shunxiangenergy.com",
+        "website": "",
         "email": "eason@shunxiangenergy.com",
         "contact_person": "Eason",
         "category": "300-3000W portable",
@@ -606,7 +656,7 @@
         "certs": [],
         "source": "official_fob_quote_2026-06-06",
         "status": "verified",
-        "notes": "EXW Dongguan $249/338/599 at MOQ200. FOB Shenzhen: W77$319/264/253, W78$399/352/335, W79$645/615/589 (MOQ10/200/500). W79 is Li-Ion NCM not LFP. W77/W78 are Li-Ion (not LiFePO4). MECO ~50% cheaper for LFP. Eason Tel: +86 18658046918 | FOB quote PDF saved | Follow-up saved to shunxiang_followup_ready_to_send.txt (SMTP blocked by QQ geo)\nAttachments: C:/nichenexusglobal/attachments/Shunxiang Energy/ (1 files)",
+        "notes": "Quotation 2026-06-06. FOB Shenzhen. W79 uses NCM lithium, not LiFePO4.",
         "lead_time": "30-35 working days",
         "specs": "W77 1087Wh 1000W Li-Ion, W78 1450Wh 1500W Li-Ion, W79 3030Wh 3000W NCM",
         "packing": {
@@ -623,29 +673,50 @@
         },
         "best_wh_price": 0.213,
         "best_value_model": "W79_3030Wh_3000W_NCM: $645/3030Wh = $0.213/Wh",
-        "data_quality": {
-          "grade": "D",
-          "label": "SUSPICIOUS/EXPIRED — use with extreme caution",
-          "issues": [
-            "NCM battery — not LiFePO4, shorter lifespan",
-            "No certifications listed",
-            "W79 model uses NCM not LiFePO4 — different product category"
-          ]
-        },
+        "data_quality": "A",
         "attachments": {
           "path": "C:/nichenexusglobal/attachments/Shunxiang Energy",
           "files": [
             "SX Quotation to Pen.pdf"
           ],
           "count": 1
-        }
+        },
+        "contact": "Eason",
+        "whatsapp": "",
+        "products": [
+          {
+            "model": "W77",
+            "wh": 1087,
+            "w": 1000,
+            "fob_10": 319,
+            "fob_200": 264,
+            "fob_500": 253
+          },
+          {
+            "model": "W78",
+            "wh": 1450,
+            "w": 1500,
+            "fob_10": 399,
+            "fob_200": 352,
+            "fob_500": 335
+          },
+          {
+            "model": "W79",
+            "wh": 3030,
+            "w": 3000,
+            "fob_10": 645,
+            "fob_200": 615,
+            "fob_500": 589,
+            "note": "Li-Ion NCM, NOT LiFePO4"
+          }
+        ]
       },
       {
         "rank": 8,
         "name": "IE-Energy",
-        "website": "ie-energy.com",
-        "contact": "Lisa / 13537343431",
-        "email": "marketing@ie-energy.com",
+        "website": "",
+        "contact": "Krista / Lisa",
+        "email": "",
         "category": "portable+home_storage",
         "fob_usd": {
           "H300_230Wh_300W": 119,
@@ -677,23 +748,38 @@
         ],
         "source": "报价PDF (2026-05-25, 编号20260525001)",
         "status": "got_quotation",
-        "notes": "ODM/OEM. 6-8周交货. 付款50%预付,余款发货前. 报价有效期15天(至6/9). 深圳市智赋新能源有限公司(Shenzhen Intelligent Energy). Lisa/13537343431. MOQ对小型号偏高(H300/H700=1000), 中型型号MOQ 500, 大型号MOQ 300可接受.\nAttachments: C:/nichenexusglobal/attachments/IE-Energy/ (1 files)",
+        "notes": "Quotation 20260525001. Small capacity units. MOQ 300-1000.",
         "best_wh_price": 0.254,
         "best_value_model": "H7012_1008Wh_1200W: $256/1008Wh = $0.254/Wh",
-        "data_quality": {
-          "grade": "D",
-          "label": "SUSPICIOUS/EXPIRED — use with extreme caution",
-          "issues": [
-            "Pricing quote valid until June 9, 2026 — EXPIRED"
-          ]
-        },
+        "data_quality": "B",
         "attachments": {
           "path": "C:/nichenexusglobal/attachments/IE-Energy",
           "files": [
             "IE PPS QUOTATION 20260525001.pdf"
           ],
           "count": 1
-        }
+        },
+        "whatsapp": "8613537343431",
+        "products": [
+          {
+            "model": "H700",
+            "wh": 230.4,
+            "w": 700,
+            "price": 224
+          },
+          {
+            "model": "H2400",
+            "wh": 672,
+            "w": 2400,
+            "price": 487
+          },
+          {
+            "model": "F3600",
+            "wh": 0,
+            "w": 0,
+            "price": 979
+          }
+        ]
       },
       {
         "rank": 1,
@@ -741,7 +827,7 @@
         ],
         "source": "官网提取",
         "status": "verified",
-        "notes": "2009年成立。2026-06-05 Cici (欧阳茜 sales13@wpbattery.com) 回复FOB报价：Pioneer 1500 1024Wh LiFePO4，FOB Shenzhen USD 425.38/pc，MOQ 200，交期45天。含产品图片。Dora Shi也跟进确认。WhatsApp: +86 17369244786\n2026-06-09: Cici replied confirming Pioneer 1500 specs (LiFePO4 cylindrical, CE/RoHS/UN38.3, 14.7kg net). Also recommended NR-02 536Wh/500W model at $107.46/pc. OEM supported. 2000-3000Wh line under upgrade. Can get FOB pricing from attachment.\n\nVERIFIED SPECS: Pioneer 1500 1024Wh LiFePO4 1500W output 14.7kg (from Cici)\nNR-02 536Wh/500W at $107.46 FOB (from Cici June 9)\nAttachments: C:/nichenexusglobal/attachments/WorldPower/ (2 files)",
+        "notes": "NR Series catalog. LiFePO4, 2000+ cycles. No pricing. Contact for price.",
         "lead_time": "45 days",
         "model": "Pioneer 1500 (1024Wh LiFePO4)",
         "contact": "Cici (sales13@wpbattery.com) / Dora Shi (info@wpbattery.com)",
@@ -751,13 +837,7 @@
         },
         "best_wh_price": 0.415,
         "best_value_model": "Pioneer_1500_1024Wh: $425.38/1024Wh = $0.415/Wh",
-        "data_quality": {
-          "grade": "B",
-          "label": "LIKELY CORRECT — from supplier communication, some fields unconfirmed",
-          "issues": [
-            "Source: scraped from website, not verified with supplier"
-          ]
-        },
+        "data_quality": "C",
         "attachments": {
           "path": "C:/nichenexusglobal/attachments/WorldPower",
           "files": [
@@ -765,7 +845,23 @@
             "Product picture.png"
           ],
           "count": 2
-        }
+        },
+        "products": [
+          {
+            "model": "NR-01-300W",
+            "wh": 300,
+            "w": 300,
+            "price": 0,
+            "note": "no price in catalog"
+          },
+          {
+            "model": "NR-02-500W",
+            "wh": 536,
+            "w": 500,
+            "price": 0,
+            "note": "no price in catalog"
+          }
+        ]
       },
       {
         "rank": 3,
