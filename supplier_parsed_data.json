@@ -1,0 +1,81 @@
+{
+  "meco": [
+    [
+      "H91mm",
+      "25",
+      "7"
+    ],
+    [
+      "H311",
+      "25",
+      "2"
+    ],
+    [
+      "H311",
+      "45",
+      "0"
+    ],
+    [
+      "H360mm",
+      "45",
+      "0"
+    ],
+    [
+      "H360mm",
+      "57",
+      "9"
+    ],
+    [
+      "H402mm",
+      "15",
+      "0"
+    ]
+  ],
+  "ie_energy": [
+    [
+      "H300",
+      "119",
+      "4.9"
+    ],
+    [
+      "H700",
+      "230.",
+      "4"
+    ],
+    [
+      "H1200I",
+      "30",
+      "0"
+    ],
+    [
+      "H7012",
+      "60",
+      "0"
+    ],
+    [
+      "H2400",
+      "487",
+      "300"
+    ],
+    [
+      "F3600",
+      "2",
+      "7"
+    ]
+  ],
+  "shunxiang": [],
+  "anern_pi": [
+    [
+      "AN-MPSG-N500",
+      "10",
+      "0"
+    ],
+    [
+      "AN-MPSG-E1200",
+      "120",
+      "0"
+    ]
+  ],
+  "worldpower_nr": " 微信：JSBG1988\nPortable Energy Storage NR Series\nAC Output:2x100～120V or 2×220V～240V(EU/CH)\nContinuous 300W, instant startup 600W, pure sine \nwave output\n1*USB-C Output:5V/3A 9V/3A 12V/3A 15V/3A \n20V/2.25A*PD 45W\n2*USB-A Output:5V/3A 9V/2A 12V/1.5A*QC3.0\n18W Quick Charge \n4*DC Output:4*5521/12V10A Max 120W \n1*LED Light\nAC Input:90V~240V(Max 55W) \nSolar(MPPT)Input:11-30V(MAX 60W)\n \nCapacity:300wh\nBattery type:LFP (Lithium Iron Phosphate) \nLife Cycles:2000+Cycles to 80%Original Capacity \nWeight:≈3.5kg\nDimensions (LxW×D):350×170×240mm\nOperating Temperature:-20-55℃\nCharging temperature:0-50℃ \nOutput \n input \n Other information \nNR-01-300W\nNR-02-500W\nAC Output:2x100～120V or 2×220V～240V(EU/CH)\nContinuous 300W, instant startup 600W, pure sine \nwave output\n1*USB-C Output:5V/3A 9V/3A 12V/3A 15V/3A \n20V/2.25A *PD 45W\n2*USB-A Output:5V/3A 9V/2A 12V/1.5A QC3.0\n18W Quick Charge \n4*DC Output:4*5521/12V10A Max 120W \n1*LED Light\nAC Input:90V~240V(Max 100W) \nSolar(MPPT)Input:11-30V(MAX 120W)\n \nCapacity:536wh\nBattery type:LFP (Lithium Iron Phosphate) \nLife Cycles:2000+Cycles to 80%Original Capacity \nWeight:≈5.0kg\nDimensions (LxW×D):350×170×240mm\nOperating Temperature:-20-55℃\nCharging temperature:0-50℃ \nOutput \n input \n Other information ",
+  "anern_catalog": "SOLAR ENERGY STORAGE \nSOLAR  SOLUTIONS, GO  SOLAR  WITH  ANERN\n49 www.anern.com 50\nSOLAR ENERGY STORAGE SYSTEM AN-MPSG-E1200/2000\nFeatures\nPure Sine Wave Solar Inverter;\nBuilt-in A Grade LiFePo4 lithium battery;\nConvenient and practical 5VDC-USB output port and 12VDC output port;\nBuilt-in MPPT solar controller, max charge current 100A (PV+AC);\nWide PV input voltage range;\nBuilt-in anti-dusk kit for harsh environment;\nSmart battery charge design to maximize battery lifespan;\nWall mounted and ﬂoor mounted installation for optional\nMODEL\nRated Input Voltage\nPV/AC CHARGER\nMaximum AC Charge Current \nSolar Charger Type\nMaximum Eﬃciency(Battery Mode)\nSurge Power\nPHYSICAL\nDimension, D xWx H(mm)\nGENERAL DATA\nHMI \nCommunication Port\nAN-MPSG-E1200\n208/220/230/240VAC; L+N+PE\n100A\nMPPT\n18A/3000W\n90%12VDC\n50/60Hz(Auto Adaptive)\n2.4kVA\n465x305x160mm\nLCD\nRs232\nVoltage 208/220/230/240\nSwitch Time\nWave Form Pure SineWave\nOverload Capacity (Battery Mode) 60s@102%~110%load; 10s@120%~200%load\nPower Factor 1PF\nFrequency 50/60Hz±0.1%\nMaximum PV Charge Current 100A\nMonitoring NA\nBATTERY\nNormal Voltage\nBattery Type\n12V\nLiFePO4 12.8V\n10ms (APP/UPS/GEN mode)\nAN-MPSG-E2000\nVoltage Range\nRated Capacity\n90-280VAC(APP mode); 170~280VAC(UPS mode)\nAC Input\nFrequency\nAC Output\nMaximum PV Input Current/Power\nMPPT Range@Operating Voltage \nPV Start-up Voltage\nMaximum PV Open Circuit Voltage \nMaximum Charge Current  (PV+AC)\nCapacity\nCharging Current\nDischarging Current\nCharging Temperature\nDischarging Temperature\nStorage Temperature\n-20°C~60°C\n-30°C~60°C\nUSB Output\nDC Output\n1.2KW (Output Power rating will be reduced to 90%, when setting the Output Voltage to 208V)\n30~400VDC\n40VDC\n450VDC\n100A\n100Ah\n≤50A\n≤100A\n0°C~55°C\n5V/2A x4\n12V/2.5A x4\n545x356x211mm\n200Ah\nRated Output Power 1200W\nBattery Capacity 1280WH 2560WH\n2000W\nSolar InputDC &ACLiFePo4 \n50A\n18A/800W\n50A\n17~115VDC\n20VDC\n115VDC\n100A\n51 www.anern.com 52\nSOLAR  SOLUTIONS, GO  SOLAR  WITH  ANERN\nSOLAR ENERGY STORAGE \nPORTABLE SOLAR GENERATOR AN-MPSG-"
+}

@@ -1,0 +1,173 @@
+{
+  "email_bullets": [
+    {
+      "company": "KHM Megatools Corp.",
+      "market": "Philippines",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "sales@khmtools.com.ph",
+      "whatsapp": "639175425822",
+      "website": "khmtools.com.ph",
+      "source": "google",
+      "verified": true,
+      "status": "contacted"
+    },
+    {
+      "company": "Power Solution Mall",
+      "market": "Nigeria",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "",
+      "whatsapp": "2348061406570",
+      "website": "",
+      "source": "google",
+      "verified": true,
+      "status": "contacted"
+    }
+  ],
+  "whatsapp_bullets": [
+    {
+      "company": "M Million Company",
+      "market": "Nigeria",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "",
+      "whatsapp": "2349164337200",
+      "website": "",
+      "source": "google",
+      "verified": true,
+      "status": "replied",
+      "notes": "Replied: 'How much it is', 'Where is your showroom', 'How can I get it'"
+    },
+    {
+      "company": "Mascom International",
+      "market": "Kenya",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "",
+      "whatsapp": "254708852521",
+      "website": "",
+      "source": "google",
+      "verified": true,
+      "status": "contacted"
+    },
+    {
+      "company": "Detopsy Electrical Shop",
+      "market": "Nigeria",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "sales@detopsyelectricalshop.com",
+      "whatsapp": "2349050234845",
+      "website": "detopsyelectricalshop.com",
+      "source": "google",
+      "verified": true,
+      "status": "researched",
+      "notes": "EcoFlow distributor Lagos. Sells DELTA 2 Max. Same-day delivery Lagos."
+    },
+    {
+      "company": "MacPower (123MacFreys Ltd)",
+      "market": "Nigeria",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "info@macpower.com.ng",
+      "whatsapp": "2348135503221",
+      "website": "macpower.com.ng",
+      "source": "google",
+      "verified": true,
+      "status": "researched",
+      "notes": "Lagos-based. Portable solar inverters/generators. Models: M42, M60, M140. Also electric vehicles."
+    },
+    {
+      "company": "Batteriq Kenya",
+      "market": "Kenya",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "",
+      "whatsapp": "",
+      "website": "batteriq.com",
+      "source": "google",
+      "verified": true,
+      "status": "researched",
+      "notes": "Official EcoFlow & Bluetti dealer. M-Pesa checkout. Same-day Nairobi."
+    },
+    {
+      "company": "Dong Solar Ltd",
+      "market": "Kenya",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "",
+      "whatsapp": "",
+      "website": "dongsolar.co.ke",
+      "source": "google",
+      "verified": true,
+      "status": "researched",
+      "notes": "Storage Central, Mombasa Road, Nairobi. BLUETTI, EcoFlow, GoodWe, SRNE."
+    },
+    {
+      "company": "Rapidtech Networks Ltd",
+      "market": "Kenya",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "",
+      "whatsapp": "",
+      "website": "rapidtech.co.ke",
+      "source": "google",
+      "verified": true,
+      "status": "researched",
+      "notes": "Sells EcoFlow DELTA 2 Max KSh 160,000. Order via WhatsApp available."
+    },
+    {
+      "company": "Axcellis Kenya",
+      "market": "Kenya",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "shop@axcellis.ke",
+      "whatsapp": "254755685074",
+      "website": "axcellis.ke",
+      "source": "google",
+      "verified": true,
+      "status": "researched",
+      "notes": "Authorized Anker Kenya dealer. Our Mall, Magadi Road, Karen, Nairobi."
+    },
+    {
+      "company": "Starmac Kenya",
+      "market": "Kenya",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "",
+      "whatsapp": "",
+      "website": "starmac.co.ke",
+      "source": "google",
+      "verified": true,
+      "status": "researched",
+      "notes": "Sells Bluetti EB240 (2400Wh) KSh 75,000. Also EB70, Anker 522."
+    },
+    {
+      "company": "GrandHub Technologies Ltd",
+      "market": "Kenya",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "",
+      "whatsapp": "",
+      "website": "grandhub.co.ke",
+      "source": "google",
+      "verified": true,
+      "status": "researched",
+      "notes": "Sells EcoFlow, Anker SOLIX. 1-2hr delivery Nairobi, 24-48hr upcountry."
+    },
+    {
+      "company": "Singaken Kenya Ltd",
+      "market": "Kenya",
+      "segment": "power_station",
+      "contact_name": "",
+      "email": "",
+      "whatsapp": "",
+      "website": "singaken.co.ke",
+      "source": "google",
+      "verified": true,
+      "status": "researched",
+      "notes": "EPRA-licensed importer. Solar equipment supply & importation. B2B."
+    }
+  ],
+  "last_updated": "2026-06-19T10:47:54.021977"
+}
