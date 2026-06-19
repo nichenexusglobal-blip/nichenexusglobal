@@ -298,140 +298,6 @@
     },
     "hammers": [
       {
-        "rank": 22,
-        "name": "MECO Power",
-        "website": "mecopower.com",
-        "email": "hoho.liu@mecopower.com",
-        "contact_person": "Hoho Liu",
-        "contact_email": "hoho.liu@mecopower.com",
-        "category": "300-5000W portable LiFePO4",
-        "exw_usd": {
-          "Meco_300_100W": {
-            "10_49": 61,
-            "50_100": 58
-          },
-          "Meco_1Kwh_1004Wh_300W": {
-            "10_49": 145,
-            "50_100": 142
-          },
-          "Meco_1KwhPro_1004Wh_500W": {
-            "10_49": 165,
-            "50_100": 160
-          },
-          "Meco_1.8Kwh_1792Wh_600W": {
-            "10_49": 263,
-            "50_100": 258
-          },
-          "Meco_2Kwh_2009Wh_1200W": {
-            "10_49": 298,
-            "50_100": 288
-          },
-          "Meco_3.6Kwh_3584Wh_2200W": {
-            "10_49": 620,
-            "50_100": 610
-          },
-          "Meco_3.6KwhPro_3584Wh_3000W": {
-            "10_49": 661,
-            "50_100": 651
-          },
-          "Meco_5.4Kwh_5376Wh_5000W": {
-            "10_49": 918,
-            "50_100": 898
-          }
-        },
-        "moq": {
-          "Meco_1Kwh_1004Wh": 10,
-          "Meco_1KwhPro_1004Wh": 10,
-          "Meco_1.8Kwh_1792Wh": 10,
-          "Meco_2Kwh_2009Wh": 100,
-          "Meco_3.6Kwh_3584Wh": 10,
-          "Meco_5.4Kwh_5376Wh": 10
-        },
-        "certs": [
-          "CE",
-          "FCC",
-          "UN38.3",
-          "MSDS",
-          "IEC62368"
-        ],
-        "source": "official_exw_quotation_pdf_2026-06-01",
-        "status": "verified",
-        "notes": "PDF quotation 2026-06-01 verified. EXW Shenzhen. LiFePO4, 8000 cycles.",
-        "fob_volume": "MOQ varies by model",
-        "specs": {
-          "Meco_300_100W": "100W/300Wh/2.8kg/LiFePO4/8000cycles/IP20",
-          "Meco_1Kwh_1004Wh": "300W/1004Wh/9kg/257x210x209mm/LiFePO4/8000cycles/IP20",
-          "Meco_1KwhPro_1004Wh": "500W/1004Wh/9kg/LiFePO4/8000cycles",
-          "Meco_1.8Kwh_1792Wh": "600W/1792Wh/19kg/252x226x311mm/LiFePO4/8000cycles",
-          "Meco_2Kwh_2009Wh": "1200W/2009Wh/19kg/252x226x311mm/LiFePO4/8000cycles",
-          "Meco_3.6Kwh_3584Wh": "2200W/3584Wh/32kg/450x285x360mm/LiFePO4/8000cycles",
-          "Meco_3.6KwhPro_3584Wh": "3000W/3584Wh/32kg/450x285x360mm/LiFePO4/8000cycles",
-          "Meco_5.4Kwh_5376Wh": "5000W/5376Wh/45kg/579x319x402mm/LiFePO4/8000cycles"
-        },
-        "best_wh_price": 0.082,
-        "best_value_model": "2KWH_2009Wh_1200W: $165/2009Wh = $0.082/Wh",
-        "data_quality": "A",
-        "attachments": {
-          "path": "C:/nichenexusglobal/attachments/MECO Power",
-          "files": [
-            "Meco Solar Generator Quoation 2026-06-01.pdf"
-          ],
-          "count": 1
-        },
-        "payment_terms": "100% TT in advance",
-        "delivery_time": "10-15 working days after payment",
-        "warranty": "2 years",
-        "contact": "Hoho Liu",
-        "whatsapp": "8615814495128",
-        "products": [
-          {
-            "model": "Meco 300(100W)",
-            "wh": 300,
-            "w": 100,
-            "exw_10_49": 61,
-            "exw_50_100": 58
-          },
-          {
-            "model": "Meco 1Kwh(300W)",
-            "wh": 1004.8,
-            "w": 300,
-            "exw_10_49": 145,
-            "exw_50_100": 142
-          },
-          {
-            "model": "Meco 1Kwh Pro",
-            "wh": 1004.8,
-            "w": 500,
-            "exw_10_49": 165,
-            "exw_50_100": 160
-          },
-          {
-            "model": "Meco 2Kwh",
-            "wh": 2009.6,
-            "w": 1200,
-            "exw_10_49": 298,
-            "exw_50_100": 288
-          },
-          {
-            "model": "Meco 3.6Kwh Pro",
-            "wh": 3584,
-            "w": 3000,
-            "exw_10_49": 661,
-            "exw_50_100": 651
-          },
-          {
-            "model": "Meco 5.4Kwh",
-            "wh": 5376,
-            "w": 5000,
-            "exw_10_49": 918,
-            "exw_50_100": 898
-          }
-        ],
-        "images": [],
-        "has_images": false,
-        "image_count": 0
-      },
-      {
         "rank": 24,
         "name": "Anern Energy",
         "website": "anern.com",
@@ -541,52 +407,167 @@
             "wh": 600,
             "w": 500,
             "price": 199,
-            "price_note": "PI ANSD260605-LU, 100pcs"
+            "price_note": "PI ANSD260605-LU, 100pcs",
+            "usd_per_wh": 0.332
           },
           {
             "model": "AN-MPSG-E1200",
             "wh": 1280,
             "w": 1200,
             "price": 205,
-            "price_note": "PI ANSD260605-LU"
+            "price_note": "PI ANSD260605-LU",
+            "usd_per_wh": 0.16
           }
         ],
         "images": [
           "product_images/anern/product.jpg"
         ],
         "has_images": true,
-        "image_count": 1
+        "image_count": 1,
+        "data_quality_label": "VERIFIED - PDF/email pricing confirmed",
+        "market_segment": "portable (600-1500Wh)"
       },
       {
-        "rank": 25,
-        "name": "PowerLFP (LiFePower)",
-        "website": "powerlfp.com",
-        "email": "jessica@powerlfp.com",
-        "contact_person": "Jessica Gong",
-        "category": "portable LiFePO4 + custom battery",
+        "rank": 22,
+        "name": "MECO Power",
+        "website": "mecopower.com",
+        "email": "hoho.liu@mecopower.com",
+        "contact_person": "Hoho Liu",
+        "contact_email": "hoho.liu@mecopower.com",
+        "category": "300-5000W portable LiFePO4",
+        "exw_usd": {
+          "Meco_300_100W": {
+            "10_49": 61,
+            "50_100": 58
+          },
+          "Meco_1Kwh_1004Wh_300W": {
+            "10_49": 145,
+            "50_100": 142
+          },
+          "Meco_1KwhPro_1004Wh_500W": {
+            "10_49": 165,
+            "50_100": 160
+          },
+          "Meco_1.8Kwh_1792Wh_600W": {
+            "10_49": 263,
+            "50_100": 258
+          },
+          "Meco_2Kwh_2009Wh_1200W": {
+            "10_49": 298,
+            "50_100": 288
+          },
+          "Meco_3.6Kwh_3584Wh_2200W": {
+            "10_49": 620,
+            "50_100": 610
+          },
+          "Meco_3.6KwhPro_3584Wh_3000W": {
+            "10_49": 661,
+            "50_100": 651
+          },
+          "Meco_5.4Kwh_5376Wh_5000W": {
+            "10_49": 918,
+            "50_100": 898
+          }
+        },
+        "moq": {
+          "Meco_1Kwh_1004Wh": 10,
+          "Meco_1KwhPro_1004Wh": 10,
+          "Meco_1.8Kwh_1792Wh": 10,
+          "Meco_2Kwh_2009Wh": 100,
+          "Meco_3.6Kwh_3584Wh": 10,
+          "Meco_5.4Kwh_5376Wh": 10
+        },
+        "certs": [
+          "CE",
+          "FCC",
+          "UN38.3",
+          "MSDS",
+          "IEC62368"
+        ],
+        "source": "official_exw_quotation_pdf_2026-06-01",
         "status": "verified",
-        "notes": "2026-06-06 replied with quotation PDF. MOQ 100. VP of Sales Jessica Gong. Also does custom Li-ion, sodium-ion, residential UPS.",
-        "fob_usd": {
-          "LF-B600PPS_576Wh_600W_LFP": 115,
-          "LF-B1200PPS_1152Wh_1200W_LFP": 219,
-          "LF-B2000PPS_2016Wh_2000W_LFP": 529
+        "notes": "PDF quotation 2026-06-01 verified. EXW Shenzhen. LiFePO4, 8000 cycles.",
+        "fob_volume": "MOQ varies by model",
+        "specs": {
+          "Meco_300_100W": "100W/300Wh/2.8kg/LiFePO4/8000cycles/IP20",
+          "Meco_1Kwh_1004Wh": "300W/1004Wh/9kg/257x210x209mm/LiFePO4/8000cycles/IP20",
+          "Meco_1KwhPro_1004Wh": "500W/1004Wh/9kg/LiFePO4/8000cycles",
+          "Meco_1.8Kwh_1792Wh": "600W/1792Wh/19kg/252x226x311mm/LiFePO4/8000cycles",
+          "Meco_2Kwh_2009Wh": "1200W/2009Wh/19kg/252x226x311mm/LiFePO4/8000cycles",
+          "Meco_3.6Kwh_3584Wh": "2200W/3584Wh/32kg/450x285x360mm/LiFePO4/8000cycles",
+          "Meco_3.6KwhPro_3584Wh": "3000W/3584Wh/32kg/450x285x360mm/LiFePO4/8000cycles",
+          "Meco_5.4Kwh_5376Wh": "5000W/5376Wh/45kg/579x319x402mm/LiFePO4/8000cycles"
         },
-        "fob_volume": "MOQ 100",
-        "contact_email": "jessica@powerlfp.com",
-        "specs": "LF-Y500PPS 568Wh Li-ion $195, LF-B600PPS 576Wh LFP $115, LF-B1200PPS 1152Wh LFP $219, LF-B2000PPS 2016Wh LFP $529",
-        "best_wh_price": 0.19,
-        "best_value_model": "LF-B1200PPS_1152Wh_1200W_LFP: $219/1152Wh = $0.19/Wh",
-        "data_quality": {
-          "grade": "D",
-          "label": "SUSPICIOUS/EXPIRED — use with extreme caution",
-          "issues": [
-            "No certifications listed",
-            "Supplier never contacted — pricing source unknown"
-          ]
+        "best_wh_price": 0.082,
+        "best_value_model": "2KWH_2009Wh_1200W: $165/2009Wh = $0.082/Wh",
+        "data_quality": "A",
+        "attachments": {
+          "path": "C:/nichenexusglobal/attachments/MECO Power",
+          "files": [
+            "Meco Solar Generator Quoation 2026-06-01.pdf"
+          ],
+          "count": 1
         },
+        "payment_terms": "100% TT in advance",
+        "delivery_time": "10-15 working days after payment",
+        "warranty": "2 years",
+        "contact": "Hoho Liu",
+        "whatsapp": "8615814495128",
+        "products": [
+          {
+            "model": "Meco 300(100W)",
+            "wh": 300,
+            "w": 100,
+            "exw_10_49": 61,
+            "exw_50_100": 58,
+            "usd_per_wh": 0.203
+          },
+          {
+            "model": "Meco 1Kwh(300W)",
+            "wh": 1004.8,
+            "w": 300,
+            "exw_10_49": 145,
+            "exw_50_100": 142,
+            "usd_per_wh": 0.144
+          },
+          {
+            "model": "Meco 1Kwh Pro",
+            "wh": 1004.8,
+            "w": 500,
+            "exw_10_49": 165,
+            "exw_50_100": 160,
+            "usd_per_wh": 0.164
+          },
+          {
+            "model": "Meco 2Kwh",
+            "wh": 2009.6,
+            "w": 1200,
+            "exw_10_49": 298,
+            "exw_50_100": 288,
+            "usd_per_wh": 0.148
+          },
+          {
+            "model": "Meco 3.6Kwh Pro",
+            "wh": 3584,
+            "w": 3000,
+            "exw_10_49": 661,
+            "exw_50_100": 651,
+            "usd_per_wh": 0.184
+          },
+          {
+            "model": "Meco 5.4Kwh",
+            "wh": 5376,
+            "w": 5000,
+            "exw_10_49": 918,
+            "exw_50_100": 898,
+            "usd_per_wh": 0.171
+          }
+        ],
         "images": [],
         "has_images": false,
-        "image_count": 0
+        "image_count": 0,
+        "data_quality_label": "VERIFIED - PDF/email pricing confirmed",
+        "market_segment": "large (4000Wh+)"
       },
       {
         "rank": 2,
@@ -637,14 +618,41 @@
         "contact_email": "sales06@pecron.com",
         "best_wh_price": 0.211,
         "best_value_model": "F1000LFP_960Wh: $202.5/960Wh = $0.211/Wh",
-        "data_quality": {
-          "grade": "A",
-          "label": "VERIFIED — all data confirmed with supplier",
-          "issues": []
-        },
+        "data_quality": "A",
         "images": [],
         "has_images": false,
-        "image_count": 0
+        "image_count": 0,
+        "data_quality_label": "VERIFIED - PDF/email pricing confirmed"
+      },
+      {
+        "rank": 1,
+        "name": "PiForz",
+        "website": "piforz.com",
+        "email": "sales@piforz.com",
+        "contact_person": "Tommy Zhang",
+        "contact_email": "tommy@piforz.com",
+        "category": "1500W",
+        "fob_usd": {
+          "PF2000_1536Wh": 600.0
+        },
+        "moq": 200,
+        "certs": [
+          "UL",
+          "CE",
+          "FCC",
+          "RoHS",
+          "UN38.3"
+        ],
+        "source": "official_fob_quote",
+        "status": "verified_fob",
+        "notes": "PF2000 1536Wh LiFePO4, FOB Shenzhen $600/pc at MOQ 200. MOQ too high for small clients. Ask about lower MOQ options. Catalog shows full range PF300-PF2000 models.\n2026-06-06: sent follow-up asking for PF1500/PF500/PF300 FOB pricing and lower MOQ options (tommy@piforz.com).\n2026-06-09: Tommy replied - sent latest price quote for MOQ 200 and 600 units in attachment. Now accepts MOQ 50 minimum. Custom logo services available. Noted rising material costs - suggests confirming soon.\nNOTE: Catalog has PF300-PF2000 range. Only PF2000 quoted ($600). PF300/PF500/PF1500 pricing not requested yet.",
+        "best_wh_price": 0.391,
+        "best_value_model": "PF2000_1536Wh: $600.0/1536Wh = $0.391/Wh",
+        "data_quality": "A",
+        "images": [],
+        "has_images": false,
+        "image_count": 0,
+        "data_quality_label": "VERIFIED - PDF/email pricing confirmed"
       },
       {
         "rank": 23,
@@ -704,7 +712,8 @@
             "w": 1000,
             "fob_10": 319,
             "fob_200": 264,
-            "fob_500": 253
+            "fob_500": 253,
+            "usd_per_wh": 0.293
           },
           {
             "model": "W78",
@@ -712,7 +721,8 @@
             "w": 1500,
             "fob_10": 399,
             "fob_200": 352,
-            "fob_500": 335
+            "fob_500": 335,
+            "usd_per_wh": 0.275
           },
           {
             "model": "W79",
@@ -721,12 +731,15 @@
             "fob_10": 645,
             "fob_200": 615,
             "fob_500": 589,
-            "note": "Li-Ion NCM, NOT LiFePO4"
+            "note": "Li-Ion NCM, NOT LiFePO4",
+            "usd_per_wh": 0.213
           }
         ],
         "images": [],
         "has_images": false,
-        "image_count": 0
+        "image_count": 0,
+        "data_quality_label": "VERIFIED - PDF/email pricing confirmed",
+        "market_segment": "mid-size (1500-4000Wh)"
       },
       {
         "rank": 8,
@@ -782,13 +795,15 @@
             "model": "H700",
             "wh": 230.4,
             "w": 700,
-            "price": 224
+            "price": 224,
+            "usd_per_wh": 0.972
           },
           {
             "model": "H2400",
             "wh": 672,
             "w": 2400,
-            "price": 487
+            "price": 487,
+            "usd_per_wh": 0.725
           },
           {
             "model": "F3600",
@@ -799,40 +814,9 @@
         ],
         "images": [],
         "has_images": false,
-        "image_count": 0
-      },
-      {
-        "rank": 1,
-        "name": "PiForz",
-        "website": "piforz.com",
-        "email": "sales@piforz.com",
-        "contact_person": "Tommy Zhang",
-        "contact_email": "tommy@piforz.com",
-        "category": "1500W",
-        "fob_usd": {
-          "PF2000_1536Wh": 600.0
-        },
-        "moq": 200,
-        "certs": [
-          "UL",
-          "CE",
-          "FCC",
-          "RoHS",
-          "UN38.3"
-        ],
-        "source": "official_fob_quote",
-        "status": "verified_fob",
-        "notes": "PF2000 1536Wh LiFePO4, FOB Shenzhen $600/pc at MOQ 200. MOQ too high for small clients. Ask about lower MOQ options. Catalog shows full range PF300-PF2000 models.\n2026-06-06: sent follow-up asking for PF1500/PF500/PF300 FOB pricing and lower MOQ options (tommy@piforz.com).\n2026-06-09: Tommy replied - sent latest price quote for MOQ 200 and 600 units in attachment. Now accepts MOQ 50 minimum. Custom logo services available. Noted rising material costs - suggests confirming soon.\nNOTE: Catalog has PF300-PF2000 range. Only PF2000 quoted ($600). PF300/PF500/PF1500 pricing not requested yet.",
-        "best_wh_price": 0.391,
-        "best_value_model": "PF2000_1536Wh: $600.0/1536Wh = $0.391/Wh",
-        "data_quality": {
-          "grade": "A",
-          "label": "VERIFIED — all data confirmed with supplier",
-          "issues": []
-        },
-        "images": [],
-        "has_images": false,
-        "image_count": 0
+        "image_count": 0,
+        "data_quality_label": "PARTIAL - some data confirmed",
+        "market_segment": "portable (600-1500Wh)"
       },
       {
         "rank": 21,
@@ -891,7 +875,9 @@
           "product_images/worldpower/product_2.jpg"
         ],
         "has_images": true,
-        "image_count": 3
+        "image_count": 3,
+        "data_quality_label": "LIMITED - catalog info, no pricing",
+        "market_segment": "mini (under 600Wh)"
       },
       {
         "rank": 3,
@@ -912,17 +898,36 @@
         "notes": "Entry-level pricing known",
         "best_wh_price": 0.502,
         "best_value_model": "R600_299Wh: $150/299Wh = $0.502/Wh",
-        "data_quality": {
-          "grade": "D",
-          "label": "SUSPICIOUS/EXPIRED — use with extreme caution",
-          "issues": [
-            "Source: industry_knowledge — no direct supplier communication",
-            "Pricing is industry knowledge, not verified with supplier"
-          ]
-        },
+        "data_quality": "D",
         "images": [],
         "has_images": false,
-        "image_count": 0
+        "image_count": 0,
+        "data_quality_label": "SUSPICIOUS - unverified source"
+      },
+      {
+        "rank": 25,
+        "name": "PowerLFP (LiFePower)",
+        "website": "powerlfp.com",
+        "email": "jessica@powerlfp.com",
+        "contact_person": "Jessica Gong",
+        "category": "portable LiFePO4 + custom battery",
+        "status": "verified",
+        "notes": "2026-06-06 replied with quotation PDF. MOQ 100. VP of Sales Jessica Gong. Also does custom Li-ion, sodium-ion, residential UPS.",
+        "fob_usd": {
+          "LF-B600PPS_576Wh_600W_LFP": 115,
+          "LF-B1200PPS_1152Wh_1200W_LFP": 219,
+          "LF-B2000PPS_2016Wh_2000W_LFP": 529
+        },
+        "fob_volume": "MOQ 100",
+        "contact_email": "jessica@powerlfp.com",
+        "specs": "LF-Y500PPS 568Wh Li-ion $195, LF-B600PPS 576Wh LFP $115, LF-B1200PPS 1152Wh LFP $219, LF-B2000PPS 2016Wh LFP $529",
+        "best_wh_price": 0.19,
+        "best_value_model": "LF-B1200PPS_1152Wh_1200W_LFP: $219/1152Wh = $0.19/Wh",
+        "data_quality": "D",
+        "images": [],
+        "has_images": false,
+        "image_count": 0,
+        "data_quality_label": "SUSPICIOUS - unverified source"
       }
     ],
     "market_index": {
