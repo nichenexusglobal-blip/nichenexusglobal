@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta http-equiv="refresh" content="10">
+<title>NNG WhatsApp Status</title>
+<style>
+body{font-family:'Segoe UI',sans-serif;background:#0d1117;color:#c9d1d9;margin:20px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px;margin:12px 0}
+.status{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:8px}
+.green{background:#3fb950}
+.red{background:#f85149}
+.yellow{background:#d29922}
+h1{color:#58a6ff}h2{color:#8b949e;font-size:14px;text-transform:uppercase;letter-spacing:1px}
+table{width:100%;border-collapse:collapse}
+td{padding:6px 8px;border-bottom:1px solid #21262d}
+.key{color:#8b949e;width:160px}
+.val{color:#c9d1d9}
+.timestamp{color:#484f58;font-size:12px;text-align:right}
+</style></head>
+<body>
+<h1>🔍 NNG WhatsApp Status</h1>
+<div class="timestamp">Updated: 2026-06-19 10:05:05</div>
+
+<div class="card">
+<h2>Infrastructure</h2>
+<table>
+<tr><td class="key"><span class="status green"></span>wago-api</td>
+<td class="val">CONNECTED</td></tr>
+<tr><td class="key"><span class="status green"></span>Bridge</td>
+<td class="val">Connected (uptime: 281s)</td></tr>
+<tr><td class="key"><span class="status green"></span>Auto-start</td>
+<td class="val">Installed</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>Mailbox</h2>
+<table>
+<tr><td class="key"><span class="status green"></span>Database</td><td class="val">151 messages (62 sent, 89 received)</td></tr>
+<tr><td class="key">📥 Unread</td><td class="val">10</td></tr>
+<tr><td class="key">📤 JSONL</td><td class="val">220 KB</td></tr>
+<tr><td class="key">Last received</td><td class="val">[M 🤍 MÏLLĪÕÑS 💎💎]: How can I get it</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>System</h2>
+<table>
+<tr><td class="key">💾 Backup</td><td class="val">Daily 21:00 (GitHub + local)</td></tr>
+<tr><td class="key">🔔 Watchdog</td><td class="val">Every 1 min (auto-restart bridge)</td></tr>
+<tr><td class="key">🔄 Auto-start</td><td class="val">On login (Startup folder)</td></tr>
+</table>
+</div>
+
+<p style="color:#484f58;text-align:center;font-size:12px;margin-top:30px">
+All green = system healthy. Any red = needs attention.<br>
+Page auto-refreshes every 10 seconds.
+</p>
+</body></html>
