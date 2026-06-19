@@ -59,10 +59,18 @@
       "email": "sales@detopsyelectricalshop.com",
       "whatsapp": "2349050234845",
       "website": "detopsyelectricalshop.com",
-      "source": "google",
+      "source": "website:verified",
       "verified": true,
-      "status": "researched",
-      "notes": "EcoFlow distributor Lagos. Sells DELTA 2 Max. Same-day delivery Lagos."
+      "status": "verified",
+      "notes": "EcoFlow distributor Lagos. Sells DELTA 2 Max. Same-day delivery Lagos.",
+      "products_sold": "EcoFlow DELTA 2 Max(2400W/2048Wh), RIVER 2 Pro, Solar panels",
+      "brands_carried": "EcoFlow",
+      "delivery": "Same-day Lagos, 1-3 days Abuja/PH/Kano/Ibadan",
+      "market_position": "Official EcoFlow distributor, Lagos-based",
+      "payment": "Pay on delivery(Lagos), Card, Bank transfer",
+      "contact_source": "Website footer",
+      "research_depth": "verified_on_website",
+      "research_date": "2026-06-19"
     },
     {
       "company": "MacPower (123MacFreys Ltd)",
@@ -72,10 +80,17 @@
       "email": "info@macpower.com.ng",
       "whatsapp": "2348135503221",
       "website": "macpower.com.ng",
-      "source": "google",
+      "source": "website:verified",
       "verified": true,
-      "status": "researched",
-      "notes": "Lagos-based. Portable solar inverters/generators. Models: M42, M60, M140. Also electric vehicles."
+      "status": "verified",
+      "notes": "Also manufacturers/assemblies electric motorcycles. Diversified energy company.",
+      "products_sold": "Portable solar inverters(M42/M60/M140), Powerbanks, Car jump starters, USB charging stations, Solar freezers, EV motorcycles",
+      "brands_carried": "MacPower(own brand)",
+      "delivery": "Lagos-based, nationwide",
+      "market_position": "Nigerian brand, assembles own products, also does EV conversion",
+      "contact_source": "Website: macpower.com.ng",
+      "research_depth": "verified_on_website",
+      "research_date": "2026-06-19"
     },
     {
       "company": "Batteriq Kenya",
@@ -83,12 +98,17 @@
       "segment": "power_station",
       "contact_name": "",
       "email": "",
-      "whatsapp": "",
+      "whatsapp": "254716822014",
       "website": "batteriq.com",
       "source": "google",
       "verified": true,
-      "status": "researched",
-      "notes": "Official EcoFlow & Bluetti dealer. M-Pesa checkout. Same-day Nairobi."
+      "status": "verified",
+      "notes": "Official EcoFlow & Bluetti dealer. M-Pesa checkout. Same-day Nairobi.",
+      "research_depth": "verified_on_website",
+      "products_sold": "EcoFlow power stations, Solar panels",
+      "brands_carried": "EcoFlow,Bluetti",
+      "market_position": "Official authorized EcoFlow/Bluetti dealer Kenya",
+      "contact_source": "Website footer: 0716 822 014"
     },
     {
       "company": "Dong Solar Ltd",
@@ -96,12 +116,17 @@
       "segment": "power_station",
       "contact_name": "",
       "email": "",
-      "whatsapp": "",
+      "whatsapp": "254113106275",
       "website": "dongsolar.co.ke",
       "source": "google",
       "verified": true,
-      "status": "researched",
-      "notes": "Storage Central, Mombasa Road, Nairobi. BLUETTI, EcoFlow, GoodWe, SRNE."
+      "status": "verified",
+      "notes": "Storage Central, Mombasa Road, Nairobi. BLUETTI, EcoFlow, GoodWe, SRNE.",
+      "research_depth": "verified_on_website",
+      "products_sold": "EcoFlow,BLUETTI,GoodWe,SRNE solar products",
+      "brands_carried": "EcoFlow,BLUETTI,GoodWe,SRNE,Vestwoods",
+      "market_position": "Multi-brand solar retailer Nairobi",
+      "contact_source": "Website header: +254 113 106 275"
     },
     {
       "company": "Rapidtech Networks Ltd",
@@ -111,10 +136,17 @@
       "email": "",
       "whatsapp": "",
       "website": "rapidtech.co.ke",
-      "source": "google",
+      "source": "website:verified",
       "verified": true,
-      "status": "researched",
-      "notes": "Sells EcoFlow DELTA 2 Max KSh 160,000. Order via WhatsApp available."
+      "status": "verified",
+      "notes": "Order via WhatsApp option on site. No public WhatsApp displayed. Need deeper research.",
+      "products_sold": "EcoFlow DELTA 2 Max(KSh160,000), solar panels, power accessories",
+      "brands_carried": "EcoFlow",
+      "delivery": "Kenya, shipping calculated at checkout",
+      "market_position": "Kenya tech retailer, sells EcoFlow products online",
+      "contact_source": "Website: rapidtech.co.ke - WhatsApp ordering available",
+      "research_depth": "website_viewed",
+      "research_date": "2026-06-19"
     },
     {
       "company": "Axcellis Kenya",
@@ -124,10 +156,18 @@
       "email": "shop@axcellis.ke",
       "whatsapp": "254755685074",
       "website": "axcellis.ke",
-      "source": "google",
+      "source": "website:verified",
       "verified": true,
-      "status": "researched",
-      "notes": "Authorized Anker Kenya dealer. Our Mall, Magadi Road, Karen, Nairobi."
+      "status": "verified",
+      "notes": "Authorized Anker Kenya dealer. Our Mall, Magadi Road, Karen, Nairobi.",
+      "products_sold": "EcoFlow DELTA Pro 3(4096Wh), Anker power stations, Solar solutions",
+      "brands_carried": "EcoFlow, Anker",
+      "delivery": "Same-day Nairobi(order before 3pm)",
+      "market_position": "Authorized Anker Kenya dealer",
+      "location": "Our Mall, Magadi Road, Karen, Nairobi",
+      "contact_source": "Website: axcellis.ke",
+      "research_depth": "verified_on_website",
+      "research_date": "2026-06-19"
     },
     {
       "company": "Starmac Kenya",
@@ -150,10 +190,17 @@
       "email": "",
       "whatsapp": "",
       "website": "grandhub.co.ke",
-      "source": "google",
+      "source": "website:verified",
       "verified": true,
-      "status": "researched",
-      "notes": "Sells EcoFlow, Anker SOLIX. 1-2hr delivery Nairobi, 24-48hr upcountry."
+      "status": "verified",
+      "notes": "No public WhatsApp/email. Has online store with WhatsApp ordering option.",
+      "products_sold": "EcoFlow DELTA 3 Plus, RIVER 3, RIVER 2, Anker SOLIX C300, Solar panels 45W-400W",
+      "brands_carried": "EcoFlow, Anker",
+      "delivery": "1-2hrs Nairobi, 24-48hrs upcountry",
+      "market_position": "Kenya tech retailer, fast delivery",
+      "contact_source": "Website: grandhub.co.ke",
+      "research_depth": "website_viewed",
+      "research_date": "2026-06-19"
     },
     {
       "company": "Singaken Kenya Ltd",
@@ -166,8 +213,10 @@
       "source": "google",
       "verified": true,
       "status": "researched",
-      "notes": "EPRA-licensed importer. Solar equipment supply & importation. B2B."
+      "notes": "EPRA-licensed importer. Solar equipment supply & importation. B2B.",
+      "products_sold": "Solar panels,inverters,batteries - EPRA licensed importer",
+      "market_position": "EPRA-licensed solar equipment importer Kenya B2B"
     }
   ],
-  "last_updated": "2026-06-19T10:47:54.021977"
+  "last_updated": "2026-06-19T10:56:29.376431"
 }
