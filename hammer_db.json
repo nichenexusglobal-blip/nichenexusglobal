@@ -426,7 +426,10 @@
             "exw_10_49": 918,
             "exw_50_100": 898
           }
-        ]
+        ],
+        "images": [],
+        "has_images": false,
+        "image_count": 0
       },
       {
         "rank": 24,
@@ -547,7 +550,12 @@
             "price": 205,
             "price_note": "PI ANSD260605-LU"
           }
-        ]
+        ],
+        "images": [
+          "product_images/anern/product.jpg"
+        ],
+        "has_images": true,
+        "image_count": 1
       },
       {
         "rank": 25,
@@ -575,7 +583,10 @@
             "No certifications listed",
             "Supplier never contacted — pricing source unknown"
           ]
-        }
+        },
+        "images": [],
+        "has_images": false,
+        "image_count": 0
       },
       {
         "rank": 2,
@@ -630,7 +641,10 @@
           "grade": "A",
           "label": "VERIFIED — all data confirmed with supplier",
           "issues": []
-        }
+        },
+        "images": [],
+        "has_images": false,
+        "image_count": 0
       },
       {
         "rank": 23,
@@ -709,7 +723,10 @@
             "fob_500": 589,
             "note": "Li-Ion NCM, NOT LiFePO4"
           }
-        ]
+        ],
+        "images": [],
+        "has_images": false,
+        "image_count": 0
       },
       {
         "rank": 8,
@@ -779,7 +796,10 @@
             "w": 0,
             "price": 979
           }
-        ]
+        ],
+        "images": [],
+        "has_images": false,
+        "image_count": 0
       },
       {
         "rank": 1,
@@ -809,7 +829,10 @@
           "grade": "A",
           "label": "VERIFIED — all data confirmed with supplier",
           "issues": []
-        }
+        },
+        "images": [],
+        "has_images": false,
+        "image_count": 0
       },
       {
         "rank": 21,
@@ -861,7 +884,14 @@
             "price": 0,
             "note": "no price in catalog"
           }
-        ]
+        ],
+        "images": [
+          "product_images/worldpower/NR_series_product.png",
+          "product_images/worldpower/product_1.jpg",
+          "product_images/worldpower/product_2.jpg"
+        ],
+        "has_images": true,
+        "image_count": 3
       },
       {
         "rank": 3,
@@ -889,7 +919,10 @@
             "Source: industry_knowledge — no direct supplier communication",
             "Pricing is industry knowledge, not verified with supplier"
           ]
-        }
+        },
+        "images": [],
+        "has_images": false,
+        "image_count": 0
       }
     ],
     "market_index": {
