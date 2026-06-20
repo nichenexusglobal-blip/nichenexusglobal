@@ -1,0 +1,21 @@
+{
+  "name": "NNG Knowledge Wiki",
+  "version": "1.0.0",
+  "created": "2026-06-19",
+  "structure": {
+    "raw": "原始资料（PDF、文章、笔记、对话记录）",
+    "raw/suppliers": "供应商材料（报价单、目录、认证）",
+    "raw/research": "市场调研、客户调研",
+    "raw/lessons": "Pen的指令、纪律、复盘",
+    "wiki": "知识库 - 编译后的Markdown",
+    "wiki/products": "产品知识",
+    "wiki/markets": "市场知识",
+    "wiki/customers": "客户知识",
+    "wiki/supply_chain": "供应链知识",
+    "wiki/operations": "运营知识",
+    "scripts": "工具脚本"
+  },
+  "files": {},
+  "last_compiled": "2026-06-20T22:00:05.973898",
+  "file_count": 12
+}
