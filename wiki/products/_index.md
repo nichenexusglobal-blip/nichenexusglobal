@@ -1,48 +1,56 @@
 # Products Knowledge Base
 
-Compiled: 2026-06-20T22:00:05.907952
+Compiled: 2026-06-21T22:00:16.674221
 
 ## Suppliers
 
 - [Anern](raw/suppliers/Anern.md)
-  - Concepts: Guangzhou Anern Energy Technology Co, Rated Charge, Part Name                  Picture                            Description                      Qty     Unit Unit Price     Sub, Solar Energy                        Battery, raw supplier data extract
+  - Concepts: LU
 
-                           Guangzhou Anern Energy Technology Co, Solar Energy                        AN, Range Of Charging, Anern
+The Seller, total
+                                                                                                                               USD
+                                                                                                       Unit       USD, Solar Energy                        AN, China
+
+The Buyer, Pen
+Tel, MPPT, Anern, Solar Energy                        Battery
 
 - [Anern Catalog](raw/suppliers/Anern_Catalog.md)
-  - Concepts: SOLAR  SOLUTIONS, Solar InputDC, GEN mode, max charge current, Maximum PV Charge Current, GO  SOLAR  WITH  ANERN
-SOLAR ENERGY STORAGE 
-PORTABLE SOLAR GENERATOR AN, SOLAR ENERGY STORAGE SYSTEM AN, Rated Output Power
+  - Concepts: Operating Voltage 
+PV Start, AC CHARGER
+Maximum AC Charge Current 
+Solar Charger Type
+Maximum, Surge Power
+PHYSICAL
+Dimension, Output Power rating will be reduced to, Auto Adaptive, max charge current, Anern Catalog, dusk kit for harsh environment
 
 - [Ie-Energy](raw/suppliers/IE-Energy.md)
-  - Concepts: Max
-                      Life cycles, MODEL NO   SPEC, Out put, Max                US, Portable Power Station          US, Portable Power Station
-                      Battery Capacity, Wireless charging
-                      PV input watts, IE-Energy
+  - Concepts: MODEL NO   SPEC, Out put, Portable Power Station
+                      Battery Capacity, Max                US, raw supplier data extract
+
+                      SHENZHEN INTELLIGENT ENERGY CO, Peak power, Battery Capacity, Max
+                      Life cycles
 
 - [Meco](raw/suppliers/MECO.md)
-  - Concepts: wave
-Max, Hongfawanyueshan Building, Guangming District, com  Whatsapp, cycles
-Size, iron 
-phosphate, iron phosphate, PV input 
-Current
+  - Concepts: iron 
+phosphate, Guangming District, Pro Meco, raw supplier data extract
+
+SHENZHEN MECO NEW ENERGY CO, Hongfawanyueshan Building, DC input, Battery Capacity, AC Charging power
 
 - [Shunxiang](raw/suppliers/Shunxiang.md)
-  - Concepts: Ltd 
-        Add, Use high quality premium brand new battery, output
-USB, short circuit
-Operating Temperature, Gross weight, Directly cooperate with the factory, working days, Lithium Ternary
+  - Concepts: Ion NCM, Building BC, product quality is guaranteed, USB switch, LCD display, Dongguan Guangdong
+Buyer, real capacity, Gross weight
 
 - [Worldpower](raw/suppliers/WorldPower.md)
-  - Concepts: Operating Temperature, DC Output, Portable Energy Storage NR Series
-AC Output, WorldPower, Life Cycles, instant startup, Battery type, Original Capacity 
-Weight
+  - Concepts: instant startup, Original Capacity 
+Weight, Life Cycles, DC Output, pure sine 
+wave output, Lithium Iron Phosphate, Quick Charge, LED Light
+AC Input
 
 - [ Hammer Db Summary](raw/suppliers/_hammer_db_summary.md)
-  - Concepts: FOB, Hammer Database Summary, MECO Power, EXW, Hammer Database Summary
+  - Concepts: MECO Power, Anern Energy, Last updated, Shunxiang Energy, Hammer Database Summary, EXW, Wh, Hammer Database Summary
 
-Verified supplier pricing, Wh, Shunxiang Energy, Anern Energy
+Verified supplier pricing
 
 - [ Product Benchmarks](raw/suppliers/_product_benchmarks.md)
-  - Concepts: MECO Power, Key Product, Market Segments, Product Benchmarks, Wh comparison across all verified suppliers, Wh, Shunxiang Energy, Anern Energy
+  - Concepts: MECO Power, Anern Energy, Market Segments, Shunxiang Energy, Key Product, Wh comparison across all verified suppliers, Wh, Product Benchmarks
 

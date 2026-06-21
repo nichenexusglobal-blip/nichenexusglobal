@@ -161,7 +161,7 @@
     {
       "company": "Iseli Energy",
       "market": "South Africa",
-      "segment": "solar_wholesale",
+      "segment": "solar_distributor",
       "contact_name": "",
       "email": "sales@iseli-energy.com",
       "whatsapp": "",
@@ -255,7 +255,7 @@
     {
       "company": "Solar Sonic (PTY) Ltd",
       "market": "South Africa",
-      "segment": "solar_wholesale",
+      "segment": "solar_distributor",
       "contact_name": "",
       "email": "",
       "whatsapp": "",
@@ -299,30 +299,6 @@
         "No email or WhatsApp"
       ],
       "draft": "Hi Fenixx 👋\n\nSaw you sell the EcoFlow DELTA Pro 3 in SA and offer bulk discounts for business buyers. Smart B2B approach.\n\nWe supply LiFePO4 power stations from Shenzhen. Similar spec range but factory-direct pricing:\n1280Wh/1200W - $205 FOB\n2048Wh/2400W - $298 FOB\n\nCould work as a volume option for your B2B clients. CE/FCC certified.\n\nWant me to send pricing and specs?\n\nPen"
-    },
-    {
-      "company": "ElectroFlip (iTrackPET)",
-      "market": "USA",
-      "segment": "pet_gps",
-      "contact_name": "",
-      "email": "",
-      "whatsapp": "",
-      "website": "electroflip.com",
-      "source": "website:verified",
-      "verified": true,
-      "status": "researched",
-      "products_sold": "iTrackPET GPS pet harness, B2B wholesale",
-      "brands_carried": "ElectroFlip(own)",
-      "market_position": "USA GPS pet tracker brand since 2006",
-      "contact_source": "Website viewed - wholesale login required",
-      "research_depth": "website_viewed",
-      "research_date": "2026-06-19",
-      "gate_score": 75,
-      "gate_status": "gated",
-      "gate_issues": [
-        "No email or WhatsApp"
-      ],
-      "draft": "Hi ElectroFlip 👋\n\nSaw you make the iTrackPET GPS harness - been in telematics since 2006, hardware from Korea, software from America. Solid product.\n\nWe work with a Shenzhen manufacturer of GPS pet tracking hardware. If you're ever looking at OEM supply options or want to explore a complementary product line, I can share factory specs and pricing.\n\nPen"
     },
     {
       "company": "XO Tech Trading",
@@ -471,197 +447,9 @@
       "draft": "Hola EcoFlow Colombia 👋\n\nVeo que distribuyen EcoFlow en Colombia. Las estaciones de energía portátil tienen buena demanda allá.\n\nTrabajamos con una fábrica en Shenzhen que produce estaciones de energía LiFePO4. Misma categoría, precio de fábrica.\n\nUnidad 1280Wh/1200W: $205 FOB. Certificación CE/FCC.\n\nSi les interesa una línea complementaria, puedo enviar el catálogo.\n\nPen"
     },
     {
-      "company": "Pet Food Experts",
-      "market": "USA",
-      "segment": "pet_products",
-      "contact_name": "",
-      "email": "",
-      "whatsapp": "",
-      "website": "petfoodexperts.com",
-      "source": "pida.org",
-      "verified": true,
-      "status": "researched",
-      "products_sold": "Pet food and supplies distributor Northeast/Mid-Atlantic",
-      "brands_carried": "Multiple",
-      "market_position": "PIDA member distributor",
-      "contact_source": "PIDA directory",
-      "research_depth": "directory_listed",
-      "research_date": "2026-06-19",
-      "gate_score": 75,
-      "gate_status": "gated",
-      "gate_issues": [
-        "No email or WhatsApp",
-        "Not verified from website"
-      ],
-      "notes": "Need deeper research",
-      "draft": "Hi Pet Food Experts 👋\n\nSaw you're a distributor serving the Northeast and Mid-Atlantic US. We work with a GPS pet collar manufacturer - no subscription models, similar to SpotOn and PetSafe but at factory pricing.\n\nIf this fits your catalog, I can send specs and wholesale info.\n\nPen"
-    },
-    {
-      "company": "Animal Supply Co",
-      "market": "USA",
-      "segment": "pet_products",
-      "contact_name": "",
-      "email": "",
-      "whatsapp": "",
-      "website": "animalsupplyco.com",
-      "source": "pida.org",
-      "verified": true,
-      "status": "researched",
-      "products_sold": "Pet supplies distributor nationwide USA",
-      "brands_carried": "Multiple",
-      "market_position": "Large pet product distributor - PIDA member",
-      "contact_source": "PIDA directory",
-      "research_depth": "directory_listed",
-      "research_date": "2026-06-19",
-      "gate_score": 75,
-      "gate_status": "gated",
-      "gate_issues": [
-        "No email or WhatsApp",
-        "Not verified from website"
-      ],
-      "notes": "Need deeper research",
-      "draft": "Hi Animal Supply Co 👋\n\nSaw you're a pet supplies distributor serving the US market. We work with a manufacturer that makes GPS pet tracking collars - no subscription models, factory-direct pricing.\n\nIf GPS pet products are relevant to your catalog, I can share specs and wholesale info.\n\nPen"
-    },
-    {
-      "company": "Lee-Mar Pet Supplies (PetWholesaleUSA)",
-      "market": "USA",
-      "segment": "pet_products",
-      "contact_name": "",
-      "email": "",
-      "whatsapp": "",
-      "website": "petwholesaleusa.com",
-      "source": "website",
-      "verified": true,
-      "status": "researched",
-      "products_sold": "10,000+ pet products from 200+ brands - full-line distributor",
-      "brands_carried": "200+ brands",
-      "market_position": "Full-line pet distributor USA since 1973, drop ship available",
-      "contact_source": "Website: applies for wholesale account",
-      "research_depth": "website_viewed",
-      "research_date": "2026-06-19",
-      "gate_score": 75,
-      "gate_status": "gated",
-      "gate_issues": [
-        "No email or WhatsApp"
-      ],
-      "draft": "Hi Lee-Mar 👋\n\nSaw you've been distributing pet supplies in the US since 1973 - 10,000+ products, 200+ brands. That's serious tenure.\n\nWe work with a manufacturer that makes GPS pet tracking collars - no subscription models. These are trending in the US with brands like SpotOn and PetSafe getting good traction.\n\nFactory-direct pricing, private label available. If GPS pet products fit your catalog, I can send specs and wholesale info.\n\nPen"
-    },
-    {
-      "company": "SkyShepherd (Safe Retrieve LLC)",
-      "market": "USA",
-      "segment": "pet_gps",
-      "contact_name": "",
-      "email": "",
-      "whatsapp": "",
-      "website": "skyshepherd.com",
-      "source": "google",
-      "verified": true,
-      "status": "researched",
-      "products_sold": "GPS dog fence collar $1000 - no subscription",
-      "brands_carried": "SkyShepherd",
-      "market_position": "USA-made GPS dog fence, premium $1000 product, engineered in USA",
-      "contact_source": "Website viewed - potential OEM partner",
-      "research_depth": "website_viewed",
-      "research_date": "2026-06-19",
-      "notes": "> Could be OEM customer for our GPS collar. Made in USA, expensive ($1000).",
-      "gate_score": 75,
-      "gate_status": "gated",
-      "gate_issues": [
-        "No email or WhatsApp"
-      ],
-      "draft": "Hi SkyShepherd 👋\n\nYour GPS dog fence at $1,000 is an impressive piece of engineering - smallest collar in class, no cellular needed. Made in USA.\n\nWe work with a Shenzhen manufacturer that makes GPS pet tracking hardware. If you're looking at OEM options to scale production or introduce a lower-cost line, I can share factory pricing and specs.\n\nPen"
-    },
-    {
-      "company": "Lone Wolf Pet Products",
-      "market": "USA",
-      "segment": "pet_products",
-      "contact_name": "",
-      "email": "",
-      "whatsapp": "",
-      "website": "lonewolfpets.com",
-      "source": "google",
-      "verified": true,
-      "status": "researched",
-      "products_sold": "Pet products - Texas-based",
-      "contact_source": "Website",
-      "research_depth": "website_viewed",
-      "research_date": "2026-06-19",
-      "gate_score": 50,
-      "gate_status": "needs_research",
-      "gate_issues": [
-        "No email or WhatsApp",
-        "Market position unknown"
-      ],
-      "draft": "Hi Lone Wolf 👋\n\nSaw you're a Texas-based pet products company. We work with a manufacturer that makes GPS pet tracking collars - no subscription models.\n\nFactory-direct pricing, private label available. If GPS pet products fit your range, I can share specs.\n\nPen"
-    },
-    {
-      "company": "SpotOn Fence",
-      "market": "USA",
-      "segment": "pet_gps",
-      "contact_name": "",
-      "email": "support@spotonfence.com",
-      "whatsapp": "",
-      "website": "spotonfence.com",
-      "source": "google",
-      "verified": true,
-      "status": "researched",
-      "products_sold": "GPS dog fence - no subscription required, USA-made",
-      "brands_carried": "SpotOn",
-      "market_position": "Premium GPS dog fence manufacturer USA, Manchester NH",
-      "contact_source": "Website",
-      "research_depth": "website_viewed",
-      "research_date": "2026-06-19",
-      "notes": "Potential OEM partner. Already makes own product ($1500+). Could source from us.",
-      "gate_score": 100,
-      "gate_status": "gated",
-      "draft": "Hi SpotOn Fence 👋\n\nI see you make GPS dog fences in Manchester, NH - no subscription required, USA-made. $1,500+ retail. You've built a solid premium product.\n\nWe work with a manufacturer in Shenzhen that produces GPS pet tracking collars. If you're ever looking at OEM options for hardware components or a lower-cost line, I can share factory pricing and specs.\n\nNo pressure - just wanted to introduce ourselves.\n\nPen"
-    },
-    {
-      "company": "Pawious",
-      "market": "USA",
-      "segment": "pet_gps",
-      "email": "",
-      "whatsapp": "",
-      "website": "pawious.com",
-      "source": "google",
-      "verified": true,
-      "status": "researched",
-      "products_sold": "XSentry GPS Dog Fence",
-      "research_depth": "website_viewed",
-      "research_date": "2026-06-19",
-      "gate_score": 50,
-      "gate_status": "needs_research",
-      "gate_issues": [
-        "No email or WhatsApp",
-        "Market position unknown"
-      ],
-      "draft": "Hi Pawious 👋\n\nYour XSentry GPS Dog Fence 3rd Gen with AI scene recognition is an impressive product - no subscription needed, works via satellite.\n\nWe work with a Shenzhen manufacturer that produces GPS pet tracking hardware. If you're looking at OEM options for future generation products, I can share factory specs and pricing.\n\nPen"
-    },
-    {
-      "company": "PetSafe Guardian GPS",
-      "market": "USA",
-      "segment": "pet_gps",
-      "email": "",
-      "whatsapp": "",
-      "website": "petsafe.com",
-      "source": "google",
-      "verified": true,
-      "status": "researched",
-      "products_sold": "Guardian GPS Dog Fence $449.99",
-      "research_depth": "website_viewed",
-      "research_date": "2026-06-19",
-      "gate_score": 50,
-      "gate_status": "needs_research",
-      "gate_issues": [
-        "No email or WhatsApp",
-        "Market position unknown"
-      ],
-      "draft": "Hi PetSafe team 👋\n\nSaw you launched the Guardian GPS Dog Fence - no subscription at $449.99. Smart move for the market.\n\nWe work with a manufacturer in Shenzhen that produces GPS pet tracking collars. If you ever need OEM hardware for future product lines or want to explore a more cost-effective supply option, I can share factory specs and pricing.\n\nPen"
-    },
-    {
       "company": "TURSAN",
       "market": "China",
-      "segment": "manufacturer",
+      "segment": "manufacturer_brand",
       "email": "",
       "whatsapp": "",
       "website": "tursan-pps.com",
@@ -837,7 +625,8 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Hi Detopsy 👋\n\nSaw you're selling EcoFlow DELTA 2 Max in Lagos with same-day delivery. Nice setup.\n\nWe supply LiFePO4 power stations from Shenzhen. 1280Wh/1200W at $205 FOB - could work as a more affordable option alongside EcoFlow.\n\nWant me to send the catalog?\n\nPen",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Hi Detopsy 👋\n\nQuick question — your Lagos customers buying DELTA 2 Max at NGN 1.2M+... do they ever ask for a more affordable option? Around NGN 350K with similar specs?\n\nWe have 1280Wh units that could hit that price point.\n\nPen"
     },
     {
       "company": "MacPower (123MacFreys Ltd)",
@@ -849,7 +638,7 @@
       "website": "macpower.com.ng",
       "source": "website:verified",
       "verified": true,
-      "status": "verified",
+      "status": "sent",
       "notes": "Also manufacturers/assemblies electric motorcycles. Diversified energy company.",
       "products_sold": "Portable solar inverters(M42/M60/M140), Powerbanks, Car jump starters, USB charging stations, Solar freezers, EV motorcycles",
       "brands_carried": "MacPower(own brand)",
@@ -860,7 +649,9 @@
       "research_date": "2026-06-19",
       "gate_score": 100,
       "gate_status": "gated",
-      "draft": "Hi MacPower 👋\n\nYou're assembling your own MacPower inverters and doing EV motorcycles in Lagos - interesting setup.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. If you want to add portable power stations alongside your inverters: 1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Want to see the catalog?\n\nPen"
+      "draft": "Hi MacPower 👋\n\nYou're assembling your own inverters and building EV motorcycles in Lagos - that's a real manufacturing operation.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. Portable power stations could be a natural fit alongside your inverter line: 1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Want to see the catalog?\n\nPen",
+      "followup": "Hi MacPower 👋\n\nYou're building EV motorcycles in Lagos — curious, what battery pack are you using for those?\n\nWe supply LiFePO4 packs for e-motorcycles and power stations. Might overlap.\n\nPen",
+      "_reviewed": true
     },
     {
       "company": "Batteriq Kenya",
@@ -883,7 +674,8 @@
       "gate_status": "gated",
       "draft": "Hey Batteriq team 👋\n\nSaw you're official EcoFlow/Bluetti dealer in Kenya. We supply LiFePO4 power stations from Shenzhen - same class, direct factory pricing.\n\n1024Wh class at $205 FOB. CE/FCC certified. Private label OK.\n\nInterested in a catalog?\n\nPen",
       "last_sent": "2026-06-19T13:00+08",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Hey Batteriq 👋\n\nSince you're official EcoFlow/Bluetti dealer — your customers buying DELTA 2 (1024Wh) at ~KSh 150K... ever ask for a cheaper version?\n\nWe supply 1280Wh at $205 FOB. Could be a mid-tier option.\n\nPen"
     },
     {
       "company": "Dong Solar Ltd",
@@ -955,7 +747,8 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Hi Axcellis 👋\n\nSaw you're the authorized Anker dealer in Kenya and stock EcoFlow too - at your Karen shop, same-day Nairobi delivery.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. For reference, a 1280Wh/1200W unit lands at $205 FOB.\n\nCould be a mid-range option for customers who find EcoFlow too expensive. If you're interested I can send the catalog.\n\nPen",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Hi Axcellis 👋\n\nJust saw you're closed till 24th June. No rush — I'll follow up when you're back.\n\nQuick note: we supply 1280Wh LiFePO4 units at $205 FOB if you want something to complement Anker/EcoFlow.\n\nPen (nichenexusglobal)"
     },
     {
       "company": "Starmac Kenya",
@@ -1078,27 +871,6 @@
       "channel": "email"
     },
     {
-      "company": "DC Pet Distribution",
-      "market": "USA",
-      "segment": "pet_products",
-      "contact_name": "",
-      "email": "info@dcpetdistribution.com",
-      "whatsapp": "18337623436",
-      "website": "dcpetdistribution.com",
-      "source": "website:verified",
-      "verified": true,
-      "status": "verified",
-      "products_sold": "Wholesale pet supplies - food, grooming, toys, accessories. Also GPS tracking products.",
-      "brands_carried": "Multiple brands",
-      "market_position": "Trusted pet supplies distributor USA, LATAM, worldwide. Orlando FL warehouse.",
-      "contact_source": "Website: info@dcpetdistribution.com / +1 (833) 762-3436",
-      "research_depth": "verified_on_website",
-      "research_date": "2026-06-19",
-      "gate_score": 100,
-      "gate_status": "gated",
-      "draft": "Hi DC Pet Distribution 👋\n\nYou distribute pet supplies across the US and LATAM from your Orlando warehouse.\n\nWe work with factories in China making GPS pet trackers and portable power banks - could be a new line for your catalog. MOQ flexible.\n\nWant me to send product info?\n\nPen"
-    },
-    {
       "company": "Adex International LLC",
       "market": "UAE",
       "segment": "power_station",
@@ -1118,7 +890,8 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Hi Adex International 👋\n\nYou're the Dubai-based company supplying CEA power stations to MENA and Eastern Europe.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. If you want to diversify beyond CEA:\n1280Wh/1200W - $205 FOB\n2048Wh/2400W - $298 FOB\n\nCE/FCC certified. Private label OK.\n\nInterested in the catalog?\n\nPen",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Hi Adex 👋\n\nI sent some product info to info@adexuae.com. Just checking if you received it?\n\nIf you're looking to expand your CEA range with LiFePO4 units, happy to set up a quick call.\n\nPen"
     },
     {
       "company": "Liwal International FZCO",
@@ -1130,7 +903,7 @@
       "website": "liwal.ae",
       "source": "website:verified",
       "verified": true,
-      "status": "researched",
+      "status": "sent",
       "products_sold": "Liwal brand portable power stations 140Wh-2048Wh, solar panels",
       "brands_carried": "Liwal(own)",
       "market_position": "Dubai-based FZCO, own brand power stations",
@@ -1139,7 +912,9 @@
       "research_date": "2026-06-19",
       "gate_score": 100,
       "gate_status": "gated",
-      "draft": "Hi Liwal International 👋\n\nYou're Dubai-based FZCO selling Liwal brand power stations 140Wh-2048Wh and solar panels.\n\nWe work with LiFePO4 factories in Shenzhen. If you want to expand beyond your current range:\n1280Wh/1200W - $205 FOB\n2048Wh/2400W - $298 FOB\n\nCE/FCC certified. Private label OK.\n\nInterested in the catalog?\n\nPen"
+      "draft": "Hi Liwal International 👋\n\nYou're Dubai-based FZCO selling Liwal brand power stations 140Wh-2048Wh and solar panels across the region.\n\nWe work with LiFePO4 factories in Shenzhen. If you want to add higher-capacity models to your Liwal range:\n1280Wh/1200W - $205 FOB\n2048Wh/2400W - $298 FOB\n\nCE/FCC certified. Private label OK.\n\nInterested in the catalog?\n\nPen",
+      "followup": "Hi Liwal 👋\n\nYou're selling Liwal brand across the region. What's your best-selling capacity?\n\nWe might have something to fill a gap in your range.\n\nPen",
+      "_reviewed": true
     },
     {
       "company": "Energix Power Indonesia",
@@ -1165,7 +940,7 @@
     {
       "company": "Solar Mart Energi",
       "market": "Indonesia",
-      "segment": "solar_wholesale",
+      "segment": "solar_distributor",
       "contact_name": "",
       "email": "",
       "whatsapp": "628116358090",
@@ -1203,7 +978,8 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Olá PowerSafe 👋\n\nVi que são representantes oficiais da EcoFlow no Brasil - estoque nacional, suporte técnico.\n\nTrabalhamos com fábrica na China que produz estações LiFePO4. 1280Wh/1200W a $205 FOB. CE/FCC. Marca própria disponível.\n\nQuer ver o catálogo e preços?\n\nPen",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Olá PowerSafe 👋\n\nTudo bem? Vi que vocês têm estoque nacional no Brasil. Seus clientes que compram EcoFlow — eles pedem algo mais acessível também?\n\nTemos unidades LiFePO4 que podem complementar.\n\nPen"
     },
     {
       "company": "BLUETTI Energy Brazil",
@@ -1263,7 +1039,8 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft_email": "Assunto: Estações de energia portáteis LiFePO4 - parceria comercial\n\nOlá JH Power,\n\nPen da nichenexusglobal em Shenzhen, China. Já tinha mandado mensagem pelo WhatsApp mas caiu no robô de atendimento.\n\nVi que vocês vendem baterias LiFePO4 12.8V (100Ah a 314Ah) e acessórios - bom portfólio para o mercado brasileiro.\n\nTrabalhamos com fábricas OEM chinesas de estações de energia portáteis LiFePO4 (600Wh a 5400Wh). Seria um complemento natural para a linha de baterias que vocês já oferecem.\n\nPreços de referência FOB:\n- 600Wh/500W ~ USD 145\n- 1000Wh/1000W ~ USD 199\n- 2000Wh/1200W ~ USD 298\n- 3600Wh/2200W ~ USD 620\n\nCertificação CE/FCC. Possibilidade de marca própria.\n\nSe tiverem interesse em adicionar estações portáteis ao portfólio, posso enviar o catálogo completo com fotos e especificações.\n\nAtenciosamente,\nPen\nnichenexusglobal.com",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Olá JH Power 👋\n\nTentei contato pelo WhatsApp mas caiu no robô. Por isso estou enviando este email para comercial@jhpoweroficial.com — já deve ter chegado.\n\nEstamos em Shenzhen, trabalhamos com fábricas de baterias LiFePO4. Se quiser ver o catálogo, é só responder.\n\nPen"
     },
     {
       "company": "Monari Agro",
@@ -1284,7 +1061,8 @@
       "gate_status": "gated",
       "draft": "Hi Monari Agro. Thanks for reaching out.\n\nWe don't have a warehouse in Southern Africa - all units ship direct from our factory in Shenzhen. That's why the pricing is competitive.\n\nFor reference:\n- 576Wh entry level: USD 125 EXW\n- 960Wh mid range: USD 195 EXW\n- 2048Wh high capacity: USD 420 EXW\n\nShipping to Beira or Durban port adds roughly USD 50-80 per CBM. MOQ from 1 unit.\n\nIf you want I can prepare a full quotation with shipping included so you see the total landed cost.\n\nPen\nnichenexusglobal.com | +86 19855653280",
       "last_sent": "2026-06-19",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Hi Blessing 👋\n\nFollowing up on your question about warehouse pricing. We don't have a local warehouse but FOB pricing is below.\n\n1280Wh/1200W at $205 FOB. Shipping to Beira 3-4 weeks.\n\nIf you want a formal quotation with landed cost, let me know.\n\nPen"
     },
     {
       "company": "Wynand Wessels / PROXA Water",
@@ -1303,7 +1081,8 @@
       "gate_score": 75,
       "gate_status": "needs_research",
       "draft": "Subject: Re: 100 portable power stations\n\nHi Wynand,\n\nSaw your post on Tradewheel about needing 100 portable power stations.\n\nCould you tell me what capacity and wattage you're looking for? We supply LiFePO4 units from factories here in Shenzhen and can quote accordingly.\n\nHappy to share our range if that helps.\n\nBest,\nPen | nichenexusglobal.com",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Hi Wynand 👋\n\nJust checking — did my email come through? I sent specs and pricing to your PROXA email.\n\nCould you share what capacity/wattage you need for the 100 units?\n\nPen"
     },
     {
       "company": "OKE (Nigeria)",
@@ -1412,7 +1191,7 @@
     {
       "company": "Vision Africa Investment Group",
       "market": "Africa (SADC + Central Africa)",
-      "segment": "distributor_importer",
+      "segment": "solar_distributor",
       "email": "",
       "whatsapp": "2348168510007",
       "website": "visionafricagroup.com",
@@ -1430,7 +1209,7 @@
     {
       "company": "Abkem Trading (EcoFlow Ethiopia)",
       "market": "Ethiopia",
-      "segment": "distributor",
+      "segment": "solar_distributor",
       "email": "",
       "whatsapp": "251974919999",
       "website": "abkemtrading.com",
@@ -1448,7 +1227,7 @@
     {
       "company": "Orifon LTD (Kenya)",
       "market": "Kenya",
-      "segment": "retailer_distributor",
+      "segment": "solar_retailer",
       "email": "orifonltd@gmail.com",
       "whatsapp": "254714744184",
       "website": "orifon.co.ke",
@@ -1462,12 +1241,13 @@
       "gate_score": 95,
       "gate_status": "gated",
       "draft": "Hi Orifon team 👋\n\nYou sell EcoFlow power stations from your Sawa Mall shop in Nairobi, plus the Iconic Business Plaza location - 5-year warranty on EcoFlow.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. If you want a mid-range option alongside EcoFlow:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label OK.\n\nWant to see the catalog?\n\nPen",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Hi Orifon team 👋\n\nJust following up — you're an official EcoFlow dealer with two shops in Nairobi. What percentage of your customers ask about more affordable options alongside EcoFlow?\n\nWe might have something that fits. 1280Wh at $205 FOB.\n\nPen"
     },
     {
       "company": "Pata Pawa (Tanzania)",
       "market": "Tanzania",
-      "segment": "distributor",
+      "segment": "solar_distributor",
       "email": "",
       "whatsapp": "255679971305",
       "website": "patapawa.shop",
@@ -1499,12 +1279,13 @@
       "gate_score": 95,
       "gate_status": "gated",
       "draft": "Hi Get Off Grid team 👋\n\nYou distribute solar panels, inverters and batteries to installers across Zambia from your Lusaka warehouse.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. Portable power stations could be a natural add-on for your installer customers:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label OK.\n\nInterested in the catalog?\n\nPen",
-      "_reviewed": true
+      "_reviewed": true,
+      "followup": "Hi Get Off Grid 👋\n\nQuick question — your installer customers in Zambia buying solar panels and inverters — do they ever ask for portable power stations as an add-on?\n\nWe supply LiFePO4 units. Could be a natural upsell for you.\n\nPen"
     },
     {
       "company": "KWT Tech Mart (Uganda)",
       "market": "Uganda",
-      "segment": "retailer",
+      "segment": "solar_retailer",
       "email": "",
       "whatsapp": "256789633108",
       "website": "kwttechmart.ug",
@@ -1576,7 +1357,7 @@
     {
       "company": "GoShop Energy (DRC)",
       "market": "DRC",
-      "segment": "exclusive_distributor",
+      "segment": "solar_distributor",
       "email": "kin@goshop.cd",
       "whatsapp": "243991473328",
       "website": "goshop.cd",
@@ -1590,6 +1371,84 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Bonjour GoShop Energy team 👋\n\nYou're the exclusive EcoFlow distributor in DRC with offices across Kinshasa, Lubumbashi, Goma and 7 other cities - plus Rwanda and Uganda. 150+ resellers. Solid network.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. If you want a complementary line alongside EcoFlow for your reseller network:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label available.\n\nInterested in seeing the range?\n\nPen"
+    },
+    {
+      "company": "Sona Solar Zimbabwe",
+      "market": "Zimbabwe",
+      "segment": "solar_distributor",
+      "email": "sonasolarzw@gmail.com",
+      "whatsapp": "263788642436",
+      "website": "sonasolar.co.zw",
+      "source": "Web research - solar distributor Zimbabwe",
+      "verified": true,
+      "status": "researched",
+      "products_sold": "Solar panels (Jinko, Canadian, JA), inverters (MUST, Growatt), LiFePO4 batteries, portable power stations. Full wholesale. Also borehole drilling.",
+      "market_position": "Zimbabwe solar distributor. Harare office (Eastlea). Multiple WhatsApp lines. Official MUST Jinko, SVolts distributor. Sells to installers and end-users nationwide.",
+      "contact_source": "Website: WhatsApp +263 78 864 2436 (Zim mobile), sonasolarzw@gmail.com",
+      "notes": "New market: Zimbabwe. Already sells portable power stations + LiFePO4 batteries. Good match for complementary line.",
+      "gate_score": 90,
+      "gate_status": "gated",
+      "draft": "Hi Sona Solar team 👋\n\nYou distribute solar panels, inverters and LiFePO4 batteries across Zimbabwe from your Harare office. Already carrying portable power stations - good setup.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. Could offer you a competitive option alongside your current range:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label OK.\n\nInterested in the catalog?\n\nPen"
+    },
+    {
+      "company": "Nature Solar Global Enterprises",
+      "market": "Nigeria",
+      "segment": "solar_distributor",
+      "email": "",
+      "whatsapp": "2349040054359",
+      "website": "naturesolar.ng",
+      "source": "Web search - sole importer of Itel Power Tank + Hithium in Nigeria",
+      "verified": true,
+      "status": "researched",
+      "products_sold": "Itel Power Tank 500W (1kWh), Hithium 1kWh solar generators, solar panels. Imports and distributes across Nigeria.",
+      "market_position": "Sole importer of Itel Power Tank in Nigeria. Located at Alaba International Market, Lagos. Also distributes Hithium brand.",
+      "contact_source": "Website: 09040054359 (WhatsApp), Alaba International Market, Lagos",
+      "notes": "REAL underwater customer. Actively importing solar generators. They already have import channels. Could be interested in our MECO/Anern products as an additional line alongside Itel.",
+      "gate_score": 90,
+      "gate_status": "gated",
+      "draft": "Hi Nature Solar 👋\n\nI see you're the sole importer of Itel Power Tank and Hithium solar generators in Nigeria — distributing from Alaba International Market.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. If you ever want alternative supply options alongside Itel and Hithium:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. MOQ 10 units.\n\nInterested to see what we have?\n\nPen"
+    },
+    {
+      "company": "Benten Solar Multi Global Concept",
+      "market": "Nigeria",
+      "segment": "solar_distributor",
+      "whatsapp": "2348134566945",
+      "email": "ben10solarnigeria@gmail.com",
+      "website": "bentensolar.sitesng.com",
+      "status": "researched",
+      "products_sold": "Solar panels, batteries, inverters, charge controllers, LED lights, UPS, solar water pumps, solar street lights",
+      "market_position": "Importer and distributor at Alaba Int'l Market F918. Sells to installers, contractors nationwide.",
+      "source": "Alaba Market online directory",
+      "verified": true,
+      "draft": "Hi Benten Solar 👋\n\nYou import and distribute solar products from F918 at Alaba Market. We're a Shenzhen sourcing company working with LiFePO4 factories.\n\nIf you want a portable power station line to add to your current product range:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. MOQ 10 units.\n\nPen"
+    },
+    {
+      "company": "Casco Electronics",
+      "market": "Nigeria",
+      "segment": "solar_distributor",
+      "whatsapp": "2348035392979",
+      "email": "",
+      "website": "",
+      "status": "researched",
+      "products_sold": "Inverters, solar panels, batteries, lights",
+      "market_position": "Importer at FL505 Alaba International Market, Lagos. Beside Union Bank.",
+      "source": "GoAfricaOnline directory",
+      "verified": true,
+      "draft": "Hi Casco Electronics 👋\n\nYou import and distribute inverters, solar panels and batteries at Alaba Market. We supply LiFePO4 portable power stations from Shenzhen.\n\n1280Wh/1200W at $205 FOB. CE/FCC certified.\n\nCould be a good fit alongside what you already sell.\n\nPen"
+    },
+    {
+      "company": "NDC Solar Power Enterprise",
+      "market": "Nigeria",
+      "segment": "solar_distributor",
+      "whatsapp": "",
+      "email": "",
+      "website": "ndcsolarpower.com",
+      "status": "researched",
+      "products_sold": "Solar panels, inverters, batteries, complete solar systems",
+      "market_position": "Solar power store at F394B Alaba International Market, Lagos. RC: 6996231. Nationwide delivery.",
+      "source": "Alaba Market website",
+      "verified": true,
+      "draft": "Hi NDC Solar 👋\n\nYou sell solar panels, inverters and batteries from F394B at Alaba Market. We supply LiFePO4 portable power stations from Shenzhen.\n\n1280Wh/1200W at $205 FOB. CE/FCC certified.\n\nIf you're looking to add power stations to your product range, I can send the catalog.\n\nPen"
     }
   ],
   "last_updated": "2026-06-19",
