@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": 1,
-    "last_updated": "2026-06-21",
-    "total_hammers": 24,
+    "last_updated": "2026-06-22",
+    "total_hammers": 16,
     "categories": [
       "portable_power_1000w",
       "portable_power_2000w",
@@ -266,6 +266,49 @@
           "source": "alibaba_listing",
           "status": "unverified_quote",
           "notes": "Best rated but higher priced"
+        },
+        {
+          "rank": 7,
+          "name": "Anern Energy (Guangzhou Anern Energy Technology Co., Ltd.)",
+          "years": 16,
+          "category": "portable_power_station",
+          "products": [
+            {
+              "model": "AN-MPSG-E1200",
+              "type": "LiFePO4 portable power station",
+              "wh": 1280,
+              "w": 1200,
+              "battery": "LiFePO4 12.8V",
+              "ac_output": "220/230/240VAC Type G (UK)",
+              "pv_input": "800W max, MPPT 17-115VDC",
+              "charge_current": "18A",
+              "fob_price_10": 205,
+              "fob_price_100": 198,
+              "moq": 10,
+              "payment": "30% deposit, 70% before shipment",
+              "delivery_days": 25,
+              "packing_cm": "52.9x39x25.5",
+              "weight_kg": 18,
+              "shipping_mombasa_100": 2200,
+              "notes": "COC certificate needed for Kenya"
+            }
+          ],
+          "contact": {
+            "person": "Luke Chan",
+            "email": "export9@anern.com",
+            "whatsapp": "available in email",
+            "tel": "0086-20-89269669",
+            "address": "5F, Building B, No.2817 Kaichuang Ave, Huangpu, Guangzhou",
+            "bank": "JPMorgan Chase Hong Kong, acct 63001231237"
+          },
+          "source": "verified_email",
+          "documents": [
+            "PI ANSD260605-LU.pdf",
+            "Solar System Catalog.pdf",
+            "Portable solar generators.pdf"
+          ],
+          "data_quality": "A",
+          "last_updated": "2026-06-22"
         }
       ]
     }
@@ -1155,6 +1198,36 @@
       "Grade E": 0
     },
     "attachments_last_updated": "2026-06-18",
-    "hammers_last_updated": "2026-06-18"
+    "hammers_last_updated": "2026-06-18",
+    "Pecron": {
+      "name": "Pecron (Shenzhen Pecron Technology)",
+      "contact": {
+        "person": "Chris",
+        "email": "sales06@pecron.com",
+        "whatsapp": "+86 153 6147 2189"
+      },
+      "restrictions": {
+        "nigeria_exclusive_distributor": true,
+        "west_africa_exclusive": true,
+        "contract_expires": "2026-12",
+        "note": "Cannot sell Pecron brand in Nigeria/West Africa directly. Exclusive distributor holds rights until Dec 2026."
+      },
+      "source": "verified_email",
+      "data_quality": "A",
+      "last_updated": "2026-06-22"
+    },
+    "Anern": {
+      "name": "Anern Energy",
+      "contact_person": "Luke Chan",
+      "email": "export9@anern.com",
+      "category": "portable_power_station",
+      "fob_usd": {
+        "AN-MPSG-E1200_1280Wh": 198
+      },
+      "best_wh_price": 0.155,
+      "best_value_model": "AN-MPSG-E1200: 1280Wh/1200W $198/1280 = $0.155/Wh",
+      "status": "verified",
+      "notes": "PI confirmed. 100pcs FOB $198. 30% deposit. UK socket. 220-240V."
+    }
   }
 }
