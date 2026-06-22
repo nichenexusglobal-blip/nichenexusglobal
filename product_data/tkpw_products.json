@@ -1,0 +1,51 @@
+{
+  "source": "TAICO (TKPW)",
+  "contact": "sales20",
+  "email": "sales20@taicopower.com",
+  "products": [
+    {
+      "model": "TKPW-A1000",
+      "wh": 1004.8,
+      "w": 300,
+      "battery": "LiFePO4 3.2V/314Ah",
+      "cycles": 10000,
+      "nw_kg": 9.9,
+      "dims": "290x130x225mm",
+      "ac_input": "500W",
+      "pv_input": "300W"
+    },
+    {
+      "model": "TKPW-A1000 Pro",
+      "wh": 1004.8,
+      "w": 500,
+      "battery": "LiFePO4 6.4V/314Ah",
+      "cycles": 10000,
+      "nw_kg": 10.8,
+      "dims": "290x150x225mm",
+      "ac_input": "500W",
+      "pv_input": "300W"
+    },
+    {
+      "model": "TKPW-A2000",
+      "wh": 2009.6,
+      "w": 500,
+      "battery": "LiFePO4",
+      "cycles": 10000,
+      "nw_kg": 20.9,
+      "dims": "300x215x250mm",
+      "ac_input": "1000W",
+      "pv_input": "550W"
+    },
+    {
+      "model": "TKPW-A2000 Pro",
+      "wh": 2009.6,
+      "w": 1000,
+      "battery": "LiFePO4",
+      "cycles": 10000,
+      "nw_kg": 21.8,
+      "dims": "340x260x260mm",
+      "ac_input": "1000W",
+      "pv_input": "550W"
+    }
+  ]
+}

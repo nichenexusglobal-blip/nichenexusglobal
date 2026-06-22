@@ -1,0 +1,46 @@
+{
+  "source": "IE-Energy",
+  "contact": "Krista / LISA",
+  "email": "marketing@ie-energy.com",
+  "products": [
+    {
+      "model": "H300",
+      "wh": "?",
+      "w": 300,
+      "spec": "portable"
+    },
+    {
+      "model": "H700",
+      "wh": 230.4,
+      "w": 700,
+      "dims": "325x232x242mm",
+      "nw_kg": 10
+    },
+    {
+      "model": "H1200I",
+      "wh": 1075.2,
+      "w": 1200,
+      "dims": "360x262x266mm",
+      "nw_kg": 14.7
+    },
+    {
+      "model": "H7012",
+      "wh": 1008,
+      "w": 1200,
+      "dims": "325x232x242mm",
+      "nw_kg": 14.7
+    },
+    {
+      "model": "H2400",
+      "wh": 1843.2,
+      "w": 2400,
+      "spec": "4*AC output"
+    },
+    {
+      "model": "F3600",
+      "wh": "?",
+      "w": "high",
+      "spec": "large unit"
+    }
+  ]
+}

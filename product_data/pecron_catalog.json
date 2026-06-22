@@ -1,0 +1,43 @@
+{
+  "source": "Pecron",
+  "contact": "Chris",
+  "email": "sales06@pecron.com",
+  "products": [
+    {
+      "model": "E300LFP",
+      "wh": 288,
+      "w": 288
+    },
+    {
+      "model": "E500LFP",
+      "wh": 576,
+      "w": 576
+    },
+    {
+      "model": "E1000LFP",
+      "wh": 1024,
+      "w": 1024
+    },
+    {
+      "model": "E1500LFP",
+      "wh": 1536,
+      "w": 1536
+    },
+    {
+      "model": "E2400LFP",
+      "wh": 2304,
+      "w": 2304
+    },
+    {
+      "model": "E3600LFP",
+      "wh": 3072,
+      "w": 3072
+    },
+    {
+      "model": "E3800LFP",
+      "wh": 3840,
+      "w": 3840
+    }
+  ],
+  "notes": "Full catalog text: 15585 chars. Also has FOB Shenzhen.xls pricing spreadsheet."
+}

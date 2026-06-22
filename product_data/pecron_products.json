@@ -1,0 +1,64 @@
+{
+  "source": "Pecron",
+  "contact": "Chris",
+  "email": "sales06@pecron.com",
+  "whatsapp": "+86 153 6147 2189",
+  "products": [
+    {
+      "model": "E300 LFP",
+      "wh": 288,
+      "w": 600,
+      "battery": "LiFePO4 19.2V/15Ah",
+      "ac_input": "300W",
+      "pv_input": "100W",
+      "nw_kg": 4.8,
+      "dims": "254x172x154mm"
+    },
+    {
+      "model": "E500 LFP",
+      "wh": 576,
+      "w": 600,
+      "battery": "LiFePO4 19.2V/30Ah",
+      "ac_input": "500W",
+      "pv_input": "100W",
+      "nw_kg": 6.75,
+      "dims": "252x170x187mm"
+    },
+    {
+      "model": "E1000 LFP",
+      "wh": 1024,
+      "w": 1800,
+      "battery": "LiFePO4 51.2V/20Ah",
+      "ac_input": "1000W",
+      "pv_input": "600W"
+    },
+    {
+      "model": "E1500 LFP",
+      "wh": 1536,
+      "w": 2200,
+      "battery": "LiFePO4",
+      "pv_input": "1400W"
+    },
+    {
+      "model": "E2400 LFP",
+      "wh": 2304,
+      "w": 3000,
+      "battery": "LiFePO4",
+      "pv_input": "1800W"
+    },
+    {
+      "model": "E3600 LFP",
+      "wh": 3072,
+      "w": 3600,
+      "battery": "LiFePO4",
+      "pv_input": "3200W"
+    },
+    {
+      "model": "E3800 LFP",
+      "wh": 3840,
+      "w": 4200,
+      "battery": "LiFePO4",
+      "pv_input": "3200W"
+    }
+  ]
+}

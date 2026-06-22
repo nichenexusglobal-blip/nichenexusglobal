@@ -1,0 +1,38 @@
+{
+  "source": "Shunxiang Energy",
+  "contact": "Eason",
+  "email": "eason@shunxiangenergy.com",
+  "whatsapp": "+86 186 5804 6918",
+  "products": [
+    {
+      "model": "W77",
+      "wh": 1087,
+      "w": 1000,
+      "fob_10": 319,
+      "fob_200": 264,
+      "fob_500": 253,
+      "dims": "400x210x275mm",
+      "gw_kg": 15.6
+    },
+    {
+      "model": "W78",
+      "wh": 1450,
+      "w": 1500,
+      "fob_10": 399,
+      "fob_200": 352,
+      "fob_500": 335,
+      "dims": "400x210x275mm",
+      "gw_kg": 17.5
+    },
+    {
+      "model": "W79",
+      "wh": 3030,
+      "w": 3000,
+      "fob_10": 645,
+      "fob_200": 615,
+      "fob_500": 589,
+      "battery": "Li-Ion NCM",
+      "gw_kg": "~25"
+    }
+  ]
+}

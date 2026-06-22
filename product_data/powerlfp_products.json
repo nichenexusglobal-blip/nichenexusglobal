@@ -1,0 +1,44 @@
+{
+  "source": "PowerLFP (LiFePower)",
+  "contact": "Jessica Gong",
+  "email": "jessica@powerlfp.com",
+  "whatsapp": "+86 137 1394 4103",
+  "products": [
+    {
+      "model": "LF-Y500PPS",
+      "wh": 568,
+      "w": 600,
+      "battery": "Li-ion",
+      "fob_100": 195,
+      "dims": "275x170x215mm",
+      "nw_kg": 5.4
+    },
+    {
+      "model": "LF-B600PPS",
+      "wh": 576,
+      "w": 600,
+      "battery": "LiFePO4",
+      "fob_100": 115,
+      "dims": "270x210x220mm",
+      "nw_kg": 6
+    },
+    {
+      "model": "LF-B1200PPS",
+      "wh": 1152,
+      "w": 1200,
+      "battery": "LiFePO4",
+      "fob_100": 219,
+      "dims": "280x245x250mm",
+      "nw_kg": 11.3
+    },
+    {
+      "model": "LF-B2000PPS",
+      "wh": 2016,
+      "w": 2000,
+      "battery": "LiFePO4",
+      "fob_100": 529,
+      "dims": "470x366x292mm",
+      "nw_kg": 25
+    }
+  ]
+}
