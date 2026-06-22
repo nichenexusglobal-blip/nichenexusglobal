@@ -2,28 +2,34 @@
 """Multi-perspective bullet review - run before presenting any draft"""
 import json, sys
 
-def review_bullet(company, market, message, channel="whatsapp"):
-    """Score a bullet from 3 angles: client, skeptic, operator"""
+def review_bullet(company, market, message, channel="whatsapp", is_reply=False):
+    """Score from 4 angles. is_reply=True for follow-up messages."""
     
     checks = []
     score = 0
     
     # ─── 1. CLIENT视角 ───
     client_issues = []
-    # Did we actually visit their site?
-    if "I see" not in message and "I noticed" not in message:
-        client_issues.append("看不出我们了解他们是谁")
-    # Is the offer clear?
-    if "$" not in message:
-        client_issues.append("没有价格")
-    # Is the ask vague?
-    if "interested" in message.lower() and "?" in message:
-        pass  # OK
+    if is_reply:
+        # For replies: did we answer their question?
+        if "$" not in message:
+            client_issues.append("没有价格")
+        if "?" not in message[-100:]:
+            client_issues.append("没有推动对话的问题")
+        if len(message) > 500:
+            client_issues.append("消息太长")
     else:
-        client_issues.append("没有清晰的问题/CTA")
-    # Is it too long?
-    if len(message) > 500:
-        client_issues.append("消息太长")
+        # Original cold outreach checks
+        if "I see" not in message and "I noticed" not in message:
+            client_issues.append("看不出我们了解他们是谁")
+        if "$" not in message:
+            client_issues.append("没有价格")
+        if "interested" in message.lower() and "?" in message:
+            pass
+        else:
+            client_issues.append("没有清晰的问题/CTA")
+        if len(message) > 500:
+            client_issues.append("消息太长")
     
     score += 25 if len(client_issues) == 0 else max(0, 25 - 5 * len(client_issues))
     checks.append(("🧑‍💼 客户视角", client_issues, 25))
