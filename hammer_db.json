@@ -1201,19 +1201,19 @@
     "hammers_last_updated": "2026-06-18",
     "Pecron": {
       "name": "Pecron (Shenzhen Pecron Technology)",
-      "contact": {
-        "person": "Chris",
-        "email": "sales06@pecron.com",
-        "whatsapp": "+86 153 6147 2189"
-      },
+      "contact_person": "Chris",
+      "email": "sales06@pecron.com",
+      "whatsapp": "+86 153 6147 2189",
+      "catalog": "PECRON product catalogue 2026-4-22.pdf (2.2MB)",
+      "fob_spreadsheet": "FOB Shenzhen.xls (689KB)",
+      "category": "portable_power_station",
       "restrictions": {
         "nigeria_exclusive_distributor": true,
         "west_africa_exclusive": true,
-        "contract_expires": "2026-12",
-        "note": "Cannot sell Pecron brand in Nigeria/West Africa directly. Exclusive distributor holds rights until Dec 2026."
+        "contract_expires": "2026-12"
       },
-      "source": "verified_email",
-      "data_quality": "A",
+      "source": "verified_email_catalog",
+      "status": "verified",
       "last_updated": "2026-06-22"
     },
     "Anern": {
@@ -1228,6 +1228,116 @@
       "best_value_model": "AN-MPSG-E1200: 1280Wh/1200W $198/1280 = $0.155/Wh",
       "status": "verified",
       "notes": "PI confirmed. 100pcs FOB $198. 30% deposit. UK socket. 220-240V."
+    },
+    "IE-Energy": {
+      "name": "IE-Energy (LISA)",
+      "contact_person": "LISA",
+      "email": "marketing@ie-energy.com",
+      "category": "portable_power_station",
+      "source": "verified_email_quotation",
+      "status": "verified",
+      "notes": "SHENZHEN INTELLIGENT ENERGY CO., LTD\r\n\r\nQUOTATION\r\n\r\nCustomer\r\n\r\nQuotation No\r\n\r\n20260525001\r\n\r\nContact NO 1 2 3 4 5\r\n6\r\n\r\nKrista\r\n\r\nPrepared by\r\n\r\nMODEL NO\r\n\r\nSPEC\r\n\r\nH300 H700 H1200I H7012 H2400 F3600\r\n\r\nLiFePO4 Portable Power Station Battery Capacity:230.4Wh AC output power:300W Peak power:600W Out put:1*AC /1*CAR Port/1*USB A/1*USB C/2*DC/1*Wireless charging PV input watts: 100W Max Car charging input watts:45Max Life cycles:2000cycles Dimension:222*187*190mm N.W:3.7KG\r\nLiFePO4 Portable Powe",
+      "last_updated": "2026-06-22"
+    },
+    "Shunxiang Energy": {
+      "name": "Shunxiang Energy (Eason)",
+      "contact_person": "Eason",
+      "email": "eason@shunxiangenergy.com",
+      "category": "portable_power_station",
+      "documents": [
+        "Energy Storages Quote-Shunxiang.pdf",
+        "SX Quotation to Pen.pdf"
+      ],
+      "notes": "Dongguan ShunXiang Energy Technology Co.,Ltd\r\n\r\nCategory\r\n\r\nEason Tel:+86 18658046918 WhatsApp/Skype:+86 18658046918 Add:3rd Floor, Building BC, No. 3 Shayuan 1st Road, Keyuan City, Tangxia Town, Dongguan Guangdong\r\nPrice sheet\r\n\r\nName Waveform\r\n\r\nParameter\r\n\r\nPicture\r\n\r\nCapacity\r\n\r\n300W\r\n\r\nsine wav\n---\nDongguan ShunXiang Energy Technology Co.,Ltd\r\n\r\nAdd:3rd Floor, Building BC, No. 3 Shayuan 1st Road, Keyuan City, Tangxia Town, Dongguan Guangdong\r\n\r\nBuyer: Pen Phone: Email: pen@nichenexusglobal.com\r\n\r\nQUOTATION\r\n\r\nName: Eason Phone: 18658046918\r\nEmail: eason@shunxiangenergy.com Quote 2026/6/6 Date:",
+      "source": "verified_email_quotation",
+      "status": "verified",
+      "last_updated": "2026-06-22"
+    },
+    "PowerLFP (LiFePower)": {
+      "name": "PowerLFP (LiFePower)",
+      "contact_person": "Jessica Gong",
+      "email": "jessica@powerlfp.com",
+      "category": "portable_power_station",
+      "document": "LIFEPOWER Quotation 26F0501.pdf",
+      "notes": "Quotation NO.: QT26F0501\r\n\r\nShenzhen LiFePower Technology Co., Ltd\r\nAdd.: Fuqiang Building,1 Building 1-3, Mabu Village, 62 Zone,Liutang Community, Bao'an District,Shenzhen, China 518133 Mobile/WhatsApp: 0086 13713944103 WWW.POWERLFP.COM\r\nQuotation for Portable power stations\r\nQuotation Date: 5 June, 2026\r\n\r\nNO.\r\n\r\nModel Name\r\n\r\nReference Photo\r\n\r\n1 LF-Y500PPS\r\n\r\n2 LF-B600PPS\r\n\r\n3 LF-B1200PPS 4 LF-B2000PPS\r\n\r\nLoading Power / Battery capacity 600W / 568Wh\r\n600W / 576Wh\r\n1200W / 1152Wh\r\n2000W / 20",
+      "source": "verified_email_quotation",
+      "status": "verified",
+      "last_updated": "2026-06-22"
+    },
+    "TURSAN": {
+      "name": "TURSAN (Mavis)",
+      "contact_person": "Mavis Ivan",
+      "email": "mavis@tursan-pps.com",
+      "category": "oem_manufacturer",
+      "catalog": "TURSAN Catalog-2026.pdf (13MB)",
+      "notes": "From: mavis Ivan <mavis@tursan-pps.com>\nSubject: Re:Portable power stations and home storage systems with OEM/ODM\nDate: Mon, 25 May 2026\n\nHi Pen，\n\n\n\nHave a good day!\n\n\n\nI am from TURSAN, a leading OEM & ODM battery manufacturer in China. We\n\noffer customized services to our customers with no agency fees and no\n\nrestrictions on market sales.\n\n\n\nPlease review my product catalog and select products suitable for your\n\nmarket. I will provide you with a quote and detailed product information.\n\n\n\nOur p",
+      "source": "verified_email",
+      "status": "verified",
+      "last_updated": "2026-06-22"
+    },
+    "CALIFE": {
+      "name": "CALIFE Power (Johnny Liu / Coco)",
+      "email_contact": "sales@califepower.com, coco@califepower.com",
+      "category": "portable_power_station",
+      "notes": "Replied to RFQ for 1000W/2000W LiFePO4",
+      "source": "verified_email",
+      "status": "verified",
+      "last_updated": "2026-06-22"
+    },
+    "TAICO Power (TKPW)": {
+      "name": "TAICO Power (Shenzhen Taico Technology)",
+      "contact_person": "sales20",
+      "email": "sales20@taicopower.com",
+      "category": "portable_power_station",
+      "catalog": "TKPW-A1000 spec sheet V2.4 (11.4MB)",
+      "images": "3 product photos: left front, right front, right view",
+      "notes": "From: sales20@taicopower.com\nSubject: Re:  Inquiry: 1000W LiFePO4 Portable Power Station OEM — 200-500 units\nDate: Tue, 26 May 2026\n\nDear Pen,\n \nGlad to receive your inquiry. This is Kelly from TAICO POWER, a 24-year manufacturer of inverters and batteries, with all certifications available.\n \nFor 1000W portable power station, we have 300W and 500W inverter to choose, which power do you like?\n \nAttached is our datasheet for your reference, MOQ will be 200pcs.\n \n\n\n \nBest regards\nKelly Fang\n \n\n \nS",
+      "source": "verified_email",
+      "status": "verified",
+      "last_updated": "2026-06-22"
+    },
+    "BLOO POWER": {
+      "name": "BLOO POWER",
+      "contact_person": "info@bloopower.com",
+      "email": "info@bloopower.com",
+      "category": "oem_manufacturer",
+      "catalog": "BLOO POWER Catalog2026.pdf (11.4MB)",
+      "notes": "From: info@bloopower.com\nSubject: Re:  RFQ: 300W / 1000W / 3600W LiFePO4 Portable Power Station\nDate: Wed, 10 Jun 2026\n\nDear Mr.Pen ,\nGlad to receive your inquiry in our website.This is Lillian from BLOO POWER, we are a professional energy storage battery manufacturer.\nBelow are fob prices:\n- 288Wh / 300W LiFePO4 model (small retail market):260usd\n- 2kwh+1kw all in one system LiFePO4 model (home backup): 350usd\n- 3000wh/3600W large capacity model (for our SA distributor):990usd\n \nAttached is our",
+      "source": "verified_email",
+      "status": "verified",
+      "last_updated": "2026-06-22"
+    },
+    "Topure Power": {
+      "name": "Topure Power (Frankhan)",
+      "contact_person": "Frankhan",
+      "email": "sales@topurepower.com",
+      "category": "portable_power_station",
+      "products": "CP3000, CP3600 LiFePO4",
+      "notes": "From: Frankhan <sales@topurepower.com>\nSubject: Re: RFQ: CP3000 / CP3600 LiFePO4 Portable Power Station\nDate: Sun, 7 Jun 2026 \n\n\n\n\n\n\n\n\n---- Replied Message ----\nFrom <pen@nichenexusglobal.com> Date 6/5/2026 10:27 To <sales@topurepower.com> Subject RFQ: CP3000 / CP3600 LiFePO4 Portable Power Station  \nHi Team,\n\nI saw your CP3000 and CP3600 portable power stations on topurepower.com. Your client list including China Mobile and State Grid speaks to your reliability.\n\nWe need a 3000W-class LiFePO4 s",
+      "source": "verified_email",
+      "status": "verified",
+      "last_updated": "2026-06-22"
+    },
+    "Pecron (Rita)": {
+      "name": "Pecron (Rita / Yu Yanbing)",
+      "contact_person": "Rita (于炎冰)",
+      "email": "rita@pecron.com",
+      "category": "portable_power_station",
+      "notes": "From: \"于炎冰\" <rita@pecron.com>\nSubject: Re:  FOB pricing follow-up - portable series\nDate: Sun, 31 May 2026\n\nHello Pen ,\n\nGood day. \n\nOur sales Chris already quoted you twice. \n\n\nPlease kindly check email from Sales06@pecron.com \n\nMany thanks and best regards \n\n \nShenzhen Pecron Technology Co.,Ltd\nRita Yu/Sales Director\nEmail：rita@pecron.com\nMobile：8618124091894\nSkype：8618124091894\nWechat：8618124091894\nAdd：A503, No.2 Tian An Cyber Park, Longgang District, Shenzhen, Guangdong, China\nWeb：http://www",
+      "source": "verified_email",
+      "status": "verified",
+      "last_updated": "2026-06-22"
+    },
+    "MECO Power": {
+      "name": "MECO Power (Hoho Liu / Sales)",
+      "contact_person": "Hoho Liu, Sales",
+      "email": "hoho.liu@mecopower.com, sales@mecopower.com",
+      "category": "portable_power_station",
+      "quotation": "Meco Solar Generator Quoation 2026-06-01.pdf",
+      "notes": "From: \"刘芝\" <hoho.liu@mecopower.com>\nSubject: 回复：Re: packing details — confirm FOB pricing for MECO 1KWH and 2KWH\nDate: Sun, 07 Jun 2026\n\nHi Yes, we have forwarder can delivery the goods DDP toDurban/Cape Town . The price is about 610USD/CBM and takes around 40 days. Should i Prepare the PI for you include the shipping cost as well(DDP) ? Hoho Liu Sales Manager, Shenzhen Meco New Energy Co.,ltd Whatsapp: 0086 15814495128|www.mecopower.com hoho.liu@mecopower.com Add:1801 Hongfawanyueshan Building,",
+      "source": "verified_email",
+      "status": "verified",
+      "last_updated": "2026-06-22"
     }
   }
 }

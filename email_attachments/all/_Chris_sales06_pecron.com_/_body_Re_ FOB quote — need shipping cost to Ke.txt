@@ -1,0 +1,48 @@
+From: "Chris" <sales06@pecron.com>
+Subject: Re: FOB quote — need shipping cost to Kenya, Philippines, Dubai
+Date: Tue, 09 Jun 2026
+
+Manila Port, Philippines
+Ocean Freight: USD 52/cbm
+Customs Clearance Fee: RMB 350/shipment
+Document Fee: RMB 350/shipment
+Warehouse Fee: RMB 180/shipment
+【Destination Port Charges】
+Peak Season Surcharge: USD 12/RT;
+Fuel Surcharge: USD 8/RT;
+BL Fee: USD 50/BL;
+Import Surcharge: USD 135/RT;
+LCL THC: PHP 450/RT;
+Document Fee: PHP 880/BL;
+Handling/Handling Fee: PHP 880/BL;
+LCL Fee: PHP 880/RT;
+Manifest Fee: PHP 880/BL;
+Container Imbalance Surcharge: USD 20/RT at actual cost
+ECRS: USD 25/RT at actual cost, VAT 12%, note that there is no free storage period at the destination port, and storage fees are calculated from the date of container unloading.
+Customs Manifest Data Entry Fee: PHP 1000/BL;
+Shenzhen Pecron Technology Co.,Ltd
+Chris / Overseas Sales 
+Email：sales06@pecron.com
+Mobile/WhatsApp/Wechat/Skype: +86 153 6147 2189
+Add：A503, No.2 Tian An Cyber Park, Longgang District, Shenzhen, Guangdong, China
+------------------------------------------------------------------
+From:pen <pen@nichenexusglobal.com>
+Send Time:2026年6月5日(周五) 22:12
+To:sales06<sales06@pecron.com>
+Subject:Re: FOB quote — need shipping cost to Kenya, Philippines, Dubai
+Hi Chris,
+Thanks for your FOB Shenzhen pricing on the E600LFP, F1000LFP, and E2400LFP. We have these in our catalog now.
+A few follow-up questions to prepare full landed cost estimates for our distributors:
+1. Packing details — can you confirm the exact CBM and gross weight per unit for:
+ - E600LFP (614Wh)
+ - F1000LFP (960Wh)
+ - E2400LFP (2048Wh)
+2. Shipping — do you have a forwarder that can quote CIF to:
+ - Mombasa, Kenya
+ - Manila, Philippines
+ - Jebel Ali, Dubai
+3. Current lead time for 100-unit order of mixed models?
+With this we can present complete pricing including landed cost to our distribution network.
+Best regards,
+Pen
+nichenexusglobal.com
