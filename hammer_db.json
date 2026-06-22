@@ -250,10 +250,16 @@
           "dims": "252x170x187mm",
           "ac_input": "500W",
           "pv_input": "100W",
-          "data_quality": "B",
+          "data_quality": "A",
           "last_updated": "2026-06-22",
           "rank": 14,
-          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
+          "notes": "Pricing from FOB Shenzhen.xls",
+          "fob_usd": {
+            "exw_500": 130,
+            "exw_500plus": 125,
+            "wh": 576,
+            "w": 600
+          }
         },
         {
           "name": "Pecron E1000 LFP",
@@ -379,6 +385,25 @@
           "data_quality": "A",
           "last_updated": "2026-06-22",
           "rank": 21
+        },
+        {
+          "name": "Pecron F1000LFP",
+          "source": "verified_email_pricing",
+          "contact": "Chris",
+          "email": "sales06@pecron.com",
+          "wh": 960,
+          "w": 1500,
+          "fob_usd": {
+            "exw_500": 199,
+            "exw_500plus": 195,
+            "fob_100": 202.5
+          },
+          "battery": "LiFePO4 64V/15Ah",
+          "nw_kg": 10,
+          "dims": "380x217x214mm",
+          "data_quality": "A",
+          "notes": "Can't sell to Nigeria/West Africa (exclusive distributor until 2026-12)",
+          "last_updated": "2026-06-22"
         }
       ]
     },
@@ -615,10 +640,17 @@
           "dims": "",
           "ac_input": "",
           "pv_input": "1800W",
-          "data_quality": "B",
+          "data_quality": "A",
           "last_updated": "2026-06-22",
           "rank": 14,
-          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
+          "notes": "Pricing from FOB Shenzhen.xls",
+          "fob_usd": {
+            "exw_500": 430,
+            "exw_500plus": 420,
+            "fob_100": 433.5,
+            "wh": 2048,
+            "w": 2400
+          }
         },
         {
           "name": "Pecron E3600 LFP",
