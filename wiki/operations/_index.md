@@ -1,6 +1,6 @@
 # Operations & Discipline
 
-Compiled: 2026-06-21T22:00:16.698299
+Compiled: 2026-06-22T22:00:33.988261
 
 - [Agent.Md](raw/lessons/AGENT.md)
 - [Rule.Md](raw/lessons/RULE.md)
