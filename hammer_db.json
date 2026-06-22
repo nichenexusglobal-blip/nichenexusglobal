@@ -233,9 +233,10 @@
           "dims": "254x172x154mm",
           "ac_input": "300W",
           "pv_input": "100W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 13
+          "rank": 13,
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
         },
         {
           "name": "Pecron E500 LFP",
@@ -249,9 +250,10 @@
           "dims": "252x170x187mm",
           "ac_input": "500W",
           "pv_input": "100W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 14
+          "rank": 14,
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
         },
         {
           "name": "Pecron E1000 LFP",
@@ -265,9 +267,10 @@
           "dims": "",
           "ac_input": "1000W",
           "pv_input": "600W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 15
+          "rank": 15,
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
         },
         {
           "name": "PowerLFP LF-Y500PPS",
@@ -332,9 +335,10 @@
           "nw_kg": 9.9,
           "dims": "290x130x225mm",
           "ac_input": "500W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 19
+          "rank": 19,
+          "notes": "Has full spec sheet but no FOB pricing in email - needs follow-up"
         },
         {
           "name": "TKPW TKPW-A1000 Pro",
@@ -348,9 +352,10 @@
           "nw_kg": 10.8,
           "dims": "290x150x225mm",
           "ac_input": "500W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 20
+          "rank": 20,
+          "notes": "Has full spec sheet but no FOB pricing in email - needs follow-up"
         },
         {
           "name": "Anern Energy AN-MPSG-E1200",
@@ -482,49 +487,6 @@
           "notes": "Best rated but higher priced"
         },
         {
-          "rank": 7,
-          "name": "Anern Energy (Guangzhou Anern Energy Technology Co., Ltd.)",
-          "years": 16,
-          "category": "portable_power_station",
-          "products": [
-            {
-              "model": "AN-MPSG-E1200",
-              "type": "LiFePO4 portable power station",
-              "wh": 1280,
-              "w": 1200,
-              "battery": "LiFePO4 12.8V",
-              "ac_output": "220/230/240VAC Type G (UK)",
-              "pv_input": "800W max, MPPT 17-115VDC",
-              "charge_current": "18A",
-              "fob_price_10": 205,
-              "fob_price_100": 198,
-              "moq": 10,
-              "payment": "30% deposit, 70% before shipment",
-              "delivery_days": 25,
-              "packing_cm": "52.9x39x25.5",
-              "weight_kg": 18,
-              "shipping_mombasa_100": 2200,
-              "notes": "COC certificate needed for Kenya"
-            }
-          ],
-          "contact": {
-            "person": "Luke Chan",
-            "email": "export9@anern.com",
-            "whatsapp": "available in email",
-            "tel": "0086-20-89269669",
-            "address": "5F, Building B, No.2817 Kaichuang Ave, Huangpu, Guangzhou",
-            "bank": "JPMorgan Chase Hong Kong, acct 63001231237"
-          },
-          "source": "verified_email",
-          "documents": [
-            "PI ANSD260605-LU.pdf",
-            "Solar System Catalog.pdf",
-            "Portable solar generators.pdf"
-          ],
-          "data_quality": "A",
-          "last_updated": "2026-06-22"
-        },
-        {
           "name": "MECO Meco 1.8Kwh",
           "source": "verified_email_quotation",
           "contact": "Hoho Liu",
@@ -636,9 +598,10 @@
           "dims": "",
           "ac_input": "",
           "pv_input": "1400W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 13
+          "rank": 13,
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
         },
         {
           "name": "Pecron E2400 LFP",
@@ -652,9 +615,10 @@
           "dims": "",
           "ac_input": "",
           "pv_input": "1800W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 14
+          "rank": 14,
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
         },
         {
           "name": "Pecron E3600 LFP",
@@ -668,9 +632,10 @@
           "dims": "",
           "ac_input": "",
           "pv_input": "3200W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 15
+          "rank": 15,
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
         },
         {
           "name": "Pecron E3800 LFP",
@@ -684,9 +649,10 @@
           "dims": "",
           "ac_input": "",
           "pv_input": "3200W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 16
+          "rank": 16,
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
         },
         {
           "name": "PowerLFP LF-B2000PPS",
@@ -717,9 +683,10 @@
           "nw_kg": 20.9,
           "dims": "300x215x250mm",
           "ac_input": "1000W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 18
+          "rank": 18,
+          "notes": "Has full spec sheet but no FOB pricing in email - needs follow-up"
         },
         {
           "name": "TKPW TKPW-A2000 Pro",
@@ -733,9 +700,10 @@
           "nw_kg": 21.8,
           "dims": "340x260x260mm",
           "ac_input": "1000W",
-          "data_quality": "A",
+          "data_quality": "B",
           "last_updated": "2026-06-22",
-          "rank": 19
+          "rank": 19,
+          "notes": "Has full spec sheet but no FOB pricing in email - needs follow-up"
         },
         {
           "name": "Shunxiang W77",
