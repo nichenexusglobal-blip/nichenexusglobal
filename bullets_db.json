@@ -1025,7 +1025,8 @@
       "sent": true,
       "sent_date": "2026-06-23",
       "sent_channel": "marked",
-      "sent_note": "no_match:PV component distributor"
+      "sent_note": "no_match:PV component distributor",
+      "_reviewed": true
     },
     {
       "company": "PowerSafe (EcoFlow Brasil)",
@@ -1368,7 +1369,8 @@
       "draft": "Hi Pata Pawa team 👋\n\nYou sell EcoFlow power stations across Tanzania with 1-3 day delivery. I see you take orders via WhatsApp - nice setup.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. If you want to add a mid-range option alongside EcoFlow:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label OK.\n\nInterested in the catalog?\n\nPen",
       "sent": true,
       "sent_date": "2026-06-23",
-      "sent_channel": "whatsapp"
+      "sent_channel": "whatsapp",
+      "_reviewed": true
     },
     {
       "company": "Get Off Grid Zambia",
