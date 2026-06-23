@@ -1305,7 +1305,9 @@
       "gate_score": 90,
       "gate_status": "gated",
       "draft": "Hi Abkem Trading team 👋\n\nSaw you're the exclusive EcoFlow distributor in Ethiopia, based at Bole Atlas in Addis. You've built a solid setup since 2023.\n\nWe're a Shenzhen sourcing company working with LiFePO4 power station factories. If you want to offer a mid-range option alongside EcoFlow:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label available.\n\nWant to see the catalog?\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_channel": "whatsapp",
+      "sent_date": "2026-06-23"
     },
     {
       "company": "Orifon LTD (Kenya)",
@@ -1326,7 +1328,9 @@
       "draft": "Hi Orifon team 👋\n\nYou sell EcoFlow power stations from your Sawa Mall shop in Nairobi, plus the Iconic Business Plaza location - 5-year warranty on EcoFlow.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. If you want a mid-range option alongside EcoFlow:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label OK.\n\nWant to see the catalog?\n\nPen",
       "_reviewed": true,
       "followup": "Hi Orifon team 👋\n\nJust following up — you're an official EcoFlow dealer with two shops in Nairobi. What percentage of your customers ask about more affordable options alongside EcoFlow?\n\nWe might have something that fits. 1280Wh at $205 FOB.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_channel": "whatsapp",
+      "sent_date": "2026-06-23"
     },
     {
       "company": "Pata Pawa (Tanzania)",
@@ -1543,7 +1547,9 @@
       "source": "GoAfricaOnline directory",
       "verified": true,
       "draft": "Hi Casco Electronics 👋\n\nYou import and distribute inverters, solar panels and batteries at Alaba Market. We supply LiFePO4 portable power stations from Shenzhen.\n\n1280Wh/1200W at $205 FOB. CE/FCC certified.\n\nCould be a good fit alongside what you already sell.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_channel": "whatsapp",
+      "sent_date": "2026-06-23"
     },
     {
       "company": "NDC Solar Power Enterprise",
