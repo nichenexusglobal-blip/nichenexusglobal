@@ -1421,7 +1421,9 @@
       "gate_score": 90,
       "gate_status": "gated",
       "draft": "Bonjour GMN Solar 👋\n\nVous distribuez des panneaux solaires et générateurs solaires au Cameroun depuis Yaoundé.\n\nNous sommes une société de sourcing à Shenzhen qui travaille avec des usines LiFePO4. Une station 1280Wh/1200W à $205 FOB - pourrait compléter votre gamme de générateurs solaires.\n\nCertifié CE/FCC. Catalogue disponible.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_channel": "whatsapp",
+      "sent_date": "2026-06-23"
     },
     {
       "company": "Senegrid (Senegal)",
@@ -1480,7 +1482,9 @@
       "gate_score": 90,
       "gate_status": "gated",
       "draft": "Hi Sona Solar team 👋\n\nYou distribute solar panels, inverters and LiFePO4 batteries across Zimbabwe from your Harare office. Already carrying portable power stations - good setup.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. Could offer you a competitive option alongside your current range:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label OK.\n\nInterested in the catalog?\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_channel": "whatsapp",
+      "sent_date": "2026-06-23"
     },
     {
       "company": "Nature Solar Global Enterprises",
@@ -1516,7 +1520,9 @@
       "source": "Alaba Market online directory",
       "verified": true,
       "draft": "Hi Benten Solar 👋\n\nYou import and distribute solar products from F918 at Alaba Market. We're a Shenzhen sourcing company working with LiFePO4 factories.\n\nIf you want a portable power station line to add to your current product range:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. MOQ 10 units.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_channel": "whatsapp",
+      "sent_date": "2026-06-23"
     },
     {
       "company": "Casco Electronics",
