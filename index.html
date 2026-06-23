@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nichenexusglobal — Connect Every Niche, Empower Every Entrepreneur</title>
+  <meta name="description" content="We connect buyers worldwide with verified suppliers in China — no matter the product or niche. Tell us what you need, we handle the rest.">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --purple: #533afd;
+      --purple-hover: #4434d4;
+      --purple-light: #b9b9f9;
+      --navy: #061b31;
+      --dark-navy: #0d253d;
+      --brand-dark: #1c1e54;
+      --body: #64748d;
+      --label: #273951;
+      --border: #e5edf5;
+      --white: #ffffff;
+      --green: #15be53;
+      --ruby: #ea2261;
+      --magenta: #f96bee;
+      --shadow-blue: rgba(50,50,93,0.25);
+      --shadow-black: rgba(0,0,0,0.1);
+      --font: 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      --mono: 'Source Code Pro', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    html { scroll-behavior: smooth; }
+    
+    body {
+      font-family: var(--font);
+      font-weight: 300;
+      color: var(--body);
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+      font-feature-settings: "ss01";
+    }
+
+    /* ── Navigation ── */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav .nav-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-size: 20px;
+      font-weight: 500;
+      color: var(--navy);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+    }
+    .logo span { color: var(--purple); }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--navy);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--purple); }
+    .nav-cta {
+      display: inline-block;
+      background: var(--purple);
+      color: var(--white) !important;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-weight: 400;
+      font-size: 14px;
+      transition: background 0.2s;
+    }
+    .nav-cta:hover { background: var(--purple-hover) !important; }
+    .mobile-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+    .mobile-toggle span { display: block; width: 24px; height: 2px; background: var(--navy); margin: 5px 0; border-radius: 1px; }
+
+    /* ── Hero ── */
+    .hero {
+      padding: 160px 24px 100px;
+      max-width: 1080px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 56px;
+      font-weight: 300;
+      line-height: 1.03;
+      letter-spacing: -1.4px;
+      color: var(--navy);
+      max-width: 900px;
+      margin: 0 auto 24px;
+    }
+    .hero h1 em {
+      font-style: normal;
+      background: linear-gradient(135deg, var(--purple), var(--ruby));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero p {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.4;
+      color: var(--body);
+      max-width: 640px;
+      margin: 0 auto 40px;
+    }
+    .hero-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .btn-primary {
+      display: inline-block;
+      background: var(--purple);
+      color: var(--white);
+      padding: 10px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 400;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: var(--purple-hover); }
+    .btn-ghost {
+      display: inline-block;
+      background: transparent;
+      color: var(--purple);
+      padding: 10px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid var(--purple-light);
+      transition: background 0.2s;
+    }
+    .btn-ghost:hover { background: rgba(83,58,253,0.05); }
+
+    /* ── Problem Section ── */
+    .problem {
+      padding: 80px 24px;
+      background: var(--white);
+    }
+    .problem-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .problem h2 {
+      font-size: 32px;
+      font-weight: 300;
+      letter-spacing: -0.64px;
+      color: var(--navy);
+      margin-bottom: 16px;
+    }
+    .problem p {
+      font-size: 16px;
+      line-height: 1.5;
+      max-width: 700px;
+      margin: 0 auto 60px;
+    }
+    .pain-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .pain-card {
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      text-align: left;
+      transition: box-shadow 0.3s;
+    }
+    .pain-card:hover {
+      box-shadow: var(--shadow-blue) 0px 30px 45px -30px, var(--shadow-black) 0px 18px 36px -18px;
+    }
+    .pain-card .icon {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+    .pain-card h3 {
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: -0.22px;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .pain-card p {
+      font-size: 14px;
+      color: var(--body);
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* ── How It Works ── */
+    .how-it-works {
+      padding: 80px 24px;
+      background: var(--brand-dark);
+      color: var(--white);
+    }
+    .how-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    .how-inner h2 {
+      font-size: 32px;
+      font-weight: 300;
+      letter-spacing: -0.64px;
+      color: var(--white);
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    .how-inner > p {
+      font-size: 16px;
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 60px;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+    }
+    .step {
+      text-align: center;
+    }
+    .step-num {
+      display: inline-flex;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(83,58,253,0.3);
+      color: var(--purple-light);
+      font-size: 18px;
+      font-weight: 500;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .step h3 {
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+    .step p {
+      font-size: 14px;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.5;
+    }
+
+    /* ── Product/Report Preview ── */
+    .product {
+      padding: 80px 24px;
+      background: var(--white);
+    }
+    .product-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .product-text h2 {
+      font-size: 32px;
+      font-weight: 300;
+      letter-spacing: -0.64px;
+      color: var(--navy);
+      margin-bottom: 16px;
+    }
+    .product-text p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+    .product-text ul {
+      list-style: none;
+      padding: 0;
+    }
+    .product-text ul li {
+      padding: 8px 0;
+      font-size: 14px;
+      color: var(--label);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .product-text ul li::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      background: var(--purple);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .product-visual {
+      background: linear-gradient(135deg, var(--brand-dark), #2a2770);
+      border-radius: 8px;
+      padding: 40px;
+      color: var(--white);
+      box-shadow: var(--shadow-blue) 0px 30px 45px -30px, var(--shadow-black) 0px 18px 36px -18px;
+    }
+    .product-visual .data-label {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--purple-light);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+    .product-visual .data-value {
+      font-size: 24px;
+      font-weight: 300;
+      margin-bottom: 16px;
+    }
+    .product-visual .data-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      font-size: 14px;
+    }
+    .product-visual .data-row:last-child { border-bottom: none; }
+    .product-visual .highlight {
+      color: var(--green);
+      font-weight: 400;
+    }
+
+    /* ── CTA Section ── */
+    .cta-section {
+      padding: 80px 24px;
+      background: var(--white);
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+    .cta-inner {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .cta-inner h2 {
+      font-size: 32px;
+      font-weight: 300;
+      letter-spacing: -0.64px;
+      color: var(--navy);
+      margin-bottom: 16px;
+    }
+    .cta-inner p {
+      font-size: 16px;
+      color: var(--body);
+      margin-bottom: 32px;
+    }
+    .cta-form {
+      display: flex;
+      gap: 8px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .cta-form input {
+      flex: 1;
+      padding: 10px 16px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-family: var(--font);
+      font-size: 14px;
+      color: var(--navy);
+      background: var(--white);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .cta-form input:focus {
+      border-color: var(--purple);
+    }
+    .cta-form input::placeholder { color: var(--body); }
+    .cta-form button {
+      padding: 10px 20px;
+      background: var(--purple);
+      color: var(--white);
+      border: none;
+      border-radius: 4px;
+      font-family: var(--font);
+      font-size: 14px;
+      font-weight: 400;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+    .cta-form button:hover { background: var(--purple-hover); }
+
+    /* ── Footer ── */
+    footer {
+      padding: 40px 24px;
+      background: var(--white);
+      border-top: 1px solid var(--border);
+    }
+    footer .footer-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: var(--body);
+    }
+    footer a { color: var(--purple); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ── Principles Strip ── */
+    .principles {
+      padding: 60px 24px;
+      background: #f8fafc;
+    }
+    .principles-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .principles h2 {
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: -0.22px;
+      color: var(--navy);
+      margin-bottom: 32px;
+    }
+    .principles-chain {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      align-items: center;
+    }
+    .principle-item {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 10px 16px;
+      font-size: 13px;
+      color: var(--label);
+    }
+    .principle-arrow {
+      color: var(--purple-light);
+      font-size: 18px;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .hero h1 { font-size: 40px; letter-spacing: -0.8px; }
+      .pain-grid, .steps { grid-template-columns: 1fr 1fr; }
+      .product-inner { grid-template-columns: 1fr; gap: 32px; }
+    }
+    @media (max-width: 640px) {
+      .hero { padding: 120px 16px 60px; }
+      .hero h1 { font-size: 32px; letter-spacing: -0.5px; }
+      .pain-grid, .steps { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .mobile-toggle { display: block; }
+      .cta-form { flex-direction: column; }
+      .cta-form button { width: 100%; }
+      footer .footer-inner { flex-direction: column; gap: 12px; text-align: center; }
+      .principles-chain { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">nichenexus<span>global</span></a>
+      <div class="nav-links">
+        <a href="#problem">The Problem</a>
+        <a href="#how">How It Works</a>
+        <a href="#product">Platform</a>
+        <a href="#contact" class="nav-cta">Get Started</a>
+      </div>
+      <button class="mobile-toggle" onclick="document.querySelector('.nav-links').style.display='flex'" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <h1>Connect <em>every niche</em>, empower every entrepreneur worldwide</h1>
+    <p>Whether you need power equipment, consumer goods, or industrial components — we connect you with verified Chinese suppliers, handle the research, and deliver results. No platform to learn, no minimum commitment. You tell us what you need.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">Start Sourcing</a>
+      <a href="#how" class="btn-ghost">How It Works</a>
+    </div>
+  </section>
+
+  <!-- ── Problem ── -->
+  <section class="problem" id="problem">
+    <div class="problem-inner">
+      <h2>Cross-border sourcing shouldn't be this hard</h2>
+      <p>Finding the right factory in China, verifying their quality, negotiating fair pricing, and handling logistics — every step is a risk. We take the guesswork out of cross-border sourcing.</p>
+      <div class="pain-grid">
+        <div class="pain-card">
+          <div class="icon">🔍</div>
+          <h3>Factory Unknown</h3>
+          <p>Thousands of factories in China claim quality — but which ones actually deliver? We pre-verify suppliers so you don't have to take a leap of faith.</p>
+        </div>
+        <div class="pain-card">
+          <div class="icon">💬</div>
+          <h3>Communication Gap</h3>
+          <p>Language barriers, time zone differences, and cultural gaps turn simple negotiations into weeks of back-and-forth. We bridge the distance.</p>
+        </div>
+        <div class="pain-card">
+          <div class="icon">📦</div>
+          <h3>Logistics Overload</h3>
+          <p>Shipping, customs clearance, documentation — each cross-border shipment involves 10+ documents and multiple hand-offs. One mistake can cost thousands.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── First Principles ── -->
+  <section class="principles">
+    <div class="principles-inner">
+      <h2>Our first principles</h2>
+      <div class="principles-chain">
+        <span class="principle-item">Create Value</span>
+        <span class="principle-arrow">→</span>
+        <span class="principle-item">Solve Problems</span>
+        <span class="principle-arrow">→</span>
+        <span class="principle-item">Find Real Demand</span>
+        <span class="principle-arrow">→</span>
+        <span class="principle-item">Rapid Iteration</span>
+        <span class="principle-arrow">→</span>
+        <span class="principle-item">Verify Model</span>
+        <span class="principle-arrow">→</span>
+        <span class="principle-item">Systematize</span>
+        <span class="principle-arrow">→</span>
+        <span class="principle-item">Leverage</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── How It Works ── -->
+  <section class="how-it-works" id="how">
+    <div class="how-inner">
+      <h2>How our sourcing service works</h2>
+      <p>You tell us what you need — we find the best factory, verify their capabilities, negotiate pricing and terms, and handle the logistics. Simple as that.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Tell Us What You Need</h3>
+          <p>Product category, target price, quantity, destination market. The more specific, the better. We work with any product category — no minimum order size.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>We Source & Verify</h3>
+          <p>Our team identifies qualified factories, requests quotes, cross-checks against our database of 15+ verified suppliers, and presents the best options with real pricing.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>You Decide, We Deliver</h3>
+          <p>Choose your preferred supplier. We handle the order, production monitoring, shipping, and customs documentation. You receive your goods — no headaches in between.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Product Preview ── -->
+  <section class="product" id="product">
+    <div class="product-inner">
+      <div class="product-text">
+        <h2>Trusted sourcing, worldwide delivery</h2>
+        <p>We don't sell a platform you have to learn. We deliver results — real supplier quotes, verified factories, and end-to-end logistics support.</p>
+        <ul>
+          <li>Verified suppliers across 15+ product categories</li>
+          <li>Real factory pricing — no middleman markup</li>
+          <li>End-to-end logistics: factory to your door</li>
+          <li>Customs documentation and compliance support</li>
+          <li>No minimum order, no long-term commitment</li>
+        </ul>
+      </div>
+      <div class="product-visual">
+        <div class="data-label">nichenexusglobal Sourcing Profile</div>
+        <div class="data-value">Active Since 2025</div>
+        <div class="data-row"><span>Verified suppliers</span><span class="highlight">15+ in database</span></div>
+        <div class="data-row"><span>Product categories</span><span class="highlight">All — you tell us</span></div>
+        <div class="data-row"><span>Countries served</span><span class="highlight">20+</span></div>
+        <div class="data-row"><span>Lead time (typical)</span><span class="highlight">25–35 days</span></div>
+        <div class="data-row"><span>Minimum order</span><span class="highlight">None</span></div>
+        <div style="margin-top: 20px; font-size: 12px; color: rgba(255,255,255,0.5);">
+          Contact us for a free quote
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="cta-section" id="contact">
+    <div class="cta-inner">
+      <h2>Ready to start sourcing?</h2>
+      <p>Tell us what you need. We'll get back to you with factory quotes, pricing, and delivery options within 48 hours — no commitment required.</p>
+      <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; max-width: 480px; margin: 0 auto;">
+        <a href="https://wa.me/861985653280" class="btn-primary" target="_blank">WhatsApp Us</a>
+        <a href="mailto:pen@nichenexusglobal.com" class="btn-ghost">Email Us</a>
+      </div>
+      <p style="margin-top: 16px; font-size: 12px; color: var(--body);">Or email: <a href="mailto:pen@nichenexusglobal.com" style="color: var(--purple);">pen@nichenexusglobal.com</a> • WhatsApp: +86 198 5653 3280</p>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-inner">
+      <span>© 2026 nichenexusglobal — <a href="mailto:pen@nichenexusglobal.com">pen@nichenexusglobal.com</a> • <a href="https://wa.me/861985653280">WhatsApp</a></span>
+    </div>
+  </footer>
+
+</body>
+</html>
