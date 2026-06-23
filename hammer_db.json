@@ -967,7 +967,8 @@
             "fob_qty_50": 323,
             "socket": "UK Type G"
           }
-        }
+        },
+        "exw_usd": {}
       },
       {
         "rank": 22,
@@ -978,38 +979,14 @@
         "contact_email": "hoho.liu@mecopower.com",
         "category": "300-5000W portable LiFePO4",
         "exw_usd": {
-          "Meco_300_100W": {
-            "10_49": 61,
-            "50_100": 58
-          },
-          "Meco_1Kwh_1004Wh_300W": {
-            "10_49": 145,
-            "50_100": 142
-          },
-          "Meco_1KwhPro_1004Wh_500W": {
-            "10_49": 165,
-            "50_100": 160
-          },
-          "Meco_1.8Kwh_1792Wh_600W": {
-            "10_49": 263,
-            "50_100": 258
-          },
-          "Meco_2Kwh_2009Wh_1200W": {
-            "10_49": 298,
-            "50_100": 288
-          },
-          "Meco_3.6Kwh_3584Wh_2200W": {
-            "10_49": 620,
-            "50_100": 610
-          },
-          "Meco_3.6KwhPro_3584Wh_3000W": {
-            "10_49": 661,
-            "50_100": 651
-          },
-          "Meco_5.4Kwh_5376Wh_5000W": {
-            "10_49": 918,
-            "50_100": 898
-          }
+          "Meco_300_100W": 58,
+          "Meco_1Kwh_1004Wh_300W": 142,
+          "Meco_1KwhPro_1004Wh_500W": 160,
+          "Meco_1.8Kwh_1792Wh_600W": 258,
+          "Meco_2Kwh_2009Wh_1200W": 288,
+          "Meco_3.6Kwh_3584Wh_2200W": 610,
+          "Meco_3.6KwhPro_3584Wh_3000W": 651,
+          "Meco_5.4Kwh_5376Wh_5000W": 898
         },
         "moq": {
           "Meco_1Kwh_1004Wh": 10,
@@ -1109,7 +1086,8 @@
         "has_images": false,
         "image_count": 0,
         "data_quality_label": "VERIFIED - PDF/email pricing confirmed",
-        "market_segment": "large (4000Wh+)"
+        "market_segment": "large (4000Wh+)",
+        "fob_usd": {}
       },
       {
         "rank": 2,
@@ -1164,7 +1142,8 @@
         "images": [],
         "has_images": false,
         "image_count": 0,
-        "data_quality_label": "VERIFIED - PDF/email pricing confirmed"
+        "data_quality_label": "VERIFIED - PDF/email pricing confirmed",
+        "exw_usd": {}
       },
       {
         "rank": 1,
@@ -1194,7 +1173,8 @@
         "images": [],
         "has_images": false,
         "image_count": 0,
-        "data_quality_label": "VERIFIED - PDF/email pricing confirmed"
+        "data_quality_label": "VERIFIED - PDF/email pricing confirmed",
+        "exw_usd": {}
       },
       {
         "rank": 23,
@@ -1358,7 +1338,8 @@
         "has_images": false,
         "image_count": 0,
         "data_quality_label": "PARTIAL - some data confirmed",
-        "market_segment": "portable (600-1500Wh)"
+        "market_segment": "portable (600-1500Wh)",
+        "exw_usd": {}
       },
       {
         "rank": 21,
@@ -1419,7 +1400,8 @@
         "has_images": true,
         "image_count": 3,
         "data_quality_label": "LIMITED - catalog info, no pricing",
-        "market_segment": "mini (under 600Wh)"
+        "market_segment": "mini (under 600Wh)",
+        "exw_usd": {}
       },
       {
         "rank": 3,
@@ -1467,7 +1449,8 @@
           "R600",
           "B3000"
         ],
-        "catalog_source": "Nina/ALLPOWERS Product Catalog 2026.pdf"
+        "catalog_source": "Nina/ALLPOWERS Product Catalog 2026.pdf",
+        "exw_usd": {}
       },
       {
         "rank": 25,
@@ -1492,7 +1475,8 @@
         "images": [],
         "has_images": false,
         "image_count": 0,
-        "data_quality_label": "SUSPICIOUS - unverified source"
+        "data_quality_label": "SUSPICIOUS - unverified source",
+        "exw_usd": {}
       }
     ],
     "market_index": {
