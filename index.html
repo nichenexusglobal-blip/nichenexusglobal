@@ -4,178 +4,195 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>nichenexusglobal</title>
-  <meta name="description" content="We connect buyers worldwide with verified suppliers in China — no matter the product or niche.">
+  <meta name="description" content="We connect buyers worldwide with verified suppliers in China.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,200;14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: 'Inter', -apple-system, sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 300;
-      color: #1a1a1a;
-      background: #ffffff;
+      color: #000;
+      background: #fff;
       -webkit-font-smoothing: antialiased;
       line-height: 1.5;
     }
-    .container { max-width: 1100px; margin: 0 auto; padding: 0 32px; }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 0 40px; }
 
-    /* Nav */
+    /* ▬ NAVIGATION — transparent, minimal */
     nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      background: rgba(255,255,255,0.9);
-      backdrop-filter: blur(16px);
-      border-bottom: 1px solid #eee;
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 28px 0;
     }
-    nav .inner {
-      max-width: 1100px; margin: 0 auto;
-      height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 32px;
+    nav .wrap {
+      display: flex; align-items: center; justify-content: space-between;
     }
-    .logo { font-size: 15px; font-weight: 500; color: #000; text-decoration: none; letter-spacing: 0.3px; text-transform: uppercase; }
-    .nav-links { display: flex; gap: 32px; }
-    .nav-links a { font-size: 13px; font-weight: 400; color: #666; text-decoration: none; letter-spacing: 0.2px; }
+    .logo {
+      font-size: 12px; font-weight: 400; color: #888; text-decoration: none;
+      letter-spacing: 0.5px; text-transform: uppercase;
+    }
+    .nav-links { display: flex; gap: 40px; }
+    .nav-links a {
+      font-size: 12px; font-weight: 400; color: #888; text-decoration: none;
+      letter-spacing: 0.3px; transition: color 0.2s;
+    }
     .nav-links a:hover { color: #000; }
 
-    /* Hero */
+    /* ▬ HERO */
     .hero {
-      padding: 200px 0 120px;
-      max-width: 1100px; margin: 0 auto; padding: 200px 32px 120px;
+      padding: 180px 0 100px;
+      border-bottom: 1px solid #eee;
+    }
+    .hero .hero-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 60px;
     }
     .hero h1 {
-      font-size: 52px; font-weight: 300; line-height: 1.1;
+      font-size: 44px; font-weight: 300; line-height: 1.05;
       letter-spacing: -1.2px; color: #000;
-      max-width: 800px; margin-bottom: 24px;
     }
-    .hero h1 em { font-style: normal; font-weight: 500; }
-    .hero p {
-      font-size: 16px; font-weight: 300; line-height: 1.6; color: #666;
-      max-width: 560px; margin-bottom: 40px;
+    .hero h1 em { font-style: normal; font-weight: 600; }
+    .hero-right { padding-top: 8px; }
+    .hero-right p {
+      font-size: 14px; font-weight: 300; line-height: 1.7; color: #666;
+      margin-bottom: 32px;
     }
-    .hero-btns { display: flex; gap: 12px; }
-    .btn { 
-      display: inline-flex; align-items: center; justify-content: center;
-      padding: 10px 24px; font-size: 13px; font-weight: 500;
-      text-decoration: none; letter-spacing: 0.3px;
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 24px; font-size: 12px; font-weight: 500;
+      text-decoration: none; letter-spacing: 0.5px;
       border: 1px solid #000; color: #000;
       transition: all 0.2s;
     }
     .btn:hover { background: #000; color: #fff; }
-    .btn-solid { background: #000; color: #fff; }
-    .btn-solid:hover { background: #333; }
+    .btn-solid { background: #000; color: #fff; border-color: #000; }
+    .btn-solid:hover { background: #333; border-color: #333; }
+    .hint {
+      margin-top: 12px; font-size: 11px; color: #bbb; letter-spacing: 0.3px;
+    }
 
-    /* Section common */
+    /* ▬ SECTIONS */
     section { padding: 100px 0; border-bottom: 1px solid #eee; }
     section:last-of-type { border-bottom: none; }
-    .section-label {
-      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
-      color: #999; margin-bottom: 16px;
+    .num {
+      font-size: 11px; font-weight: 500; color: #ccc; letter-spacing: 1px;
+      margin-bottom: 16px;
     }
-    .section-title {
-      font-size: 36px; font-weight: 300; letter-spacing: -0.8px; color: #000;
-      margin-bottom: 16px; max-width: 600px;
+    h2 {
+      font-size: 28px; font-weight: 300; line-height: 1.2;
+      letter-spacing: -0.6px; color: #000; margin-bottom: 12px;
     }
-    .section-desc {
-      font-size: 15px; color: #666; line-height: 1.6; max-width: 500px; margin-bottom: 60px;
+    .desc {
+      font-size: 13px; color: #888; line-height: 1.7; max-width: 420px;
+      margin-bottom: 48px;
+    }
+    .mark {
+      display: inline-block; width: 24px; height: 1px; background: #000;
+      margin-bottom: 16px;
     }
 
-    /* Problem */
-    .grid-3 {
-      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 48px;
+    /* ▬ THREE COLUMN GRID */
+    .grid3 {
+      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px;
     }
-    .card h3 {
-      font-size: 15px; font-weight: 500; color: #000; margin-bottom: 8px;
+    .grid3 .item { }
+    .grid3 .item h3 {
+      font-size: 13px; font-weight: 500; color: #000; margin-bottom: 8px;
       letter-spacing: 0.2px;
     }
-    .card p {
-      font-size: 13px; color: #666; line-height: 1.6;
+    .grid3 .item p {
+      font-size: 12px; color: #888; line-height: 1.7;
     }
 
-    /* How it works */
-    .steps-3 {
-      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 48px;
-      counter-reset: step;
+    /* ▬ PRINCIPLES — full-width editorial band */
+    .band {
+      padding: 48px 0; border-bottom: 1px solid #eee;
     }
-    .step {
-      counter-increment: step;
+    .band .inner {
+      max-width: 960px; margin: 0 auto; padding: 0 40px;
     }
-    .step::before {
-      content: "0" counter(step);
-      display: block; font-size: 12px; font-weight: 500; letter-spacing: 1px;
-      color: #ccc; margin-bottom: 20px;
+    .band .inner .chain {
+      display: flex; flex-wrap: wrap; gap: 4px; align-items: center;
+      font-size: 11px; color: #bbb; letter-spacing: 0.4px;
     }
-    .step h3 { font-size: 15px; font-weight: 500; color: #000; margin-bottom: 8px; }
-    .step p { font-size: 13px; color: #666; line-height: 1.6; }
+    .band .inner .chain span { white-space: nowrap; }
+    .band .inner .chain .val { color: #000; font-weight: 400; }
+    .band .inner .chain .arr { color: #ddd; }
 
-    /* Profile card */
-    .profile {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+    /* ▬ TWO COLUMN PROFILE */
+    .two-col {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start;
     }
-    .profile-text ul { list-style: none; padding: 0; }
-    .profile-text ul li {
-      padding: 10px 0; font-size: 13px; color: #333; letter-spacing: 0.2px;
-      border-bottom: 1px solid #f0f0f0; display: flex; justify-content: space-between;
+    .two-col .left ul { list-style: none; padding: 0; }
+    .two-col .left ul li {
+      display: flex; justify-content: space-between;
+      padding: 12px 0; border-bottom: 1px solid #f0f0f0;
+      font-size: 13px; color: #333;
     }
-    .profile-text ul li:last-child { border-bottom: none; }
-    .profile-text ul li span:last-child { color: #999; font-weight: 400; }
+    .two-col .left ul li:last-child { border-bottom: none; }
+    .two-col .left ul li span:last-child { color: #999; }
 
-    .profile-visual {
-      border: 1px solid #eee; padding: 48px; background: #fafafa;
+    .two-col .right .card {
+      background: #f9f9f9; padding: 40px; border: 1px solid #eee;
     }
-    .profile-visual .label {
+    .two-col .right .card .slug {
       font-size: 10px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
-      color: #bbb; margin-bottom: 20px;
+      color: #bbb; margin-bottom: 16px;
     }
-    .profile-visual .value {
-      font-size: 28px; font-weight: 300; color: #000; margin-bottom: 32px;
+    .two-col .right .card .big {
+      font-size: 24px; font-weight: 300; color: #000; margin-bottom: 24px;
     }
-    .profile-visual .row {
-      display: flex; justify-content: space-between; padding: 12px 0;
-      border-bottom: 1px solid #eee; font-size: 13px;
+    .two-col .right .card .line {
+      display: flex; justify-content: space-between; padding: 10px 0;
+      border-bottom: 1px solid #e5e5e5; font-size: 12px;
     }
-    .profile-visual .row:last-child { border-bottom: none; }
-    .profile-visual .row span:last-child { font-weight: 500; }
-    .profile-visual .footnote {
-      margin-top: 24px; font-size: 11px; color: #bbb; letter-spacing: 0.5px;
+    .two-col .right .card .line:last-of-type { border-bottom: none; }
+    .two-col .right .card .line span:last-child { font-weight: 500; }
+    .two-col .right .card .foot {
+      margin-top: 20px; font-size: 10px; color: #bbb; letter-spacing: 0.5px;
     }
 
-    /* CTA */
-    .cta-inner { max-width: 500px; padding: 60px 0; }
-    .cta-inner .section-title { margin-bottom: 12px; }
-    .cta-inner .section-desc { margin-bottom: 32px; }
-    .cta-links { display: flex; gap: 12px; }
+    /* ▬ CTA */
+    .cta { padding: 80px 0; }
+    .cta h2 { max-width: 400px; }
+    .cta .desc { margin-bottom: 32px; }
+    .cta-links { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    .contact-line {
+      margin-top: 16px; font-size: 11px; color: #bbb; letter-spacing: 0.3px;
+    }
+    .contact-line a { color: #666; text-decoration: none; }
+    .contact-line a:hover { color: #000; }
 
-    /* Footer */
+    /* ▬ FOOTER */
     footer {
       padding: 32px 0; border-top: 1px solid #eee;
     }
-    footer .inner {
-      max-width: 1100px; margin: 0 auto; padding: 0 32px;
+    footer .wrap {
       display: flex; justify-content: space-between; align-items: center;
-      font-size: 12px; color: #999;
+      font-size: 11px; color: #bbb;
     }
-    footer a { color: #666; text-decoration: none; }
+    footer a { color: #888; text-decoration: none; }
     footer a:hover { color: #000; }
 
-    /* Divider */
-    .divider { width: 100%; height: 1px; background: #eee; }
-
-    /* Responsive */
-    @media (max-width: 900px) {
-      .hero h1 { font-size: 36px; }
-      .grid-3, .steps-3, .profile { grid-template-columns: 1fr; gap: 32px; }
-      .section-title { font-size: 28px; }
-    }
-    @media (max-width: 640px) {
-      .hero { padding: 140px 24px 80px; }
-      .hero h1 { font-size: 28px; }
-      .nav-links { display: none; }
+    /* ▬ RESPONSIVE */
+    @media (max-width: 800px) {
+      .hero .hero-grid { grid-template-columns: 1fr; gap: 24px; }
+      .hero h1 { font-size: 32px; }
+      .grid3, .two-col { grid-template-columns: 1fr; gap: 24px; }
+      h2 { font-size: 24px; }
       section { padding: 60px 0; }
+      .hero { padding: 140px 0 60px; }
+    }
+    @media (max-width: 600px) {
+      .wrap { padding: 0 24px; }
+      .hero h1 { font-size: 26px; }
+      .nav-links { gap: 20px; }
     }
   </style>
 </head>
 <body>
 
+  <!-- NAV -->
   <nav>
-    <div class="inner">
+    <div class="wrap">
       <a href="/" class="logo">nichenexusglobal</a>
       <div class="nav-links">
         <a href="#about">About</a>
@@ -185,103 +202,109 @@
     </div>
   </nav>
 
-  <!-- Hero -->
-  <section class="hero" id="top">
-    <h1>Connect <em>every niche</em>,<br>empower every entrepreneur</h1>
-    <p>We connect buyers worldwide with verified suppliers in China. Tell us what you need — we find the best factory, negotiate pricing, and handle the logistics. Any product, any market.</p>
-    <div class="hero-btns">
-      <a href="#contact" class="btn btn-solid">Start Sourcing</a>
-      <a href="#how" class="btn">How It Works</a>
-    </div>
-  </section>
-
-  <!-- About / Problem -->
-  <section id="about">
-    <div class="container">
-      <div class="section-label">The Problem</div>
-      <h2 class="section-title">Cross-border sourcing shouldn't be this hard</h2>
-      <p class="section-desc">Finding the right factory in China, verifying their quality, negotiating fair pricing, and handling logistics — every step is a risk. We take the guesswork out.</p>
-      <div class="grid-3">
-        <div class="card">
-          <h3>Factory Unknown</h3>
-          <p>Thousands of factories claim quality — but which ones actually deliver? We pre-verify suppliers so you don't take a leap of faith.</p>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <h1>Connect <em>every niche</em>,<br>empower every<br>entrepreneur</h1>
         </div>
-        <div class="card">
-          <h3>Communication Gap</h3>
-          <p>Language barriers, time zones, and cultural differences turn simple negotiations into weeks of back-and-forth. We bridge the distance.</p>
-        </div>
-        <div class="card">
-          <h3>Logistics Overload</h3>
-          <p>Shipping, customs, documentation — each cross-border shipment involves 10+ documents. One mistake can cost thousands in delays.</p>
+        <div class="hero-right">
+          <div class="mark"></div>
+          <p>We connect buyers worldwide with verified suppliers in China. Tell us what you need — we find the best factory, negotiate pricing, and handle the logistics. Any market, any requirement.</p>
+          <a href="#contact" class="btn btn-solid">Start Sourcing</a>
+          <div class="hint">No minimum order · 48-hour response</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Principles strip -->
-  <section style="padding: 40px 0; border-bottom: 1px solid #eee;">
-    <div class="container" style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; font-size: 12px; color: #999; letter-spacing: 0.5px;">
-      <span style="color: #000;">Create Value</span>
-      <span style="color: #ddd;">→</span>
-      <span style="color: #000;">Solve Problems</span>
-      <span style="color: #ddd;">→</span>
-      <span style="color: #000;">Find Demand</span>
-      <span style="color: #ddd;">→</span>
-      <span style="color: #000;">Iterate</span>
-      <span style="color: #ddd;">→</span>
-      <span style="color: #000;">Verify</span>
-      <span style="color: #ddd;">→</span>
-      <span style="color: #000;">Systematize</span>
-      <span style="color: #ddd;">→</span>
-      <span style="color: #000;">Leverage</span>
+  <!-- PROBLEM -->
+  <section id="about">
+    <div class="wrap">
+      <div class="num">01</div>
+      <h2>Cross-border sourcing<br>shouldn't be this hard</h2>
+      <p class="desc">Every step is a risk. Finding the right factory, verifying quality, negotiating pricing, managing logistics. We take the guesswork out.</p>
+      <div class="grid3">
+        <div class="item">
+          <h3>Factory Unknown</h3>
+          <p>Thousands of factories claim quality — but which ones actually deliver? We pre-verify suppliers so you don't take a leap of faith.</p>
+        </div>
+        <div class="item">
+          <h3>Communication Gap</h3>
+          <p>Language barriers, time zone differences, cultural gaps — they turn simple negotiations into weeks of back-and-forth. We bridge the distance.</p>
+        </div>
+        <div class="item">
+          <h3>Logistics Overload</h3>
+          <p>Shipping, customs clearance, documentation — each cross-border shipment involves 10+ documents. One mistake can cost thousands.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- How It Works -->
+  <!-- PRINCIPLES BAND -->
+  <div class="band">
+    <div class="inner">
+      <div class="chain">
+        <span class="val">Create Value</span><span class="arr">→</span>
+        <span class="val">Solve Problems</span><span class="arr">→</span>
+        <span class="val">Find Demand</span><span class="arr">→</span>
+        <span class="val">Iterate</span><span class="arr">→</span>
+        <span class="val">Verify</span><span class="arr">→</span>
+        <span class="val">Systematize</span><span class="arr">→</span>
+        <span class="val">Leverage</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
   <section id="how">
-    <div class="container">
-      <div class="section-label">How We Work</div>
-      <h2 class="section-title">Tell us what you need,<br>we handle the rest</h2>
-      <p class="section-desc">No platform to learn, no minimum commitment. Just clear communication and real results.</p>
-      <div class="steps-3">
-        <div class="step">
-          <h3>You tell us what you need</h3>
+    <div class="wrap">
+      <div class="num">02</div>
+      <h2>Tell us what you need,<br>we handle the rest</h2>
+      <p class="desc">No platform to learn. No minimum commitment. Just clear communication and real results from established Chinese factories.</p>
+      <div class="grid3">
+        <div class="item">
+          <h3>01. Tell us what you need</h3>
           <p>The more specific, the better. We work across industries — you tell us your requirements, we find the right supplier.</p>
         </div>
-        <div class="step">
-          <h3>We source & verify</h3>
-          <p>Our team identifies qualified factories, cross-checks against our verified supplier database, and presents the best options with real pricing.</p>
+        <div class="item">
+          <h3>02. We source & verify</h3>
+          <p>We identify qualified factories, cross-check against our database of verified suppliers, and present the best options with real pricing.</p>
         </div>
-        <div class="step">
-          <h3>You decide, we deliver</h3>
+        <div class="item">
+          <h3>03. You decide, we deliver</h3>
           <p>Choose your preferred supplier. We handle production monitoring, shipping, and customs documentation. You receive your goods.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Profile card -->
+  <!-- PROFILE -->
   <section>
-    <div class="container">
-      <div class="profile">
-        <div class="profile-text">
-          <div class="section-label">By the Numbers</div>
+    <div class="wrap">
+      <div class="num">03</div>
+      <div class="two-col">
+        <div class="left">
+          <h2 style="margin-bottom: 32px;">Active since 2025</h2>
           <ul>
-            <li><span>Verified suppliers</span><span>15+ in database</span></li>
-            <li><span>Categories</span><span>All — no limits</span></li>
+            <li><span>Verified suppliers</span><span>15+</span></li>
             <li><span>Countries served</span><span>20+</span></li>
             <li><span>Typical lead time</span><span>25–35 days</span></li>
             <li><span>Minimum order</span><span>None</span></li>
+            <li><span>Categories</span><span>All — no limits</span></li>
           </ul>
         </div>
-        <div class="profile-visual">
-          <div class="label">Sourcing Profile</div>
-          <div class="value">Active Since 2025</div>
-          <div class="row"><span>Supplier database</span><span>15+ verified</span></div>
-          <div class="row"><span>Countries reached</span><span>20+</span></div>
-          <div class="row"><span>Average lead time</span><span>25–35 days</span></div>
-          <div class="row"><span>Minimum commitment</span><span>None</span></div>
-          <div class="footnote">Contact us for a free quote</div>
+        <div class="right">
+          <div class="card">
+            <div class="slug">Sourcing Profile</div>
+            <div class="big">nichenexusglobal</div>
+            <div class="line"><span>Verified factories</span><span>15+ on record</span></div>
+            <div class="line"><span>Export markets</span><span>20+ countries</span></div>
+            <div class="line"><span>Average turnaround</span><span>25–35 days</span></div>
+            <div class="line"><span>Order minimum</span><span>None</span></div>
+            <div class="foot">▬ Contact us for a free quote</div>
+          </div>
         </div>
       </div>
     </div>
@@ -289,28 +312,27 @@
 
   <!-- CTA -->
   <section id="contact" style="border-bottom: none;">
-    <div class="container">
-      <div class="cta-inner">
-        <div class="section-label">Get Started</div>
-        <h2 class="section-title" style="font-size: 28px;">Ready to start sourcing?</h2>
-        <p class="section-desc">Tell us what you need. We'll get back to you with factory quotes and delivery options within 48 hours — no commitment required.</p>
-        <div class="cta-links">
-          <a href="https://wa.me/861985653280" class="btn btn-solid" target="_blank">WhatsApp Us</a>
-          <a href="mailto:pen@nichenexusglobal.com" class="btn">Email Us</a>
-        </div>
-        <p style="margin-top: 16px; font-size: 12px; color: #999;">pen@nichenexusglobal.com &nbsp;·&nbsp; +86 198 5653 3280</p>
+    <div class="wrap">
+      <div class="num">Contact</div>
+      <h2>Ready to start sourcing?</h2>
+      <p class="desc">We'll get back to you with factory quotes and delivery options within 48 hours — no commitment required.</p>
+      <div class="cta-links">
+        <a href="https://wa.me/861985653280" class="btn btn-solid" target="_blank">WhatsApp Us</a>
+        <a href="mailto:pen@nichenexusglobal.com" class="btn">Email Us</a>
+      </div>
+      <div class="contact-line">
+        pen@nichenexusglobal.com &nbsp;·&nbsp; +86 198 5653 3280
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer>
-    <div class="inner">
+    <div class="wrap">
       <span>© 2026 nichenexusglobal</span>
       <span>
         <a href="https://wa.me/861985653280" target="_blank">WhatsApp</a>
-        &nbsp;·&nbsp;
-        <a href="mailto:pen@nichenexusglobal.com">Email</a>
+        · <a href="mailto:pen@nichenexusglobal.com">Email</a>
       </span>
     </div>
   </footer>
