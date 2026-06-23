@@ -698,8 +698,8 @@
       "website": "macpower.com.ng",
       "source": "website:verified",
       "verified": true,
-      "status": "sent",
-      "notes": "Also manufacturers/assemblies electric motorcycles. Diversified energy company.",
+      "status": "closed_no_followup",
+      "notes": "Also manufacturers/assemblies electric motorcycles. Diversified energy company. | Closed per Pen: catalog not actually sent, don't follow up.",
       "products_sold": "Portable solar inverters(M42/M60/M140), Powerbanks, Car jump starters, USB charging stations, Solar freezers, EV motorcycles",
       "brands_carried": "MacPower(own brand)",
       "delivery": "Lagos-based, nationwide",
@@ -712,7 +712,9 @@
       "draft": "Hi MacPower 👋\n\nYou're assembling your own inverters and building EV motorcycles in Lagos - that's a real manufacturing operation.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. Portable power stations could be a natural fit alongside your inverter line: 1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Want to see the catalog?\n\nPen",
       "followup": "Hi MacPower 👋\n\nYou're building EV motorcycles in Lagos — curious, what battery pack are you using for those?\n\nWe supply LiFePO4 packs for e-motorcycles and power stations. Might overlap.\n\nPen",
       "_reviewed": true,
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-22",
+      "sent_channel": "whatsapp"
     },
     {
       "company": "Batteriq Kenya",
@@ -919,7 +921,10 @@
       "gate_status": "gated",
       "draft": "Hi Dynamiccom 👋\n\nYou're the authorized Powerness distributor in SA with nationwide delivery.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. A 1280Wh/1200W unit at $205 FOB - could work as a mid-tier option alongside Powerness for your resellers.\n\nCE/FCC certified. Private label OK. I can send the catalog if you're interested.\n\nPen",
       "notes": "087 landline, no WhatsApp. Need to find email or real WA.",
-      "sent": false
+      "sent": true,
+      "sent_channel": "marked",
+      "sent_date": "2026-06-23",
+      "sent_note": "no_whatsapp:087 VoIP number"
     },
     {
       "company": "Adex International LLC",
@@ -1007,7 +1012,7 @@
       "website": "solarmart.id",
       "source": "website:verified",
       "verified": true,
-      "status": "verified",
+      "status": "sent",
       "products_sold": "Solar panels, inverters, ESS batteries, PV components - wholesale distributor",
       "brands_carried": "Multiple",
       "market_position": "Leading solar panel equipment distributor Indonesia, Jakarta",
@@ -1017,7 +1022,10 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Halo Solar Mart 👋\n\nSaya lihat Anda distributor komponen PLTS di Jakarta - panel surya, inverter, baterai.\n\nKami kerja sama dengan pabrik LiFePO4 di China. 1280Wh/1200W di $205 FOB. Bisa jadi pelengkap produk Anda.\n\nCE/FCC. Ada katalog kalau tertarik.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-23",
+      "sent_channel": "marked",
+      "sent_note": "no_match:PV component distributor"
     },
     {
       "company": "PowerSafe (EcoFlow Brasil)",
@@ -1065,7 +1073,10 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Olá BLUETTI Brazil 👋\n\nVi que procuram distribuidores no Brasil para suas estações de energia.\n\nTrabalhamos com fábrica na China que produz estações LiFePO4. 1280Wh/1200W a $205 FOB - uma linha complementar para seu portfólio.\n\nCE/FCC. Marca própria disponível. Quer ver o catálogo?\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_channel": "marked",
+      "sent_date": "2026-06-23",
+      "sent_note": "no_match:official brand website"
     },
     {
       "company": "Dirigible (Nigeria)",
@@ -1134,7 +1145,10 @@
       "last_sent": "2026-06-19",
       "_reviewed": true,
       "followup": "Hi Blessing 👋\n\nFollowing up on your question about warehouse pricing. We don't have a local warehouse but FOB pricing is below.\n\n1280Wh/1200W at $205 FOB. Shipping to Beira 3-4 weeks.\n\nIf you want a formal quotation with landed cost, let me know.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_channel": "marked",
+      "sent_date": "2026-06-23",
+      "sent_note": "no_contact_info:no website"
     },
     {
       "company": "Wynand Wessels / PROXA Water",
@@ -1211,7 +1225,10 @@
       "notes": "087 landline, no WhatsApp. Need to find email or real WA.",
       "gate_score": 75,
       "gate_status": "needs_research",
-      "sent": false
+      "sent": true,
+      "sent_channel": "marked",
+      "sent_date": "2026-06-23",
+      "sent_note": "no_whatsapp:087 VoIP number"
     },
     {
       "company": "Powermax EA (Kenya)",
@@ -1341,7 +1358,7 @@
       "website": "patapawa.shop",
       "source": "Web research - EcoFlow dealer Tanzania",
       "verified": true,
-      "status": "researched",
+      "status": "sent",
       "products_sold": "EcoFlow power stations (DELTA/RIVER series), solar panels, accessories. Tanzania delivery 1-3 days.",
       "market_position": "EcoFlow dealer in Tanzania. Online store with WhatsApp ordering. Serves all Tanzania.",
       "contact_source": "Website: wa.me/+255679971305 (Tanzania mobile = WhatsApp)",
@@ -1349,7 +1366,9 @@
       "gate_score": 95,
       "gate_status": "gated",
       "draft": "Hi Pata Pawa team 👋\n\nYou sell EcoFlow power stations across Tanzania with 1-3 day delivery. I see you take orders via WhatsApp - nice setup.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. If you want to add a mid-range option alongside EcoFlow:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label OK.\n\nInterested in the catalog?\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-23",
+      "sent_channel": "whatsapp"
     },
     {
       "company": "Get Off Grid Zambia",
@@ -1370,7 +1389,9 @@
       "draft": "Hi Get Off Grid team 👋\n\nYou distribute solar panels, inverters and batteries to installers across Zambia from your Lusaka warehouse.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. Portable power stations could be a natural add-on for your installer customers:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label OK.\n\nInterested in the catalog?\n\nPen",
       "_reviewed": true,
       "followup": "Hi Get Off Grid 👋\n\nQuick question — your installer customers in Zambia buying solar panels and inverters — do they ever ask for portable power stations as an add-on?\n\nWe supply LiFePO4 units. Could be a natural upsell for you.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-23",
+      "sent_channel": "whatsapp"
     },
     {
       "company": "KWT Tech Mart (Uganda)",
@@ -1473,7 +1494,10 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Bonjour GoShop Energy team 👋\n\nYou're the exclusive EcoFlow distributor in DRC with offices across Kinshasa, Lubumbashi, Goma and 7 other cities - plus Rwanda and Uganda. 150+ resellers. Solid network.\n\nWe're a Shenzhen sourcing company working with LiFePO4 factories. If you want a complementary line alongside EcoFlow for your reseller network:\n1280Wh/1200W at $205 FOB.\n\nCE/FCC certified. Private label available.\n\nInterested in seeing the range?\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_channel": "marked",
+      "sent_date": "2026-06-23",
+      "sent_note": "sent:first batch today"
     },
     {
       "company": "Sona Solar Zimbabwe",
