@@ -1,0 +1,119 @@
+{
+  "templates": {
+    "cold_whatsapp_intro": {
+      "name": "Cold WhatsApp Introduction",
+      "description": "First contact via WhatsApp",
+      "structure": [
+        "Hello {company} team,",
+        "",
+        "I am Pen from Nichenexusglobal, a sourcing company based in China. {customer_observation}",
+        "",
+        "{value_proposition}",
+        "",
+        "{call_to_action}"
+      ],
+      "variables": {
+        "company": "string — company name from website",
+        "customer_observation": "string — one fact verified from their site (max 1 sentence)",
+        "value_proposition": "string — product + price from SOURCES (verify before writing)",
+        "call_to_action": "string — one question, no more"
+      },
+      "rules": [
+        "customer_observation must be verified from customer's own website",
+        "value_proposition must reference a product from SOURCES dict in claim_check.py",
+        "No 'I think', 'I believe', 'probably', 'maybe', 'perhaps'",
+        "No multiple questions — ask one thing only"
+      ]
+    },
+    "cold_email_intro": {
+      "name": "Cold Email Introduction",
+      "description": "First contact via email — formal, informative",
+      "structure": [
+        "Subject: {subject_line}",
+        "",
+        "Dear {company} team,",
+        "",
+        "I am Pen from Nichenexusglobal, a sourcing company based in China. {customer_observation}",
+        "",
+        "{value_proposition}",
+        "",
+        "{call_to_action}",
+        "",
+        "Best regards,",
+        "Pen",
+        "Nichenexusglobal"
+      ],
+      "variables": {
+        "company": "string",
+        "subject_line": "string — descriptive, no clickbait",
+        "customer_observation": "string — one verified fact from their site",
+        "value_proposition": "string — product + price from SOURCES",
+        "call_to_action": "string — one question"
+      },
+      "rules": [
+        "All claims must come from customer website or SOURCES dict",
+        "No unsolicited attachments",
+        "One follow-up max (3-5 days later)"
+      ]
+    },
+    "follow_up": {
+      "name": "Follow Up / Gentle Reminder",
+      "description": "Sent 3-5 days after initial contact, no response",
+      "structure": [
+        "Hello {company} team,",
+        "",
+        "I wrote to you on {date} regarding {topic}. Just checking in to see if you had any questions.",
+        "",
+        "{new_value_if_any}",
+        "",
+        "Best regards,",
+        "Pen"
+      ],
+      "variables": {
+        "company": "string",
+        "date": "date — when first message was sent",
+        "topic": "string — what the original message was about",
+        "new_value_if_any": "string — optional new info, max 1 sentence"
+      },
+      "rules": [
+        "Only send if 3+ days since last contact",
+        "Add new info to justify following up (no 'just checking in' alone)",
+        "Never ask 'did you get my message'"
+      ]
+    },
+    "supplier_inquiry": {
+      "name": "Supplier Inquiry (Email)",
+      "description": "Contact Chinese supplier for pricing",
+      "structure": [
+        "Subject: Inquiry — {product_name} for {destination_market}",
+        "",
+        "Hi {contact_name},",
+        "",
+        "I am Pen from Nichenexusglobal. I have a client interested in {product_request}.",
+        "",
+        "Could you please quote:",
+        "- FOB price",
+        "- Lead time",
+        "- MOQ",
+        "- Packing details",
+        "",
+        "Destination: {port}",
+        "",
+        "Thanks,",
+        "Pen"
+      ],
+      "variables": {
+        "contact_name": "string — only if known from previous emails",
+        "product_name": "string — specific model from catalog",
+        "product_request": "string — what exactly the client needs",
+        "destination_market": "string — target market for customs/voltage",
+        "port": "string — nearest sea port to client"
+      },
+      "rules": [
+        "Research supplier website before writing",
+        "Don't claim the client exists if they don't — say 'a potential client'",
+        "Don't mention price targets — let supplier quote their own price"
+      ]
+    }
+  }
+}
