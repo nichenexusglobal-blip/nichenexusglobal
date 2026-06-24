@@ -4,18 +4,16 @@ import json, os, subprocess, sys
 
 WORKDIR = "C:/nichenexusglobal"
 
-# Import and run behavior policy
-sys.path.insert(0, WORKDIR)
-from behavior_policy import check_no_execute_code, check_no_python_c, check_no_sensitive_grep
-check_no_execute_code()
-if len(sys.argv) > 1:
-    check_no_python_c(sys.argv[1:])
-    check_no_sensitive_grep(sys.argv[1:])
-
-# ─── CHECK DATA FILES ───────────────────────────
-
 errors = []
 warnings = []
+
+# ─── IMPORT COGNITIVE GUARDRAILS ──────────────────
+sys.path.insert(0, WORKDIR)
+from cognitive_guardrails import run_all_checks, check_context_stable, save_context
+
+# Run context stability check
+check_context_stable()
+save_context()
 
 # ─── CHECK 1: Bullets DB valid ───
 try:
