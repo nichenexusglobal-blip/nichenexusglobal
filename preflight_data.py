@@ -1,8 +1,19 @@
 #!/usr/bin/env python3
 """PRE-FLIGHT: Run before any data write or send. Blocks if issues found."""
-import json, os, subprocess
+import json, os, subprocess, sys
 
 WORKDIR = "C:/nichenexusglobal"
+
+# Import and run behavior policy
+sys.path.insert(0, WORKDIR)
+from behavior_policy import check_no_execute_code, check_no_python_c, check_no_sensitive_grep
+check_no_execute_code()
+if len(sys.argv) > 1:
+    check_no_python_c(sys.argv[1:])
+    check_no_sensitive_grep(sys.argv[1:])
+
+# ─── CHECK DATA FILES ───────────────────────────
+
 errors = []
 warnings = []
 
