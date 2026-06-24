@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "last_updated": "2026-06-22",
-    "total_hammers": 43,
+    "total_hammers": 44,
     "categories": [
       "portable_power_1000w",
       "portable_power_2000w",
@@ -236,7 +236,7 @@
           "data_quality": "B",
           "last_updated": "2026-06-22",
           "rank": 13,
-          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed) | E600LFP has OEM product in Nigeria market (Chris confirmed via WA, Jun 23)"
         },
         {
           "name": "Pecron E500 LFP",
@@ -253,7 +253,7 @@
           "data_quality": "A",
           "last_updated": "2026-06-22",
           "rank": 14,
-          "notes": "Pricing from FOB Shenzhen.xls",
+          "notes": "Pricing from FOB Shenzhen.xls | E600LFP has OEM product in Nigeria market (Chris confirmed via WA, Jun 23)",
           "fob_usd": {
             "exw_500": 130,
             "exw_500plus": 125,
@@ -276,7 +276,7 @@
           "data_quality": "B",
           "last_updated": "2026-06-22",
           "rank": 15,
-          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed) | E600LFP has OEM product in Nigeria market (Chris confirmed via WA, Jun 23)"
         },
         {
           "name": "PowerLFP LF-Y500PPS",
@@ -402,7 +402,7 @@
           "nw_kg": 10,
           "dims": "380x217x214mm",
           "data_quality": "A",
-          "notes": "Can't sell to Nigeria/West Africa (exclusive distributor until 2026-12)",
+          "notes": "Can't sell to Nigeria/West Africa (exclusive distributor until 2026-12) | E600LFP has OEM product in Nigeria market (Chris confirmed via WA, Jun 23)",
           "last_updated": "2026-06-22"
         }
       ]
@@ -626,7 +626,7 @@
           "data_quality": "B",
           "last_updated": "2026-06-22",
           "rank": 13,
-          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed) | E600LFP has OEM product in Nigeria market (Chris confirmed via WA, Jun 23)"
         },
         {
           "name": "Pecron E2400 LFP",
@@ -643,7 +643,7 @@
           "data_quality": "A",
           "last_updated": "2026-06-22",
           "rank": 14,
-          "notes": "Pricing from FOB Shenzhen.xls",
+          "notes": "Pricing from FOB Shenzhen.xls | E600LFP has OEM product in Nigeria market (Chris confirmed via WA, Jun 23)",
           "fob_usd": {
             "exw_500": 430,
             "exw_500plus": 420,
@@ -667,7 +667,7 @@
           "data_quality": "B",
           "last_updated": "2026-06-22",
           "rank": 15,
-          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed) | E600LFP has OEM product in Nigeria market (Chris confirmed via WA, Jun 23)"
         },
         {
           "name": "Pecron E3800 LFP",
@@ -684,7 +684,7 @@
           "data_quality": "B",
           "last_updated": "2026-06-22",
           "rank": 16,
-          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed)"
+          "notes": "FOB pricing in FOB Shenzhen.xls (Excel format, not parsed) | E600LFP has OEM product in Nigeria market (Chris confirmed via WA, Jun 23)"
         },
         {
           "name": "PowerLFP LF-B2000PPS",
@@ -1108,7 +1108,7 @@
         ],
         "source": "official_fob_quote",
         "status": "verified_fob",
-        "notes": "Official FOB quote (June 3) - 100pcs each model. MOQ 200 for production orders.\nHS 8504402000. 14yr factory (founded 2012).\nCertifications: CE, FCC, RoHS. UKCA only on E600LFP/E1000LFP/F3000LFP (others can get after order).\nLead time: 30-45 working days. OEM MOQ 200. Stock items 3-7 days.\nWhatsApp Chris: +86 153 6147 2189\nPacking: E600LFP 0.0349cbm/11.4kg, F1000LFP 0.0326cbm/12.25kg, E2400LFP 0.0641cbm/21kg.\n\nPRICING:\nEXW (sample/stock): E500LFP 576Wh $130, E600LFP 614Wh qty needed, F1000LFP 960Wh $199, E2400LFP 2048Wh $430\nFOB (100pcs qty): E600LFP 614Wh $168.5, F1000LFP 960Wh $202.5, E2400LFP 2048Wh $433.5\n\nSHIPPING COSTS (from Chris June 9 - 40pcs per model, 1cbm basis):\nMombasa, Kenya: O/F RMB 1200/CBM + DOC RMB 300. Destination: Handover $100, Stripping $24/RT, LCL $23/RT, DO $75, Admin $40. VAT 16%. COC inspection required before shipment.\nManila, Philippines: O/F USD 52/CBM + clearance RMB 350 + DOC RMB 350 + warehouse RMB 180. Destination: PSS USD 12/RT, BAF USD 8/RT, BL $50, Import surcharge $135/RT, LCL THC PHP 450/RT, DOC PHP 880/BL, Handling PHP 880/RT. No free storage period. VAT 12%.\nDubai, UAE: O/F RMB 1750/RT + DOC RMB 300. Destination: LCL USD 38/RT, DO $143/set, Port handling $8.14/RT, DOC $54/set.\n\n2026-06-07: Chris replied — was at factory, will check shipping costs Monday.\n2026-06-09: Chris sent complete shipping costs (above). Production booked until mid-late July.\nPen never replied after getting shipping costs.\n\nVERIFIED SPECS (from pecron.com):\nE600LFP $168.5 FOB: 614Wh/1200W/9.4kg - 350W solar, PD100W, 11 ports, 3.3hr charge\nF1000LFP $202.5 FOB: 960Wh/1500W/10.85kg - 600W solar, PD100W, 10 ports, 1.1hr charge\nE2400LFP $433.5 FOB: 2048Wh/2400W/20.5kg - 800W solar, expandable, 1.5hr charge\nAll: LiFePO4 3500+ cycles, CE/FCC/UKCA, 230V version available",
+        "notes": "Official FOB quote (June 3) - 100pcs each model. MOQ 200 for production orders.\nHS 8504402000. 14yr factory (founded 2012).\nCertifications: CE, FCC, RoHS. UKCA only on E600LFP/E1000LFP/F3000LFP (others can get after order).\nLead time: 30-45 working days. OEM MOQ 200. Stock items 3-7 days.\nWhatsApp Chris: +86 153 6147 2189\nPacking: E600LFP 0.0349cbm/11.4kg, F1000LFP 0.0326cbm/12.25kg, E2400LFP 0.0641cbm/21kg.\n\nPRICING:\nEXW (sample/stock): E500LFP 576Wh $130, E600LFP 614Wh qty needed, F1000LFP 960Wh $199, E2400LFP 2048Wh $430\nFOB (100pcs qty): E600LFP 614Wh $168.5, F1000LFP 960Wh $202.5, E2400LFP 2048Wh $433.5\n\nSHIPPING COSTS (from Chris June 9 - 40pcs per model, 1cbm basis):\nMombasa, Kenya: O/F RMB 1200/CBM + DOC RMB 300. Destination: Handover $100, Stripping $24/RT, LCL $23/RT, DO $75, Admin $40. VAT 16%. COC inspection required before shipment.\nManila, Philippines: O/F USD 52/CBM + clearance RMB 350 + DOC RMB 350 + warehouse RMB 180. Destination: PSS USD 12/RT, BAF USD 8/RT, BL $50, Import surcharge $135/RT, LCL THC PHP 450/RT, DOC PHP 880/BL, Handling PHP 880/RT. No free storage period. VAT 12%.\nDubai, UAE: O/F RMB 1750/RT + DOC RMB 300. Destination: LCL USD 38/RT, DO $143/set, Port handling $8.14/RT, DOC $54/set.\n\n2026-06-07: Chris replied — was at factory, will check shipping costs Monday.\n2026-06-09: Chris sent complete shipping costs (above). Production booked until mid-late July.\nPen never replied after getting shipping costs.\n\nVERIFIED SPECS (from pecron.com):\nE600LFP $168.5 FOB: 614Wh/1200W/9.4kg - 350W solar, PD100W, 11 ports, 3.3hr charge\nF1000LFP $202.5 FOB: 960Wh/1500W/10.85kg - 600W solar, PD100W, 10 ports, 1.1hr charge\nE2400LFP $433.5 FOB: 2048Wh/2400W/20.5kg - 800W solar, expandable, 1.5hr charge\nAll: LiFePO4 3500+ cycles, CE/FCC/UKCA, 230V version available | E600LFP has OEM product in Nigeria market",
         "packing": {
           "E600LFP": {
             "cbm": 0.0349,
@@ -1477,6 +1477,26 @@
         "image_count": 0,
         "data_quality_label": "SUSPICIOUS - unverified source",
         "exw_usd": {}
+      },
+      {
+        "name": "SOUOP / Shenzhen Pordie Energy Technology",
+        "source": "verified_email_catalog",
+        "contact": "Bella Wang",
+        "email": "bella@souoppowerstation.com",
+        "whatsapp": "+86 199 7407 9051",
+        "since": 2008,
+        "employees": "400+",
+        "rd_engineers": "40+",
+        "products": "350W - 6000W portable power stations",
+        "warranty": "3 years",
+        "services": "OEM/ODM",
+        "sample_moq": "No MOQ for samples",
+        "production_base": "Foshan, China",
+        "cert_claims": [],
+        "data_quality": "A",
+        "catalog_pdf": "attachments/supplier_docs/E-brochure of portable power stations from Pordie Energy.pdf",
+        "last_updated": "2026-06-24",
+        "notes": "Bella replied with catalog. Asked which African markets we serve."
       }
     ],
     "market_index": {
