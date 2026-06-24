@@ -165,14 +165,44 @@ def check_escalation_needed(attempt_count, task_name):
         errors.append(f"🧠 CG7: Tried {task_name} {attempt_count} times with no success. Need Pen's input.")
 
 # ═══════════════════════════════════════════════════
+# COGNITIVE GUARDRAIL 8: BULLET TRUTH CHECK
+# Every claim about a customer must trace to a real page visit.
+# ═══════════════════════════════════════════════════
+
+def check_bullet_truth(bullet_text):
+    """Flag any bullet with claims I haven't personally verified."""
+    import re
+    
+    # Red flags — claims that need verification from the customer's own site
+    claims = re.findall(
+        r"I see you[^.]*\.|I notice[^.]*\.|you sell[^.]*\.|"
+        r"you carry[^.]*\.|you offer[^.]*\.|you distribute[^.]*\.|"
+        r"you stock[^.]*\.|you import[^.]*\.|your website shows[^.]*\.",
+        bullet_text, re.IGNORECASE
+    )
+    
+    if claims:
+        warnings.append(f"🧠 CG8: {len(claims)} claims about customer in bullet:")
+        for c in claims[:3]:
+            short = c.strip()[:60]
+            warnings.append(f"       → '{short}' — verify from customer's website, not search snippet")
+    
+    # Check for numbers without sources
+    prices = re.findall(r'[£$€]\s*[\d,]+', bullet_text)
+    if prices:
+        warnings.append(f"🧠 CG8: {len(prices)} price mention(s): verify from quotation or customer site")
+
+# ═══════════════════════════════════════════════════
 # RUN
 # ═══════════════════════════════════════════════════
 
-def run_all_checks(task="", text="", attempt=0, task_name=""):
+def run_all_checks(task="", text="", attempt=0, task_name="", bullet_text=""):
     """Run all cognitive guardrails."""
     check_guesswork(text)
     check_qualification(text)
     check_fundamentals_first(task)
+    if bullet_text:
+        check_bullet_truth(bullet_text)
     if attempt > 0 and task_name:
         check_escalation_needed(attempt, task_name)
     return errors, warnings
