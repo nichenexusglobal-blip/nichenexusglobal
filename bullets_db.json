@@ -1529,6 +1529,28 @@
       "sent": false,
       "gate_score": 100,
       "gate_status": "gated"
+    },
+    {
+      "company": "Pawa247 Technologies",
+      "market": "Ghana",
+      "segment": "solar_installer",
+      "contact_name": "",
+      "email": "Registration@pawa247.com",
+      "whatsapp": "233266633445",
+      "website": "pawa247.site",
+      "source": "web_search",
+      "verified": true,
+      "status": "verified",
+      "products_sold": "Solar panels, inverters, batteries, charge controllers, solar accessories. PAYG solar installations.",
+      "brands_carried": "Multiple",
+      "market_position": "Ghana solar installer, PAYG model. Sales + installation nationwide. WhatsApp primary channel. No portable power stations.",
+      "contact_source": "Website: Registration@pawa247.com, +233 266 633 445 (WA)",
+      "research_depth": "verified_on_website",
+      "research_date": "2026-06-25",
+      "notes": "Ghana. Solar installer, not pure distributor. Could resell portable stations as add-on.",
+      "sent": false,
+      "gate_score": 100,
+      "gate_status": "gated"
     }
   ],
   "last_updated": "2026-06-24",
