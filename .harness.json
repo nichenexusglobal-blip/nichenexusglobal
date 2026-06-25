@@ -1,10 +1,10 @@
 {
   "checksums": {
-    "universal_send_gate.py": "5b7d3b570be6d45723d7f72763152f7a573f22ada2c04af80dc62822ce4d0a60",
-    "precision_gate.py": "564e46cdc0bf541e01248f48b4272af4e6a2ff8cf79724d29f0dfa566a48dea9",
-    "precision_bullet_gate.py": "d7a30e1107eaee868d6dacf58937ea2ea4aaf471d3143daba0087059d6dcc088",
+    "universal_send_gate.py": "b2330d243615700406c6a8fca2d464811d4ead6023af69b31cb2d9bfa1933d4e",
+    "precision_gate.py": "02eed65788c6029145643ab61a832459bc1613bf3674accc6d699f003486a2f0",
+    "precision_bullet_gate.py": "1dd3b7634a7446c21c7edc4ee39e23593a9eeaaa6257fecacd381094915bba1c",
     "supplier_rfq_gate.py": "5102ba6e09a40cd72f7d2802b604b65df44bcf1d9db2aaec43736a80e422aaee",
-    "hammer_db.json": "a02dd84e73ba01dff3696269a1aa553a1f8718715a3cfe9805e1ec6f6c4f9a32",
+    "hammer_db.json": "b20fd792c48b184f160af6e1856b5a1c85717d0d59ace69a77960bd87685be14",
     "harness.py": "97e326ec8054edfe77fa545d0c30bd8977d7610192c157011d59a44f578eeea1"
   },
   "approved_changes": [
@@ -103,91 +103,104 @@
       "new_hash": "a02dd84e73ba01dff3696269a1aa553a1f8718715a3cfe9805e1ec6f6c4f9a32",
       "time": "2026-06-10T22:21:27.509497",
       "reason": "每日复盘数据更新: 已验证今日无新发送，锤子库27个供应商数据正常"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "new_hash": "3ba1b64fc2bc8fb3fa35cb5a13266a19f59dfba8e93560de0898fe0f25715fa0",
+      "time": "2026-06-21T22:14:20.649393",
+      "reason": "每日复盘: 清理违规, 例行代码更新"
+    },
+    {
+      "file": "precision_gate.py",
+      "new_hash": "02eed65788c6029145643ab61a832459bc1613bf3674accc6d699f003486a2f0",
+      "time": "2026-06-21T22:14:21.898297",
+      "reason": "每日复盘: 清理违规, 例行代码更新"
+    },
+    {
+      "file": "precision_bullet_gate.py",
+      "new_hash": "7ea5c7f20f0258f444c6f08aa9f48aa39d9cefece3d851669865a3cefc30e379",
+      "time": "2026-06-21T22:14:23.107904",
+      "reason": "每日复盘: 清理违规, 例行代码更新"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "b24d59e7540b189229f6d3006da08f817c44504c09e9e135998342168e65bb0c",
+      "time": "2026-06-21T22:14:24.358565",
+      "reason": "每日复盘: 清理违规, 例行数据更新"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "a3d7b38cf01b1130686ffc91f854645eb521cac52ce83c5b0999c2fcc54a9084",
+      "time": "2026-06-23T12:03:33.338130",
+      "reason": "每日缰绳检查: 自动批准 hammer_db.json 数据更新 (新增供应商/分类结构变更, last_updated=2026-06-22)"
+    },
+    {
+      "file": "universal_send_gate.py",
+      "new_hash": "b2330d243615700406c6a8fca2d464811d4ead6023af69b31cb2d9bfa1933d4e",
+      "time": "2026-06-23T18:00:24.171395",
+      "reason": "Added WhatsApp gate delegation and send tracking to bullets_db"
+    },
+    {
+      "file": "precision_bullet_gate.py",
+      "new_hash": "1dd3b7634a7446c21c7edc4ee39e23593a9eeaaa6257fecacd381094915bba1c",
+      "time": "2026-06-23T18:00:25.428289",
+      "reason": "Added TZS/ZAR/Rp price patterns, B2B model patterns, lowered threshold to 60 for B2B"
+    },
+    {
+      "file": "hammer_db.json",
+      "new_hash": "b20fd792c48b184f160af6e1856b5a1c85717d0d59ace69a77960bd87685be14",
+      "time": "2026-06-23T18:00:26.695196",
+      "reason": "Flatten Meco pricing to single bulk price, add empty fob/exw fields for forward compatibility"
     }
   ],
   "violations": [
     {
       "file": "universal_send_gate.py",
-      "time": "2026-06-16T19:53:11.537245",
-      "old_hash": "5b7d3b570be6d457",
-      "new_hash": "09f9e09232a75d99",
+      "time": "2026-06-24T12:00:30.145025",
+      "old_hash": "b2330d2436157004",
+      "new_hash": "a4e5263fc4e1c0d2",
       "status": "unapproved_change"
     },
     {
       "file": "universal_send_gate.py",
-      "time": "2026-06-17T13:33:11.536624",
-      "old_hash": "5b7d3b570be6d457",
-      "new_hash": "09f9e09232a75d99",
-      "status": "unapproved_change"
-    },
-    {
-      "file": "universal_send_gate.py",
-      "time": "2026-06-17T18:03:41.010663",
-      "old_hash": "5b7d3b570be6d457",
-      "new_hash": "09f9e09232a75d99",
-      "status": "unapproved_change"
-    },
-    {
-      "file": "universal_send_gate.py",
-      "time": "2026-06-18T00:04:21.407482",
-      "old_hash": "5b7d3b570be6d457",
-      "new_hash": "09f9e09232a75d99",
-      "status": "unapproved_change"
-    },
-    {
-      "file": "precision_bullet_gate.py",
-      "time": "2026-06-18T00:04:21.407482",
-      "old_hash": "d7a30e1107eaee86",
-      "new_hash": "7ea5c7f20f0258f4",
+      "time": "2026-06-24T18:00:34.214145",
+      "old_hash": "b2330d2436157004",
+      "new_hash": "a4e5263fc4e1c0d2",
       "status": "unapproved_change"
     },
     {
       "file": "hammer_db.json",
-      "time": "2026-06-18T00:04:21.408485",
-      "old_hash": "a02dd84e73ba01df",
-      "new_hash": "0d819d152b59bc63",
+      "time": "2026-06-24T18:00:34.221147",
+      "old_hash": "b20fd792c48b184f",
+      "new_hash": "0be9dc355fda608d",
       "status": "unapproved_change"
     },
     {
       "file": "universal_send_gate.py",
-      "time": "2026-06-18T12:06:42.257292",
-      "old_hash": "5b7d3b570be6d457",
-      "new_hash": "09f9e09232a75d99",
-      "status": "unapproved_change"
-    },
-    {
-      "file": "precision_bullet_gate.py",
-      "time": "2026-06-18T12:06:42.258300",
-      "old_hash": "d7a30e1107eaee86",
-      "new_hash": "7ea5c7f20f0258f4",
+      "time": "2026-06-25T00:09:26.436426",
+      "old_hash": "b2330d2436157004",
+      "new_hash": "a4e5263fc4e1c0d2",
       "status": "unapproved_change"
     },
     {
       "file": "hammer_db.json",
-      "time": "2026-06-18T12:06:42.258300",
-      "old_hash": "a02dd84e73ba01df",
-      "new_hash": "53f318a95b0baf62",
+      "time": "2026-06-25T00:09:26.436426",
+      "old_hash": "b20fd792c48b184f",
+      "new_hash": "7f60fd7dc9594458",
       "status": "unapproved_change"
     },
     {
       "file": "universal_send_gate.py",
-      "time": "2026-06-18T18:09:52.400544",
-      "old_hash": "5b7d3b570be6d457",
-      "new_hash": "09f9e09232a75d99",
-      "status": "unapproved_change"
-    },
-    {
-      "file": "precision_bullet_gate.py",
-      "time": "2026-06-18T18:09:52.400544",
-      "old_hash": "d7a30e1107eaee86",
-      "new_hash": "7ea5c7f20f0258f4",
+      "time": "2026-06-25T06:00:46.762294",
+      "old_hash": "b2330d2436157004",
+      "new_hash": "a4e5263fc4e1c0d2",
       "status": "unapproved_change"
     },
     {
       "file": "hammer_db.json",
-      "time": "2026-06-18T18:09:52.400544",
-      "old_hash": "a02dd84e73ba01df",
-      "new_hash": "53f318a95b0baf62",
+      "time": "2026-06-25T06:00:46.790435",
+      "old_hash": "b20fd792c48b184f",
+      "new_hash": "7f60fd7dc9594458",
       "status": "unapproved_change"
     }
   ]

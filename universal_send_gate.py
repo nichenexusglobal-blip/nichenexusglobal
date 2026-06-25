@@ -34,6 +34,38 @@ def log_send(entry):
     with open(SEND_LOG, "a", encoding="utf-8") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
+WHATSAPP_JSONL = os.path.join(WORKDIR, "whatsapp_messages.jsonl")
+
+def check_whatsapp_already_sent(chat_id):
+    """查whatsapp_messages.jsonl，这个号码我们发过消息没有。isFromMe=true就是发出去的。"""
+    if not os.path.exists(WHATSAPP_JSONL):
+        return False, []  # 没有任何记录，肯定没发过
+    found = []
+    with open(WHATSAPP_JSONL, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                msg = json.loads(line)
+                # 兼容两种格式：旧版data.chat + 新版顶层chat
+                msg_chat = msg.get("data", {}).get("chat", "") or msg.get("chat", "")
+                msg_from_me = msg.get("data", {}).get("isFromMe", False) or msg.get("isFromMe", False)
+                # 判断是否发往目标号码：精确匹配或@lid包含匹配
+                matched = (
+                    msg_chat == chat_id
+                    or (chat_id.endswith("@lid") and msg_chat == chat_id)
+                    or (chat_id.endswith("@s.whatsapp.net") and msg_chat == chat_id)
+                    or (msg_chat.split("@")[0] == chat_id.split("@")[0])
+                )
+                if msg_from_me and matched:
+                    body = msg.get("data", {}).get("body", "") or msg.get("body", "")
+                    ts = msg.get("_sent_at", "") or msg.get("timestamp", "") or msg.get("_received_at", "")
+                    found.append({"body": body[:60], "time": ts})
+            except json.JSONDecodeError:
+                continue
+    return len(found) > 0, found
+
 def save_draft(recipient, name, body, score, reason):
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     safe_name = name.replace(" ", "_")[:20]
@@ -126,7 +158,17 @@ WHATSAPP_GATE_BANNED = [
 ]
 
 def check_whatsapp_gate(chat_id, message, company_name=""):
-    """Simplified WhatsApp gate — can be upgraded to full 5-dimension check."""
+    """WhatsApp gate — uses whatsapp_gate.py for full checks (length, tone, pricing dump)"""
+    try:
+        sys.path.insert(0, WORKDIR)
+        from whatsapp_gate import check_whatsapp
+        result = check_whatsapp(company_name, message)
+        if result["passed"]:
+            return {"pass": True, "score": result["score"], "reason": ""}
+        return {"pass": False, "score": result["score"], "reason": "; ".join(result["issues"])}
+    except ImportError:
+        pass  # Fallback to simplified check below
+    
     msg_lower = message.lower()
 
     # 1. No test messages
@@ -272,6 +314,32 @@ def send_email(to, name, subject, body, category="customer", is_reply=False):
             "category": category, "success": True,
             "gate_score": gate["score"]
         })
+        
+        # 4. Track send in bullets DB
+        if name:
+            try:
+                bullets_path = os.path.join(WORKDIR, "bullets_db.json")
+                with open(bullets_path) as f:
+                    bdb = json.load(f)
+                for b in bdb["email_bullets"] + bdb["whatsapp_bullets"]:
+                    if b.get("company") == name:
+                        if "send_log" not in b:
+                            b["send_log"] = []
+                        b["send_log"].append({
+                            "timestamp": datetime.now().isoformat(),
+                            "channel": "email",
+                            "subject": subject
+                        })
+                        b["last_sent"] = datetime.now().isoformat()
+                        b["send_count"] = len(b["send_log"])
+                        if b.get("status") in ["gated", "researched", "verified"]:
+                            b["status"] = "sent"
+                        break
+                with open(bullets_path, "w") as f:
+                    json.dump(bdb, f, ensure_ascii=False, indent=2)
+            except Exception as te:
+                print(f"  ⚠ Send tracking error: {te}")
+        
         return True
 
     except Exception as e:
@@ -308,6 +376,15 @@ def send_whatsapp(chat_id, message, company_name="", is_reply=False):
         with open(path, "w", encoding="utf-8") as f:
             f.write(f"TO: {chat_id}\nCOMPANY: {company_name}\nREASON: 桥断开: {bridge_status}\n\n{message}")
         print(f"  ⛔ BLOCKED (桥断开) — 先修桥再发。saved to {os.path.basename(path)}")
+        return False
+
+    # ── 重复发送检查：查JSONL有没有发过这个号码 ──
+    already_sent, sent_records = check_whatsapp_already_sent(chat_id)
+    if already_sent:
+        print(f"  🔒 DUPLICATE DETECTED: {chat_id} 已发过 {len(sent_records)} 条消息")
+        for r in sent_records:
+            print(f"     🕐 {r['time']} | {r['body']}")
+        print(f"  ⛔ BLOCKED — 这个号码已经发过消息，防止重复造成混乱")
         return False
 
     # ── 对话活性检查：wago-api用webhook收消息，跳过旧Baileys的/messages检查 ──
@@ -427,6 +504,142 @@ def send_whatsapp(chat_id, message, company_name="", is_reply=False):
                 "messageId": resp_data.get("messageId", ""),
                 "verified": verified
             })
+        
+        # 4. Track send in bullets DB
+        if company_name:
+            try:
+                bullets_path = os.path.join(WORKDIR, "bullets_db.json")
+                with open(bullets_path) as f:
+                    bdb = json.load(f)
+                for b in bdb["email_bullets"] + bdb["whatsapp_bullets"]:
+                    if b.get("company") == company_name:
+                        if "send_log" not in b:
+                            b["send_log"] = []
+                        b["send_log"].append({
+                            "timestamp": datetime.now().isoformat(),
+                            "channel": "whatsapp",
+                            "messageId": resp_data.get("messageId", ""),
+                            "verified": verified
+                        })
+                        b["last_sent"] = datetime.now().isoformat()
+                        b["send_count"] = len(b["send_log"])
+                        if b.get("status") in ["gated", "researched", "verified"]:
+                            b["status"] = "sent"
+                        break
+                with open(bullets_path, "w") as f:
+                    json.dump(bdb, f, ensure_ascii=False, indent=2)
+                print(f"  📋 Bullet status updated: {company_name} → sent")
+            except Exception as te:
+                print(f"  ⚠ Send tracking error: {te}")
+        
+        return True
+
+    except Exception as e:
+        print(f"  ❌ SEND FAILED: {e}")
+        return False
+
+
+# ─── UNIVERSAL SEND (WHATSAPP MEDIA) ─────────────────────────────
+
+
+def send_whatsapp_media(chat_id, file_path, company_name="", caption="", media_type="document", is_reply=False):
+    """
+    通过WhatsApp发送文件/图片/PDF。
+    走 bridge.js 的 /send-media 端点。
+
+    media_type: 'image' | 'document' | 'video' | 'audio'
+    支持格式: jpg, png, webp, gif, mp4, pdf, doc, docx, xlsx, mp3, wav, ogg
+    """
+    print(f"\n📎 {company_name or chat_id} — 发送文件: {os.path.basename(file_path)}")
+
+    # ── 铁律LID ──
+    if chat_id.endswith("@lid"):
+        print(f"  🔒 LID PROTECTION: chat_id以@lid结尾 ({chat_id}) — 不发")
+        return False
+
+    # ── 检查文件存在 ──
+    if not os.path.exists(file_path):
+        print(f"  ❌ 文件不存在: {file_path}")
+        return False
+
+    # ── 桥活着 ──
+    bridge_ok, bridge_status = check_bridge_health()
+    if not bridge_ok:
+        print(f"  🔒 BRIDGE CHECK FAILED: {bridge_status}")
+        return False
+
+    # ── 重复发送检查：查JSONL有没有发过这个号码 ──
+    already_sent, sent_records = check_whatsapp_already_sent(chat_id)
+    if already_sent:
+        print(f"  🔒 DUPLICATE DETECTED: {chat_id} 已发过 {len(sent_records)} 条消息")
+        for r in sent_records:
+            print(f"     🕐 {r['time']} | {r['body']}")
+        print(f"  ⛔ BLOCKED — 这个号码已经发过消息，防止重复发送文件")
+        return False
+
+    # ── 门禁（有caption就走门禁）─
+    if caption and not is_reply:
+        try:
+            sys.path.insert(0, WORKDIR)
+            from precision_bullet_gate import verify as bullet_verify
+            v_result = bullet_verify(company_name, caption, "customer")
+            if not v_result["pass"]:
+                print(f"  ⛔ BLOCKED (验证门禁 {v_result['score']}/100)")
+                return False
+        except Exception as e:
+            print(f"  ⚠ Gate error: {e}")
+            return False
+
+    # ── 发送 ──
+    try:
+        import urllib.request
+        # 自动检测media_type
+        ext = file_path.lower().split('.')[-1]
+        image_exts = {'jpg', 'jpeg', 'png', 'webp', 'gif'}
+        video_exts = {'mp4'}
+        audio_exts = {'mp3', 'wav', 'ogg', 'm4a'}
+        if ext in image_exts and media_type == "document":
+            media_type = "image"
+        elif ext in video_exts:
+            media_type = "video"
+        elif ext in audio_exts:
+            media_type = "audio"
+
+        data = json.dumps({
+            "chatId": chat_id,
+            "filePath": file_path,
+            "mediaType": media_type,
+            "caption": caption or "",
+            "fileName": os.path.basename(file_path),
+        }).encode()
+
+        req = urllib.request.Request(
+            f"{WHATSAPP_BRIDGE_URL}/send-media",
+            data=data,
+            headers={"Content-Type": "application/json"}
+        )
+        resp = urllib.request.urlopen(req, timeout=30)
+        resp_data = json.loads(resp.read())
+
+        if resp_data.get("success"):
+            print(f"  ✅ 文件已发送 (msgId: {resp_data.get('messageId','?')})")
+        else:
+            print(f"  ❌ 发送失败: {resp_data}")
+            return False
+
+        # 日志
+        log_send({
+            "timestamp": datetime.now().isoformat(),
+            "channel": "whatsapp_media",
+            "chatId": chat_id,
+            "company": company_name,
+            "file": os.path.basename(file_path),
+            "mediaType": media_type,
+            "caption": caption,
+            "success": True,
+            "messageId": resp_data.get("messageId", "")
+        })
+
         return True
 
     except Exception as e:

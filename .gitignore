@@ -54,3 +54,4 @@ email_blacklist.json
 archiver.log
 archiver_watchdog.log
 wago-api/
+.cf_token

@@ -64,9 +64,11 @@ class PrecisionGate:
     def check_business_fact(self):
         """20pts: Must reference at least one specific fact about their business."""
         # Check for product mentions
-        product_kw = ['EcoFlow', 'Bluetti', 'Jackery', 'solar', 'LFP', 'battery', 
+        product_kw = ['EcoFlow', 'Bluetti', 'Jackery', 'solar', 'LFP', 'LiFePO4', 'battery', 
                       'dealer', 'distributor', 'installer', 'retailer', 'authorized',
-                      'DELTA', 'River', 'inverter', 'energy storage', 'power station']
+                      'DELTA', 'River', 'inverter', 'energy storage', 'power station',
+                      'fábrica', 'estación', 'energía', 'marca', 'línea', 'OEM',
+                      'portátil', 'paneles', 'generador']
         facts_found = []
         for kw in product_kw:
             if kw.lower() in self.body.lower():
@@ -166,7 +168,8 @@ class PrecisionGate:
                 penalties += 3
         
         # Check CTA strength (6th precision requirement)
-        strong_ctas = ['spec sheet', 'formal quotation', 'quotation', 'interested in']
+        strong_ctas = ['spec sheet', 'formal quotation', 'quotation', 'interested in',
+                       'catálogo', 'cotización', 'muestras', 'catálogo completo']
         weak_ctas = ['would you be open to', 'happy to discuss', '15-minute call to discuss how this might fit']
         
         has_strong = any(c in self.body.lower() for c in strong_ctas)
@@ -207,7 +210,8 @@ class PrecisionGate:
         self.score = sum(scores)
         passed = self.score >= 95 and not self.blocked
         
-        return {
+        # Add truth check reminder (cannot be automated)
+        result = {
             'score': self.score,
             'passed': passed,
             'threshold': 95,
@@ -215,6 +219,15 @@ class PrecisionGate:
             'blocked_reasons': self.reasons,
             'verdict': '✅ APPROVED' if passed else '🚫 BLOCKED',
         }
+        
+        # Non-automated truth check reminder
+        print(f"\n  ⚠ TRUTH CHECK (manual):")
+        print(f"    [ ] All numbers verified from real sources?")
+        print(f"    [ ] Not pretending to be something we're not?")
+        print(f"    [ ] Would I say this face-to-face?")
+        print(f"    [ ] Does this pass Pen's '真实与真诚' test?\n")
+        
+        return result
 
 
 def gate_check(company_name, email_body, company_info=None):

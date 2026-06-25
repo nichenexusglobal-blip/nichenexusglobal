@@ -1,0 +1,59 @@
+#!/usr/bin/env python
+"""Send first-contact email to Even Flow Distribution (South Africa)"""
+
+import smtplib, os
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
+env_path = r'C:\nichenexusglobal\.env'
+password = None
+with open(env_path, 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('NICHE_EMAIL_PASSWORD='):
+            password = line.split('=', 1)[1].strip().strip("'\"")
+            break
+
+if not password:
+    print("FAIL: NICHE_EMAIL_PASSWORD not found")
+    exit(1)
+
+smtp_host = "smtp.exmail.qq.com"
+smtp_port = 465
+sender = "pen@nichenexusglobal.com"
+recipient = "sales@evenflow.co.za"
+
+msg = MIMEMultipart("alternative")
+msg["From"] = f"Pen | nichenexusglobal <{sender}>"
+msg["To"] = recipient
+msg["Subject"] = "LiFePO4 portable power stations – complementary line for your IT reseller channel"
+
+text_body = """Hi Even Flow team,
+
+I see you distribute EcoFlow to IT resellers across Africa — an interesting channel for portable power stations. You also cover Intelligent Energy as a practice area alongside AV, networking, and security.
+
+We're a sourcing company in Shenzhen, China, working with partner factories that produce LiFePO4 portable power stations. For your IT reseller channel, a mid-range option alongside EcoFlow could be useful for customers who find the premium pricing hard to justify.
+
+Our wholesale pricing reference:
+- 1024Wh/1000W ~ $145 FOB
+- 1280Wh/1200W ~ $205 FOB
+- 2048Wh/2400W ~ $298 FOB
+
+All CE/FCC certified. OEM/private label available.
+
+If this fits your energy portfolio, I can send spec sheets and catalog.
+
+Best regards,
+Pen
+nichenexusglobal.com"""
+
+msg.attach(MIMEText(text_body, "plain"))
+
+try:
+    with smtplib.SMTP_SSL(smtp_host, smtp_port, timeout=30) as server:
+        server.login(sender, password)
+        server.sendmail(sender, [recipient], msg.as_string())
+    print(f"SUCCESS: Email sent to {recipient}")
+except Exception as e:
+    print(f"FAIL: {e}")
+    exit(1)

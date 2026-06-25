@@ -1,0 +1,1 @@
+{"timestamp": "2026-06-20T22:26:10.432333", "incident": "Sent message without Pen's approval", "root_cause": "Skipped approval check before send", "fix": "SEND-001: hard assert blocks unapproved sends", "verified": false}

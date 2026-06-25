@@ -1,40 +1,80 @@
 [
   {
-    "target": "KHM Megatools Corp.",
-    "website": "https://khmtools.com.ph",
-    "date": "2026-06-17",
+    "target": "Get Off Grid Zambia",
+    "website": "getoffgrid.co.zm",
     "pages_viewed": [
-      "https://khmtools.com.ph/collections/power-station (首页 - 工具五金零售商，位于马尼拉，11款电站产品)",
-      "https://khmtools.com.ph/ (首页 - 公司信息，地址，联系方式)",
-      "https://khmtools.com.ph/pages/contact-us (联系页 - 邮箱sales@khmtools.com.ph, 电话(02)7955-5489)"
+      "https://getoffgrid.co.zm/",
+      "https://getoffgrid.co.zm/product/sunsynk-contour-2000/",
+      "https://getoffgrid.co.zm/contact-us/"
     ],
-    "findings": [
-      "KHM Megatools Corp. 是马尼拉五金工具零售商",
-      "现有电站产品线：Yamato(200-800W), Greenfield(200-800W), Daiden(300-500W), Wadfow(300/600W)",
-      "所有产品在300W-800W区间，没有1000W+大容量产品",
-      "Yamato YM63-500 500W卖₱13,500 (~USD 235)",
-      "Yamato YM63-800 800W卖₱19,500 (~USD 340)",
-      "Wadfow WPPS150 300W/600W卖₱16,000-24,000 (~USD 280-420)",
-      "Yamato YM63-300 300W卖₱9,500 (~USD 165)",
-      "他们的价格定位是预算型市场，缺乏中高端产品线",
-      "有Price Match Program - 说明对价格敏感",
-      "联系方式：sales@khmtools.com.ph"
+    "contact_found": {
+      "whatsapp": "260958751872",
+      "email": "sales@getoffgrid.co.zm"
+    },
+    "brands": [
+      "BSLBATT",
+      "Victron",
+      "Sunsynk",
+      "Trina"
     ],
     "products_found": [
-      "Yamato YM63-500 (500W)",
-      "Yamato YM63-800 (800W)",
-      "Greenfield GPS800W (800W)",
-      "Wadfow WPPS150 (300W/600W)",
-      "Daiden PS-500 (500W Li-Ion)"
+      "Sunsynk Contour 2000 (1843Wh portable power station)",
+      "BSLBATT Powerline-5 battery",
+      "Victron inverters"
     ],
-    "retail_prices": {
-      "Yamato YM63-500": "PHP 13,500",
-      "Yamato YM63-800": "PHP 19,500",
-      "Yamato YM63-300": "PHP 9,500",
-      "Yamato YM92-300": "PHP 7,500",
-      "Yamato YM92-200": "PHP 6,000",
-      "Wadfow WPPS150": "PHP 16,000-24,000"
+    "retail_prices": [],
+    "our_match": "1280Wh/1200W LiFePO4 at USD 205 FOB"
+  },
+  {
+    "target": "Solar Mart Energi",
+    "website": "solarmart.id",
+    "pages_viewed": [
+      "https://www.solarmart.id/",
+      "https://www.solarmart.id/hybrid-inverter/",
+      "https://www.solarmart.id/contact-us/"
+    ],
+    "contact_found": {
+      "whatsapp": "628116358090",
+      "email": "sales@solarmart.id"
     },
-    "assessment": "潜在客户。缺1000W+产品线，现有的Yamato/Greenfield/Wadfow品牌是低价位ODM贴牌，说明他们接受中国工厂供货。我们Pecron E600LFP(614Wh $168.5)和F1000LFP(960Wh $202.5)可以补充其中高端产品线。不需要官网WhatsApp验证——发邮件即可。"
+    "brands": [
+      "Huawei",
+      "Deye",
+      "Sun Star Solar"
+    ],
+    "products_found": [
+      "Huawei SUN-2000-25KTL-M5 on-grid inverter",
+      "Deye hybrid inverter",
+      "ESS batteries",
+      "PV components"
+    ],
+    "retail_prices": [
+      "Rp 66,010,000 (Huawei 25kW inverter on Tokopedia)"
+    ],
+    "our_match": "1280Wh/1200W LiFePO4 at USD 205 FOB"
+  },
+  {
+    "target": "Pata Pawa",
+    "website": "patapawa.shop",
+    "pages_viewed": [
+      "https://patapawa.shop/",
+      "https://patapawa.shop/products",
+      "https://patapawa.shop/contact"
+    ],
+    "contact_found": {
+      "whatsapp": "255679971305"
+    },
+    "brands": [
+      "EcoFlow"
+    ],
+    "products_found": [
+      "EcoFlow RIVER 2",
+      "EcoFlow DELTA 2",
+      "EcoFlow DELTA Pro"
+    ],
+    "retail_prices": [
+      "Tsh 3,000,000 (EcoFlow DELTA 2)"
+    ],
+    "our_match": "1280Wh/1200W LiFePO4 at USD 205 FOB"
   }
 ]

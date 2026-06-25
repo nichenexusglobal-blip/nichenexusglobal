@@ -56,7 +56,8 @@ def check_research(body):
     # 2.1 是否提到品牌名（15分）
     brands = ["ecoflow", "bluetti", "anker", "jackery", "vestwoods", "growatt", "deye",
               "meco", "pecron", "anern", "powerlfp", "flashfish", "shunxiang", "worldpower",
-              "piforz", "taico", "onesun", "souop", "matec", "calife"]
+              "piforz", "taico", "onesun", "souop", "matec", "calife",
+              "bslbatt", "victron", "sunsynk", "trina", "huawei", "goodwe"]
     mentioned_brands = [b for b in brands if b in body.lower()]
     if mentioned_brands:
         score += 15
@@ -74,6 +75,8 @@ def check_research(body):
         r'SOLIX\s*[CF]\d+', r'Vestwoods', r'Pioneer\s*\d+',
         r'\d+[Kk]?[Ww][Hh]?\s*(Battery|Power|Station)?',
         r'\d+[Ww]\s*(Portable|Solar|Inverter)',
+        r'Contour\s*\d{3,4}', r'SUN-\d{4}-\d+KTL',
+        r'Loadshedder\s*\d',
     ]
     found_models = []
     for p in model_patterns:
@@ -104,6 +107,9 @@ def check_research(body):
         r'(NZD|NZ\$)\s*[\d,]+',
         r'(AUD|A\$)\s*[\d,]+',
         r'at\s+[\d,]+\s*(USD|KES|PHP|AED)',
+        r'(Tzs?h?|TZS)\s*[\d,]+',
+        r'(Rp|IDR)\s*[\d,]+',
+        r'(R\s*[\d,]+)\s*(ZAR)?',
     ]
     found_prices = []
     for p in price_patterns:

@@ -12,6 +12,7 @@ def get_pwd():
     # Try .env files
     for path in [
         os.path.expanduser("~/nichenexusglobal/.env"),
+        "C:/nichenexusglobal/.env",
         "D:/nichenexusglobal/.env"
     ]:
         if os.path.exists(path):

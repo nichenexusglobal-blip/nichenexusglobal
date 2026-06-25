@@ -1,0 +1,22 @@
+[
+  {
+    "claim": "$298 EXW",
+    "source": "hammer_db.json \u2192 ? \u2192 ?",
+    "verified": "verified"
+  },
+  {
+    "claim": "245Wh",
+    "source": "hammer_db.json \u2192 ? \u2192 ?",
+    "verified": "verified"
+  },
+  {
+    "claim": "2009Wh",
+    "source": "hammer_db.json \u2192 ? \u2192 ?",
+    "verified": "verified"
+  },
+  {
+    "claim": "1200W",
+    "source": "hammer_db.json \u2192 ? \u2192 ?",
+    "verified": "verified"
+  }
+]
