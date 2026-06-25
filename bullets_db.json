@@ -10,7 +10,7 @@
       "website": "khmtools.com.ph",
       "source": "google",
       "verified": true,
-      "status": "contacted",
+      "status": "sent",
       "gate_score": 100,
       "gate_status": "gated",
       "gate_issues": [
@@ -22,7 +22,10 @@
       "products_sold": "Pecron E1000LFP target - power station distributor Philippines",
       "market_position": "Philippines power station distributor",
       "draft": "Hi KHM team 👋\n\nJust following up on my previous message about the Pecron F1000LFP. We've also got other models in stock if the 960Wh wasn't quite what you needed for the Philippine market.\n\nFull range from 600Wh to 5400Wh. Same LiFePO4 quality. Happy to send over the complete catalog.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-25",
+      "sent_channel": "email",
+      "draft_email_sent": "Hi KHM team,\n\nI was looking at your power station range at khmtools.com.ph and noticed you carry Yamato, Greenfield, Daiden and Wadfow models from 200W to 800W.\n\nWe're a sourcing company based in Shenzhen, China, working with partner factories that produce LiFePO4 portable power stations. Your current lineup stops at 800W (Yamato YM63-800 at ₱19,500) and uses Li-Ion batteries in the Daiden series.\n\nLiFePO4 offers significantly more cycle life and better thermal stability. For reference, our typical wholesale pricing:\n\n- 1024Wh/1000W ~ $145 FOB\n- 1280Wh/1200W ~ $205 FOB\n- 2048Wh/2400W ~ $298 FOB\n\nIf you're interested in adding LiFePO4 models or higher-capacity units to your product range, I'd be happy to send spec sheets and a formal quotation.\n\nBest regards,\nPen"
     },
     {
       "company": "Power Solution Mall",
@@ -34,7 +37,7 @@
       "website": "",
       "source": "google",
       "verified": true,
-      "status": "contacted",
+      "status": "sent",
       "gate_score": 100,
       "gate_status": "gated",
       "gate_issues": [
@@ -46,7 +49,10 @@
       "products_sold": "Gospower 1000W power station, solar solutions Nigeria",
       "market_position": "Nigeria power solutions provider, Lagos-based",
       "draft": "Hi Power Solution Mall 👋\n\nFollowing up on my previous message. We've got a range of LiFePO4 power stations that could complement your Gospower line nicely for Nigerian customers.\n\n1280Wh/1200W - $205 FOB\n2048Wh/2400W - $298 FOB\n\nCE/FCC certified. Interested?\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-19",
+      "sent_channel": "whatsapp",
+      "notes": "Sent via WhatsApp June 19 (Pen approved). DB not updated until June 25 cleanup."
     },
     {
       "company": "Prime Tech Trading (Prime Tech Philippines)",
@@ -58,7 +64,7 @@
       "website": "primetechtrading.ph",
       "source": "website:verified",
       "verified": true,
-      "status": "verified",
+      "status": "sent",
       "products_sold": "BLUETTI power stations, Anker SOLIX, Solar panels, Inverters, Smart home tech",
       "brands_carried": "BLUETTI, Anker SOLIX",
       "delivery": "98% orders ship within 2 days, Luzon/Visayas/Mindanao",
@@ -71,7 +77,9 @@
       "gate_status": "gated",
       "draft": "Hi Prime Tech team 👋\n\nI saw you distribute BLUETTI and Anker SOLIX across the Philippines - Bluetti AC60P through AC500, full range. You've got the Luzon-Visayas-Mindanao coverage which is impressive for a distributor.\n\nWe supply LiFePO4 power stations from Shenzhen. Same product category as what you carry but at a different tier. A 1280Wh/1200W unit at $205 FOB could give your resellers a mid-range option alongside the premium lines.\n\nCE/FCC certified. Private label available if you want your own brand.\n\nWant me to send over the full range and MOQ?\n\nPen",
       "channel": "email",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-25",
+      "sent_channel": "email"
     },
     {
       "company": "Kratuz Energy (Kratuz Corp)",
@@ -107,7 +115,7 @@
       "website": "bluettiphilippines.com",
       "source": "website:verified",
       "verified": true,
-      "status": "verified",
+      "status": "closed_merged",
       "products_sold": "BLUETTI AC60P/AC180P/AC200PL/AC240P/AC500/AC2P/AC50P full range",
       "brands_carried": "BLUETTI",
       "market_position": "Authorized BLUETTI distributor Philippines, local warranty",
@@ -117,7 +125,10 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Hi Bluetti Philippines 👋\n\nSaw you're an authorized Bluetti distributor with local warranty and fast free shipping across PH. Full range from AC60P to AC500.\n\nWe supply LiFePO4 power stations from Shenzhen. Same product category, factory pricing:\n1280Wh/1200W - $205 FOB\n\nCE/FCC certified. If you ever want a complementary line at different price points, I can share specs.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-25",
+      "sent_channel": "merged",
+      "notes": "Same entity as Prime Tech Trading - emailed via Prime Tech"
     },
     {
       "company": "Bluetti PH (bluettipower.ph)",
@@ -129,7 +140,7 @@
       "website": "bluettipower.ph",
       "source": "website:verified",
       "verified": true,
-      "status": "verified",
+      "status": "sent",
       "products_sold": "BLUETTI Elite 30 V2, Elite 10 Mini, Elite 200 V2, AC200MAX",
       "brands_carried": "BLUETTI",
       "market_position": "BLUETTI distributor Philippines",
@@ -139,7 +150,9 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Hi Bluetti PH 👋\n\nSaw you sell the Elite series here - Elite 30 V2, Elite 10 Mini, Elite 200 V2. Nice range.\n\nWe supply LiFePO4 power stations from Shenzhen factory. Same product category, direct pricing:\n1280Wh/1200W - $205 FOB\n\nCE/FCC certified. Private label available.\n\nIf you want a complementary line at competitive pricing, I can send the catalog.\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-25",
+      "sent_channel": "email"
     },
     {
       "company": "Iseli Energy",
@@ -151,7 +164,7 @@
       "website": "iseli-energy.com",
       "source": "website:verified",
       "verified": true,
-      "status": "verified",
+      "status": "sent",
       "products_sold": "Solar solutions, storage, system design - wholesale distributor",
       "brands_carried": "Multiple brands",
       "market_position": "Solar wholesaler Southern Africa, Cape Town",
@@ -161,7 +174,9 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft": "Hi Iseli Energy 👋\n\nSaw you're a solar wholesaler in Cape Town doing system design and integration for residential, C&I and off-grid projects. Full-service approach - not just selling boxes.\n\nWe supply LiFePO4 power stations from Shenzhen. For a system integrator like you, portable power stations could be a natural add-on for customers who want backup without a full install.\n\n1280Wh/1200W at $205 FOB. CE/FCC certified.\n\nInterested in the catalog and wholesale pricing?\n\nPen",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-25",
+      "sent_channel": "email"
     },
     {
       "company": "TURSAN",
@@ -220,7 +235,7 @@
       "website": "voltaris.co",
       "source": "historical",
       "verified": true,
-      "status": "replied",
+      "status": "sent",
       "products_sold": "EcoFlow, Anker SOLIX, Bluetti, RoyPow - official distributor of all 4 brands",
       "brands_carried": "EcoFlow, Anker SOLIX, Bluetti, RoyPow",
       "market_position": "Official distributor of 4 premium brands in Colombia. 1,500+ customers. Same-day delivery Bogota.",
@@ -230,7 +245,9 @@
       "gate_score": 100,
       "gate_status": "gated",
       "draft_email": "Asunto: Información de productos LiFePO4\n\nHola Voltaris,\n\nPen de nichenexusglobal. Disculpa la demora en responder.\n\nSomos una empresa de sourcing en Shenzhen, China. Trabajamos con fábricas OEM de estaciones de energía portátiles LiFePO4.\n\nNuestra gama de referencia FOB:\n- 1000Wh/1000W ~ USD 145\n- 2000Wh/1200W ~ USD 298\n- 3600Wh/2200W ~ USD 620\n- 5400Wh/5000W ~ USD 898\n\nCertificación CE/FCC. Ciclos 6000+. Posibilidad de marca propia (OEM/ODM).\n\nSi les interesa tener una línea complementaria a EcoFlow, Bluetti y las otras marcas que distribuyen, con gusto les envío el catálogo completo con especificaciones y fotos reales.\n\nSaludos,\nPen\nnichenexusglobal.com",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-25",
+      "sent_channel": "email"
     },
     {
       "company": "Solarway Suppliers",
@@ -250,7 +267,9 @@
       "gate_status": "gated",
       "draft_email": "Subject: LiFePO4 power stations - factory pricing\n\nHi Solarway Suppliers,\n\nPen from nichenexusglobal. You replied to my WhatsApp message a few weeks ago asking me to email you - apologies for the delay.\n\nWe connect African solar distributors with verified Chinese OEM factories for LiFePO4 portable power stations. No middlemen, direct factory pricing.\n\nOur range:\n- 600Wh/500W ~ from USD 145 FOB\n- 1000Wh/1000W ~ from USD 199 FOB\n- 2000Wh/1200W ~ from USD 298 FOB\n\nCE/FCC certified. MOQ from 10 units. OEM branding available.\n\nIf you're interested in adding portable power stations to your solar product range, I can send detailed specs and pricing.\n\nBest regards,\nPen\nnichenexusglobal.com",
       "_reviewed": true,
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-25",
+      "sent_channel": "email"
     },
     {
       "company": "Even Flow Distribution",
@@ -262,7 +281,7 @@
       "website": "evenflow.co.za",
       "source": "website:verified",
       "verified": true,
-      "status": "needs_contact",
+      "status": "sent",
       "market_position": "EcoFlow distributor for IT resellers Africa",
       "contact_source": "Website: sales@evenflow.co.za / +27 10 015 5390",
       "research_depth": "verified_on_website",
@@ -275,7 +294,9 @@
       "draft": "Hi Even Flow 👋\n\nYou distribute EcoFlow to IT resellers across Africa - smart niche for power stations.\n\nWe supply LiFePO4 units from Shenzhen. 1280Wh/1200W at $205 FOB gives your resellers a mid-range option alongside EcoFlow.\n\nCE/FCC certified. Want the full catalog?\n\nPen",
       "notes": "WHATSAPP号码是固话(010区号)，只能发邮件",
       "channel": "email",
-      "sent": false
+      "sent": true,
+      "sent_date": "2026-06-25",
+      "sent_channel": "email"
     }
   ],
   "whatsapp_bullets": [
