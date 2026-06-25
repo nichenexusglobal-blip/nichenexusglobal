@@ -297,6 +297,28 @@
       "sent": true,
       "sent_date": "2026-06-25",
       "sent_channel": "email"
+    },
+    {
+      "company": "EGreen (Egyptian Renewable Energy Co.)",
+      "market": "Egypt",
+      "segment": "solar_distributor",
+      "email": "sales@egreen-eg.com",
+      "whatsapp": "201097770457",
+      "website": "egreen-eg.com",
+      "source": "web_search",
+      "verified": true,
+      "status": "sent",
+      "products_sold": "SOFAR solar inverters, battery storage, solar water heaters - official SOFAR distributor Egypt",
+      "brands_carried": "SOFAR",
+      "market_position": "Official SOFAR distributor Egypt. Systems design, supply, installation. Cairo & Alexandria.",
+      "contact_source": "Website: sales@egreen-eg.com, +2 010 9777 0457",
+      "research_depth": "verified_on_website",
+      "research_date": "2026-06-25",
+      "sent": true,
+      "sent_date": "2026-06-25",
+      "sent_channel": "email",
+      "gate_score": 100,
+      "gate_status": "gated"
     }
   ],
   "whatsapp_bullets": [
